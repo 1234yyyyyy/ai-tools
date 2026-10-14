@@ -151,8 +151,38 @@ T=[
 ("lindy","Lindy","https://www.lindy.ai","自動化・AI 助理",
  "用打字描述就能建 AI 助理，幫你處理信件、行程和各種重複工作。新帳號送 50 美元點數、7 天內用完；Team 每月 29.99 美元，超過 20 美元預算。",
  ["自動化"],"AI 代理 Agent 助理 Email 行程 工作流程"),
+("jenni","Jenni AI","https://jenni.ai","寫作・學術論文・免費可用",
+ "專為論文和研究報告設計的寫作助手，能邊寫邊補齊引用、改段落和對話討論。免費版每天 10 次 AI 自動補完、10 個 PDF 上傳；Plus 年繳每月 12 美元（月繳 30 美元）。介面以英文為主，可產出中文內容。",
+ ["寫作","研究",F,P],"論文 學術 引用 citation 自動補完 PDF 研究報告"),
+("hyperwrite","HyperWrite","https://www.hyperwriteai.com","寫作・自動補完・免費可用",
+ "瀏覽器裡的 AI 寫作助手，能自動接寫、改語氣，也有個人助理幫你查資料。免費版功能有限；Premium 年繳每月 16 美元（月繳 19.99 美元），每月 250 則 AI 訊息。介面英文，可寫中文。",
+ ["寫作",F,P],"自動補完 改寫 瀏覽器擴充 Email 文案 助理"),
+("magicslides","MagicSlides","https://www.magicslides.app","簡報・Google 簡報・免費可用",
+ "用文字或主題快速生成投影片，可接到 Google 簡報和 PowerPoint。有免費入門方案（額度細節依帳號顯示）；Essential 年繳每月約 6.67 美元（月繳 8 美元）。介面英文為主。",
+ ["簡報",F,P],"投影片 PPT Google Slides PowerPoint AI 簡報"),
+("novelai","NovelAI","https://novelai.net","寫作・小說插畫・免費可用",
+ "偏創作向的 AI：用故事模型寫小說、用圖像模型畫二次元插畫，適合同人和世界觀寫作。可免費試用生成；付費訂閱每月 10 美元起。介面英文，故事可寫中文。",
+ ["寫作","圖片",F,P],"小說 故事 插畫 二次元 創作 anime"),
+("fellow","Fellow","https://fellow.ai","會議・筆記・免費可用",
+ "會議前有議程、會議中錄音轉逐字稿、會後自動整理重點和待辦，偏團隊協作。免費版每位使用者終身 5 份 AI 筆記和 5 次錄音；Team 年繳每人每月 7 美元（月繳 11 美元）。介面英文。",
+ ["會議",F,P],"會議紀錄 議程 待辦 Zoom Meet Teams 逐字稿"),
+("circleback","Circleback","https://circleback.ai","會議・自動整理・免費可用",
+ "自動產生會議筆記和行動項目，也能問過往會議內容。免費版可用 AI 會議筆記；Pro 每人每月 15 美元，會議數不限。介面英文。",
+ ["會議","自動化",F,P],"會議紀錄 待辦 逐字稿 AI 筆記 Zoom Meet"),
+("jamie","Jamie","https://www.meetjamie.ai","會議・無機器人筆記・免費可用",
+ "強調不用會議機器人進場就能做 AI 筆記，適合在意隱私的會議。免費版每月 10 份 AI 筆記、單場限 30 分鐘；Plus 年繳每月 21 歐元（約 24 美元，超過 20 美元預算）。介面有多語，中文支援未完整查證。",
+ ["會議",F],"會議紀錄 無機器人 bot-free 逐字稿 筆記 歐洲"),
+("axiom","Axiom.ai","https://axiom.ai","自動化・瀏覽器機器人・每月 20 美元內",
+ "用無程式碼方式做出瀏覽器自動化：點擊、填表、抓資料，還能接 ChatGPT／Claude API。新帳號送 2 小時免費執行（試用、不續贈）；Starter 每月 15 美元，每月 5 小時雲端執行。",
+ ["自動化",P],"瀏覽器 爬蟲 scraper 無程式碼 RPA Chrome 自動化"),
+("pipedream","Pipedream","https://pipedream.com","自動化・開發者流程・免費可用",
+ "給開發者的自動化與整合平台，可用程式或拖拉把 API、Webhook 和 AI 步驟串起來。免費版可建立與測試流程（無需信用卡）；Startup 每月 99 美元起，超過 20 美元預算。介面英文。",
+ ["自動化","寫程式",F],"工作流程 API Webhook 整合 開發者 serverless"),
+("unrealspeech","Unreal Speech","https://unrealspeech.com","配音・便宜 TTS・免費可用",
+ "主打低價的文字轉語音 API 和網頁工具，適合大量旁白和有聲內容。免費版每月 25 萬字元（約 6 小時音訊）；Starter 每月 10 美元（50 萬字元）。Basic 前 6 個月優惠每月 4.99 美元（原價 49 美元）。聲音與介面以英文為主。",
+ ["配音",F,P],"文字轉語音 TTS API 旁白 有聲書 便宜"),
 ]
-assert len(T)==50
+assert len(T)==60
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -174,9 +204,9 @@ cnt.textContent=n+' 個';em.style.display=n?'none':'block';}
 bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.classList.remove('on')});b.classList.add('on');cat=b.dataset.k;run();});});
 ps.forEach(function(b){b.addEventListener('click',function(){ps.forEach(function(x){x.classList.remove('on')});b.classList.add('on');pri=b.dataset.p;run();});});
 q.addEventListener('input',run);document.getElementById('qc').addEventListener('click',function(){q.value='';run();q.focus();});})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-12</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-14</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-12 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-14 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
