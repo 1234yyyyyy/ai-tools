@@ -181,8 +181,38 @@ T=[
 ("unrealspeech","Unreal Speech","https://unrealspeech.com","配音・便宜 TTS・免費可用",
  "主打低價的文字轉語音 API 和網頁工具，適合大量旁白和有聲內容。免費版每月 25 萬字元（約 6 小時音訊）；Starter 每月 10 美元（50 萬字元）。Basic 前 6 個月優惠每月 4.99 美元（原價 49 美元）。聲音與介面以英文為主。",
  ["配音",F,P],"文字轉語音 TTS API 旁白 有聲書 便宜"),
+("alai","Alai","https://getalai.com","簡報・AI 投影片・免費可用",
+ "輸入主題或貼上內容就生成設計感強的投影片，可匯出 PDF 和 PPT。免費版一次性送 300 點 AI 點數（不續贈），投影片有浮水印；Plus 月繳每月 20 美元，去浮水印並每月補點數。介面英文。",
+ ["簡報",F,P],"投影片 PPT PDF 簡報生成 deck 浮水印"),
+("slidespeak","SlideSpeak","https://slidespeak.co","簡報・PowerPoint・免費可用",
+ "把 Word、PDF 或一段文字直接變成原生 PowerPoint，也能摘要現有簡報、做成講解影片。免費版註冊送 100 點（約 3 份簡報）；Premium 每月 29 美元起，超過 20 美元預算。",
+ ["簡報","寫作",F],"PowerPoint PPT 投影片 PDF Word 摘要 簡報影片 模板"),
+("prowritingaid","ProWritingAid","https://prowritingaid.com","寫作・小說潤稿・免費可用",
+ "專為寫小說和長篇稿設計的潤稿工具，檢查文法、節奏、重複用字，還能分析整份稿子的情節。有免費版可試用；Premium 年繳每月 10 美元（一年 120 美元，月繳 30 美元）。以英文寫作為主。",
+ ["寫作",F,P],"潤稿 文法 小說 長篇 編輯 情節分析 英文寫作"),
+("speechify","Speechify Studio","https://speechify.com/studio/","配音・旁白・免費可用",
+ "做 AI 旁白、影片配音和變聲的工作室，有上千種聲音可選。免費版 600 點（配音 1 秒 1 點）但不能商用；Studio Starter 一年 100 美元（約每月 8.3 美元），可商用。",
+ ["配音","影片",F,P],"文字轉語音 TTS 旁白 配音 dubbing 變聲 商用"),
+("cartesia","Cartesia","https://cartesia.ai","配音・低延遲語音・免費可用",
+ "主打超低延遲的語音模型 Sonic，適合做即時語音助理，也有語音轉文字和聲音複製。免費版每月 2 萬點（1 個字元 1 點）；Pro 每月 5 美元，約 133 分鐘語音。偏開發者取向，介面英文。",
+ ["配音","寫程式",F,P],"文字轉語音 TTS 語音 API 聲音複製 語音代理 即時"),
+("bluedot","Bluedot","https://www.bluedothq.com","會議・無機器人錄音・免費可用",
+ "用瀏覽器擴充或 App 錄會議，不必讓機器人進會議室，會後自動整理筆記並可接 Notion、Slack。免費版終身 5 場會議；Basic 年繳每人每月 14 美元（月繳 18 美元，僅錄音）。介面英文。",
+ ["會議",F,P],"會議紀錄 無機器人 bot-free 逐字稿 筆記 Chrome 擴充 Notion"),
+("sembly","Sembly AI","https://www.sembly.ai","會議・會議變提案・每月 20 美元內",
+ "把會議錄音、文件等資料直接整理成有品牌樣式的提案、簡報和合約，偏顧問與接案團隊。有免費試用；Basic 年繳每月 10 美元（1 人、每月 2,500 點）。介面英文。",
+ ["會議","簡報","自動化",P],"會議紀錄 提案 簡報 逐字稿 顧問 接案 品牌"),
+("integrately","Integrately","https://integrately.com","自動化・一鍵串接・免費可用",
+ "主打「一鍵」串接各種 App 的自動化平台，有大量現成流程可直接套用，價格比 Zapier 低。免費版每月 100 次任務；Starter 年繳每月 19.99 美元，每月 2,000 次任務。介面英文。",
+ ["自動化",F,P],"工作流程 串接 整合 Zapier 替代 無程式碼 webhook"),
+("gumloop","Gumloop","https://www.gumloop.com","自動化・AI 工作流程",
+ "用拖拉節點的方式建 AI 代理和自動化流程，可串接 35 種以上的模型和常用工具。有 14 天免費試用；Pro 每月 37 美元起，超過 20 美元預算。介面英文。",
+ ["自動化"],"AI 代理 Agent 工作流程 無程式碼 拖拉 爬資料"),
+("taskade","Taskade","https://www.taskade.com","自動化・AI 代理工作區・免費可用",
+ "把待辦、文件和 AI 代理放在同一個工作區，可以用一句話生出小工具、儀表板和自動化流程。免費版可 2 人使用；Pro 每月 10 美元起，最多 10 人共用。介面英文，中文支援未查證。",
+ ["自動化","寫作",F,P],"AI 代理 待辦 專案 筆記 心智圖 自動化 App 生成"),
 ]
-assert len(T)==60
+assert len(T)==70
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -204,9 +234,9 @@ cnt.textContent=n+' 個';em.style.display=n?'none':'block';}
 bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.classList.remove('on')});b.classList.add('on');cat=b.dataset.k;run();});});
 ps.forEach(function(b){b.addEventListener('click',function(){ps.forEach(function(x){x.classList.remove('on')});b.classList.add('on');pri=b.dataset.p;run();});});
 q.addEventListener('input',run);document.getElementById('qc').addEventListener('click',function(){q.value='';run();q.focus();});})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-14</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-15</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-14 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-15 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)

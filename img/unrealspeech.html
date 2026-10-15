@@ -1,0 +1,2190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unreal Speech: Cheapest Text-to-Speech API</title>
+  
+  <meta name="description"
+    content="Cut text-to-speech costs. Production-ready. Stream in 300ms. Generate 10-hr audio. 48 voices & 8 languages. Per-word timestamps. 250K chars free.">
+
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="/landing.css?73673" rel="stylesheet" />
+
+<link rel="icon" href="/images/icon-rounded-32.png" />
+<link rel="apple-touch-icon" href="/images/icon-rounded-512.png" />
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+<meta property="og:title" content="Unreal Speech | Cheapest Text-to-Speech API" />
+<meta property="og:description" content="Cut text-to-speech costs. 11x cheaper than 11Labs. Production-ready. Stream in 300ms. Generate 10-hr audio. 48 voices. 8 languages. Per-word timestamps. 250K chars free. Try live demo." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://unrealspeech.com/" />
+<meta property="og:image" content="https://unrealspeech.com/images/social-v2.1.jpg" />
+
+<meta name="twitter:title" content="Unreal Speech | Cheapest Text-to-Speech API" />
+<meta name="twitter:description" content="Cut text-to-speech costs. 11x cheaper than 11Labs. Production-ready. Stream in 300ms. Generate 10-hr audio. 48 voices. 8 languages. Per-word timestamps. 250K chars free. Try live demo." />
+<meta name="twitter:image" content="https://unrealspeech.com/images/social-v2.1.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<meta name="description" content="Cut text-to-speech costs. 11x cheaper than 11Labs. Production-ready. Stream in 300ms. Generate 10-hr audio. 48 voices. 8 languages. Per-word timestamps. 250K chars free. Try live demo." />
+<meta name="keywords" content="text-to-speech, TTS, API, AI" />
+
+
+
+<script type="text/javascript">
+const MIXPANEL_CUSTOM_LIB_URL = "https://data.unrealspeech.com/lib.min.js";
+    
+(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+</script>
+
+
+
+
+</head>
+
+<body class="theme-dark">
+
+  
+<div class="glow-animation">
+  <div class="glow-animation-inner">
+
+    <div class="glow-animation-image">
+      <img src="/images/glow.jpg" />
+    </div>
+
+  </div>
+</div> 
+
+
+    <div class="container">
+
+      
+<div class="header">
+
+	<div class="logo">
+	  <div class="logo-wrap">
+	    <a href="/"><img class="logo-image" src="/images/unreal-logo.svg" loading="lazy" alt="Text to Speech API" /></a>
+	  </div>
+	  <div class="logo-wrap-mobile">
+	    <a href="/"><img class="logo-image" src="/images/unreal-logo-vertical.svg" loading="lazy" alt="Text to Speech API" /></a>
+	  </div>
+	</div>
+
+	<div class="header-column">
+
+		<div class="header-links">
+			<a href="https://docs.v8.unrealspeech.com/" target="_blank">API Docs</a>
+			<a href="/pricing">Pricing</a>
+			<a href="/studio">Studio</a>
+			<a href="https://blog.unrealspeech.com/">Blog</a>
+		</div>
+
+	</div>
+
+	<div class="header-column">
+
+		
+		<div id="header_button" class="button button-outlined" onclick="headerButtonClick()">
+			<span>High Volume Inquiry</span>
+		</div>
+		
+
+		<a id="sign_in_link" href="" class="header-link header-link-white">Sign In</a>
+
+		<div id="menu_button" class="menu-button"><div></div></div>
+
+	</div>
+
+</div>
+
+
+<div id="recaptcha_div" style="display:none;"></div>
+
+
+<div class="g-recaptcha"
+      data-sitekey="6LdsYUQgAAAAAP7gSACEHybE1CXRsmVoJCk7ekGn"
+      data-callback="getAudioWithToken"
+      data-size="invisible">
+</div>
+
+
+        <div class="home-root">
+
+          <div class="home-container">
+
+            <div class="home-col">
+
+              <div class="front-page-root">
+
+                <h1 class="front-page-title-text">Fast & Affordable<br> Text-to-Speech API</h1>
+
+                <p class="title-description">
+                  <span class="text-gradient-2" style="font-weight:700">11x cheaper</span> than <span
+                    class="desc-faded">Eleven Labs</span><br />
+                  Stream audio in <span class="text-gradient-2" style="font-weight:700">300ms</span><br />
+                  Request up to <span class="text-gradient-2" style="font-weight:700">10-hour</span> audio <br />
+                  Includes <span class="text-gradient-2" style="font-weight:700">per-word</span> timestamps
+
+                </p>
+
+                <div class="front-page-body">
+
+                  <div class="try-api-container">
+
+                    <div id="try_button_top" class="button" onclick="showSignInDialog()" style="width:224px">
+                      <span>Get a Free API Key <b>&rarr;</b></span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="home-col home-col-right">
+
+              
+<div id="demo" class="live-demo-root" >
+  <div class="live-demo-inner">
+
+    
+    <div class="live-demo-title">
+      <h1 class="font-title text-gradient-2">Live Demo</h1>
+    </div>
+    
+    <div class="user-interaction">
+
+      <div class="demo-input" >
+
+        <!-- <h2 class="demo-buttons-text">Try our text-to-speech API. Powered by Kokoro-82M:</h2> -->
+
+        
+
+        <div id="demo_buttons" class="demo-buttons">
+          <div>Non-Fiction</div><div>Fiction</div><div id="demo_button_news">News</div><div>Blog</div><div>Conversation</div>
+        </div>
+
+        <div class="live-demo-textbox">
+
+          <div id="live_demo_words" class="demo-words">
+            
+          </div>
+
+          <textarea id="demo_text" placeholder="Type text here" maxlength="250" spellcheck="false">Amid the intricate labyrinth of human neurons lies a molecule that has confounded and fascinated scientists for ages: the neurotransmitter known as dopamine. Often heralded as the pleasure molecule, dopamine's role is far more nuanced than just mediating euphoria.</textarea>
+
+          <div class="live-demo-interact">
+
+            <div id="clear_button" class="live-demo-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="close-icon"><path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z"></path></svg></div>
+
+          </div>
+
+          <div id="char_count" class="live-demo-char-count">0/250</div>
+
+        </div>
+
+        <div class="live-demo-select-box">
+
+          <div class="demo-controls">
+
+            <div class="demo-controls-col demo-controls-col-1">
+
+              <div class="dropdown">
+
+                <div class="demo-label">Voice</div>
+
+                <button class="dropdown-title dropdown-title-image" style="width:165px" id="dropdown_button_unreal_voice" type="button">
+
+                  <div class="dropdown-avatar"></div>
+
+                  <span class="text-grey"></span>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="dropdown-chevron"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path></svg>
+
+                </button>
+
+                <div class="dropdown-menu dropdown-menu-voices" id="dropdown_menu_unreal_voices">
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="demo-controls-col demo-controls-col-1">
+
+              <div class="dropdown">
+
+                <div class="demo-label">Language</div>
+
+                <button class="dropdown-title" style="width:170px" id="dropdown_button_language" type="button">
+
+                  <span class="text-grey"></span>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="dropdown-chevron"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path></svg>
+
+                </button>
+
+                <div class="dropdown-menu dropdown-menu-languages" style="width:170px" id="dropdown_menu_languages">
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="demo-controls-col demo-controls-col-3">
+
+              <div class="demo-controls-format-wrap">
+
+                <div class="demo-controls-format-col">
+
+                  <div class="dropdown">
+
+                    <div class="demo-label">Format</div>
+
+                    <button class="dropdown-title" style="width:135px" id="dropdown_button_format" type="button">
+
+                      <div class="dropdown-avatar"></div>
+
+                      <span class="text-grey">Standard</span>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="dropdown-chevron"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path></svg>
+
+                    </button>
+
+                    <div class="dropdown-menu" style="width:135px" id="dropdown_menu_format">
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        
+        <div class="live-demo-select-box" style="margin-bottom:7px;">
+
+          <div class="demo-controls">
+
+            <div class="demo-controls-col demo-controls-col-1">
+
+              <div class="dropdown">
+
+                <div class="demo-value" id="speed_slider_value">Normal</div>
+                <div class="demo-label">Speed</div>
+
+                <input id="speed_slider" type="range" min="-0.75" max="0.5" step="0.05" value="1" />
+
+              </div>
+
+            </div>
+
+            <div class="demo-controls-col demo-controls-col-2">
+
+              <div class="dropdown" id="dropdown_bitrate">
+
+                <div class="demo-value" id="pitch_slider_value">1.0</div>
+                <div class="demo-label">Pitch</div>
+
+                <input id="pitch_slider" type="range" min="0.85" max="1.15" step="0.01" value="1" />
+
+              </div>
+
+            </div>
+
+            <div class="demo-controls-col demo-controls-col-3">
+
+              <div class="dropdown dropdown-bitrate" id="dropdown_bitrate">
+
+                <div class="demo-label">Bitrate</div>
+
+                <button class="dropdown-title" style="width:100px" id="dropdown_button_bitrate" type="button">
+
+                  <div class="dropdown-avatar"></div>
+
+                  <span class="text-grey">192k</span>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="dropdown-chevron"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path></svg>
+
+                </button>
+
+                <div class="dropdown-menu" style="width:100px" id="dropdown_menu_bitrate">
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        
+
+      </div>
+
+    </div>
+
+    <div style="padding:0px 0px 24px 0px">
+
+      <div class="demo-controls">
+
+        <div class="demo-controls-col demo-controls-col-1" style="text-align:center;">
+
+          <button id="button_synth_unreal" class="button button-synth">
+
+            <span>
+
+              <i>Synthesize</i>
+
+              <svg id="icon_play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="button-icon"><path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"></path></svg>
+
+              <svg id="icon_pause" style="display:none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="button-icon"><path d="M5.75 3a.75.75 0 00-.75.75v12.5c0 .414.336.75.75.75h1.5a.75.75 0 00.75-.75V3.75A.75.75 0 007.25 3h-1.5zM12.75 3a.75.75 0 00-.75.75v12.5c0 .414.336.75.75.75h1.5a.75.75 0 00.75-.75V3.75a.75.75 0 00-.75-.75h-1.5z"></path></svg>
+
+            </span>
+
+            <div class="spinner-wrap">
+              <svg class="spinner"><circle cx="20" cy="20" r="18"></circle></svg>
+            </div>
+
+          </button>
+
+        </div>
+
+        <div class="demo-controls-col" style="flex: 1; width: 100%;">
+
+          <div class="demo-info-cols">
+
+            <div class="demo-info-col" style="display:none">
+
+              <div class="demo-info-label">Speed</div>
+              <div id="latency" class="demo-info-value">0 s</div>
+
+            </div>
+
+            <div class="demo-info-col">
+
+              <div class="demo-info-label">Filesize</div>
+              <div id="filesize" class="demo-info-value">0 kb</div>
+
+            </div>
+
+            <div class="demo-info-col" style="flex: 1; width: 100%;">
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+            </div>
+
+          </div>
+          <div class="home-word-highlighting">
+
+            <div class="home-timestamps">
+
+              <div class="home-timestamps-header">
+
+                <h1 class="font-title font-title-smaller -text-gradient-2">Per-word Timestamps</h1>
+
+                <h2 class="title-description title-description2">Highlight words in sync with the speech.</h2>
+
+              </div>
+
+              <div class="card card-full-width" style="margin-bottom:30px; border:1px solid rgba(255, 255, 255, 0.09);">
+
+                <div id="words_mute" class="words-mute words-mute-on" onclick="toggleHighlightingMute()"></div>
+
+                <div id="demo_words" class="words">
+
+                </div>
+
+              </div>
+
+              <div class="code-heading">How To Get Timestamps</div>
+              <div class="code-subeading">
+                <div >
+                  NEW: Use a websocket connection to stream both audio and timestamps using /streamWithTimestamps
+                </div>
+
+                Use <a href="https://docs.v8.unrealspeech.com/#294158b9-d2e0-4619-8f66-667520278637"
+                  target="_blank"><span>/speech</span></a> or <a
+                  href="https://docs.v8.unrealspeech.com/#436b26dc-d6cc-4a99-9670-b68e17b813ae"
+                  target="_blank"><span>/synthesisTasks</span></a> with
+                <b>TimestampType</b> set to <i>word</i> or <i>sentence</i> (see <a
+                  href="https://docs.v8.unrealspeech.com/" target="_blank" style="color:#fff">docs</a>).
+
+                <div style="padding-top:12px">
+                  The response will have a <b>TimestampsUri</b> containing JSON like this:
+                </div>
+              </div>
+              <div class="card card-full-width code-response code-response-large">
+                <pre class="core-prismjs language-json" tabindex="0"><code class="language-json"><span class="token -punctuation"><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token keyword -string">"word"</span><span class="token punctuation">:</span> <span class="token string">"Our"</span><span class="token punctuation">,</span>
+    <span class="token keyword -string">"start"</span><span class="token punctuation">:</span> <span class="token string">0.5</span><span class="token punctuation">,</span>
+    <span class="token keyword -string">"end"</span><span class="token punctuation">:</span> <span class="token string">0.6666666666666667</span><span class="token punctuation">,</span>
+    <span class="token keyword -string">"text_offset"</span><span class="token punctuation">:</span> <span class="token string">0</span>
+  <span class="token punctuation">},</span>
+  <span class="token punctuation">{</span>
+    <span class="token keyword -string">"word"</span><span class="token punctuation">:</span> <span class="token string">"model"</span><span class="token punctuation">,</span>
+    <span class="token keyword -string">"start"</span><span class="token punctuation">:</span> <span class="token string">0.6666666666666667</span><span class="token punctuation">,</span>
+    <span class="token keyword -string">"end"</span><span class="token punctuation">:</span> <span class="token string">1.075</span><span class="token punctuation">,</span>
+    <span class="token keyword -string">"text_offset"</span><span class="token punctuation">:</span> <span class="token string">4</span>
+  <span class="token punctuation">},</span>
+  <span class="token punctuation">{</span>
+    <span class="token keyword -string">"word"</span><span class="token punctuation">:</span> <span class="token string">"achieves"</span><span class="token punctuation">,</span>
+    <span class="token keyword -string">"start"</span><span class="token punctuation">:</span> <span class="token string">1.075</span><span class="token punctuation">,</span>
+    <span class="token keyword -string">"end"</span><span class="token punctuation">:</span> <span class="token string">1.5166666666666666</span><span class="token punctuation">,</span>
+    <span class="token keyword -string">"text_offset"</span><span class="token punctuation">:</span> <span class="token string">10</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  ...
+<span class="token punctuation">]</span></span></code></pre>
+              </div>
+
+              <div class="home-bottom-button-wrap">
+
+                <a style="display:none" class="button button-inline -button-outlined"
+                  href="https://docs.v8.unrealspeech.com/">
+                  <span>API Docs <b>&rarr;</b></span>
+                </a>
+                <a class="button button-inline button-outlined"
+                  href="https://github.com/unrealspeech/word-highlight-demo">
+                  <span>Demo Code <b>&rarr;</b></span>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="home-pricing">
+
+            <div class="live-demo-title">
+
+              <h1 class="font-title font-title-smaller -text-gradient-2">The more you use it, the cheaper it gets
+              </h1>
+
+              <h2 class="title-description title-description2">Start for free. Stay for discounts.</h2>
+
+            </div>
+
+            <div class="pricing-columns">
+
+              <div class="pricing-col" style="text-align:right;">
+
+                <div class="pricing-table-wrap">
+
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0" class="pricing-table">
+                    <tr>
+                      <td class="pricing-table-label">
+                        <div class="pricing-table-heading">Number of Characters</div>
+                        <div id="pricing_chars_info" class="pricing-table-subheading">one&nbsp;time</div>
+                      </td>
+                      <td>
+                        <div id="pricing_chars" class="pricing-table-value pricing-table-chars-value">1M</div>
+
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+
+                        <div class="pricing-slider-wrap">
+                          <input id="pricing_slider" class="pricing-slider" type="range" min="0" max="34" step="1"
+                            value="1" />
+                        </div>
+
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pricing-table-label" style="padding-top:5px;">
+                        <div class="pricing-table-heading">Audio&nbsp;Duration</div>
+                        <div class="pricing-table-subheading" style="position:relative; top:-1px">Estimated <span
+                            class="pricing-info-icon"
+                            onclick="alert('1 minute of audio = roughly 750 characters (~150 WPM)')"
+                            style="cursor:pointer;"></span></div>
+                      </td>
+                      <td>
+                        <div id="pricing_hours" class="pricing-table-value" class="pricing-table-value">
+                          <span class="pricing-est">~</span>22 hours
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <div class="pricing-sep"></div>
+
+                  <div class="pricing-bottom-section">
+
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="pricing-table">
+                      <tr>
+                        <td style="text-align:left; padding-top:5px; padding-bottom:0px; vertical-align:middle;">
+
+                          <div class="pricing-title" id="pricing_plan">Free</div>
+                          <div class="pricing-table-subheading"><span id="pricing_plan_chars"></span></div>
+
+                        </td>
+                        <td style="text-align:right; height:79px">
+
+                          <div id="pricing_price" class="text-gradient-2 pricing-text-large">$0</div>
+                          <div id="pricing_price_info" class="pricing-table-subheading"></div>
+
+                          <div id="pricing_custom">
+
+                            <div class="button button-inline button-outlined pricing-button-custom"
+                              onclick="openTidio()">
+                              <span>High Volume Inquiry</span>
+                            </div>
+
+                          </div>
+
+                        </td>
+                      </tr>
+                    </table>
+
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="pricing-table"
+                      style="margin-top:5px; margin-bottom:2px">
+                      <tr>
+                        <td class="pricing-table-label">
+                          <div class="pricing-table-heading pricing-table-heading-small">Additional Usage</div>
+                          <div class="pricing-table-subheading"><span id="pricing_cost"></span></div>
+                        </td>
+                        <td style="height:69px">
+                          <div id="pricing_extra" class="pricing-table-value pricing-table-cost-extra">&mdash;</div>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="pricing-col pricing-compare-col" style="text-align:left;">
+
+                <div class="pricing-compare-wrap home-compare">
+
+                  <div class="pricing-compare-heading">Comparison</div>
+
+                  <div class="pricing-compare-table">
+
+                    <div class="pricing-compare-table-col" style="padding:0px 0px 0px 15px">
+
+                      <div style="text-align:center; padding-top:5px">
+                        <img class="logo-image" style="display:inline-block; height:40px; position:relative; top:-1px"
+                          src="/images/unreal-logo-vertical.svg" loading="lazy" />
+                      </div>
+
+                    </div>
+                    <div class="pricing-compare-table-col pricing-compare-table-col-middle">
+
+                      vs
+
+                    </div>
+                    <div class="pricing-compare-table-col pricing-compare-table-col-right"
+                      style="border:none; padding:0px">
+
+                      <div class="dropdown" style="display:inline-block;">
+
+                        <button class="dropdown-title dropdown-title-image" style="width:175px; padding-left:55px"
+                          id="dropdown_button_competitors" type="button">
+
+                          <div class="dropdown-avatar dropdown-avatar-small"></div>
+
+                          <span class="text-grey">ElevenLabs</span>
+
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            aria-hidden="true" class="dropdown-chevron">
+                            <path fill-rule="evenodd"
+                              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                              clip-rule="evenodd"></path>
+                          </svg>
+
+                        </button>
+
+                        <div class="dropdown-menu dropdown-menu-voices" style="width:175px"
+                          id="dropdown_menu_competitors">
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+
+
+                  <div class="pricing-compare-table" style="margin-top:15px">
+
+                    <div class="pricing-compare-table-col">
+
+                      <div class="compare-table-price text-gradient-2" id="compare_price_unreal">$49</div>
+                      <div class="compare-table-subheading">a month</div>
+
+                    </div>
+                    <div class="pricing-compare-table-col pricing-compare-table-col-right">
+
+                      <div class="compare-table-price -text-gradient-2" id="compare_price_competitor">$510</div>
+                      <div class="compare-table-subheading" style="padding-top:1px;">a month <span
+                          class="pricing-info-icon"
+                          onclick="alert('Calculated using public prices. Custom plans may be cheaper.')"></span></div>
+
+                    </div>
+
+                  </div>
+
+
+                  <!--
+            <div class="compare-tabs">
+
+              <div class="compare-tabs-wrap">
+                <div id="" class="compare-tab compare-tab-selected" onclick="selectCompareTab('short')"><b>Fiction</b></div><div id="" class="compare-tab" onclick="selectCompareTab('non-fiction')"><b>Non-Fiction</b></div><div id="" class="compare-tab" onclick="selectCompareTab('conversation')"><b>Conversation</b></div>
+              </div>
+
+            </div>
+          -->
+
+                  <div class="pricing-compare-table">
+
+                    <div class="pricing-compare-table-col">
+
+                      <div class="pricing-compare-player-header">
+
+                        <div class="dropdown dropdown-small">
+
+                          <button class="dropdown-title" style="width:107px" id="dropdown_button_compare_voices_unreal"
+                            type="button">
+
+                            <span class="text-grey">Scarlett</span>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                              aria-hidden="true" class="dropdown-chevron">
+                              <path fill-rule="evenodd"
+                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                clip-rule="evenodd"></path>
+                            </svg>
+
+                          </button>
+
+                          <div class="dropdown-menu dropdown-menu-small" style="width:107px"
+                            id="dropdown_menu_compare_voices_unreal">
+
+                          </div>
+
+                        </div>
+
+                        <div class="pricing-compare-player-heading">Score <span class="pricing-info-icon"
+                            onclick="showScoreInfo()"></span></div>
+                      </div>
+                      <div class="pricing-compare-player">
+                        <div class="pricing-compare-player-button" onclick="playCompareSample('Fiction', true, this)">
+                        </div> Fiction
+                        <div class="pricing-compare-player-score -pricing-compare-player-score-highlight"
+                          id="compare_score_unreal_fiction">4.32</div>
+                      </div>
+                      <div class="pricing-compare-player">
+                        <div class="pricing-compare-player-button"
+                          onclick="playCompareSample('Non-Fiction', true, this)"></div> Non-Fiction
+                        <div class="pricing-compare-player-score -pricing-compare-player-score-highlight"
+                          id="compare_score_unreal_non_fiction">4.32</div>
+                      </div>
+                      <div class="pricing-compare-player">
+                        <div class="pricing-compare-player-button"
+                          onclick="playCompareSample('Conversation', true, this)"></div> Conversation
+                        <div class="pricing-compare-player-score -pricing-compare-player-score-highlight"
+                          id="compare_score_unreal_conversation">4.32</div>
+                      </div>
+
+                    </div>
+                    <div class="pricing-compare-table-col pricing-compare-table-col-right">
+
+                      <div class="pricing-compare-player-header">
+
+                        <div class="dropdown dropdown-small">
+
+                          <button class="dropdown-title" style="width:107px"
+                            id="dropdown_button_compare_voices_competitor" type="button">
+
+                            <span class="text-grey"></span>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                              aria-hidden="true" class="dropdown-chevron">
+                              <path fill-rule="evenodd"
+                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                clip-rule="evenodd"></path>
+                            </svg>
+
+                          </button>
+
+                          <div class="dropdown-menu dropdown-menu-small" style="width:107px"
+                            id="dropdown_menu_compare_voices_competitor">
+
+                          </div>
+
+                        </div>
+
+                        <div class="pricing-compare-player-heading">Score <span class="pricing-info-icon"
+                            onclick="showScoreInfo()"></span></div>
+                      </div>
+                      <div class="pricing-compare-player">
+                        <div class="pricing-compare-player-button" onclick="playCompareSample('Fiction', false, this)">
+                        </div> Fiction
+                        <div class="pricing-compare-player-score" id="compare_score_competitor_fiction">4.32</div>
+                      </div>
+                      <div class="pricing-compare-player">
+                        <div class="pricing-compare-player-button"
+                          onclick="playCompareSample('Non-Fiction', false, this)"></div> Non-Fiction
+                        <div class="pricing-compare-player-score" id="compare_score_competitor_non_fiction">4.32</div>
+                      </div>
+                      <div class="pricing-compare-player">
+                        <div class="pricing-compare-player-button"
+                          onclick="playCompareSample('Conversation', false, this)"></div> Conversation
+                        <div class="pricing-compare-player-score" id="compare_score_competitor_conversation">4.32</div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!--
+            <div class="pricing-compare-table-heading">Score <span class="pricing-info-icon"></span></div>
+
+            <div class="pricing-compare-table">
+
+              <div class="pricing-compare-table-col">
+
+                <div class="compare-table-score -text-gradient-2">4.72</div>
+
+              </div>
+              <div class="pricing-compare-table-col pricing-compare-table-col-right">
+
+                <div class="compare-table-score">4.54</div>
+
+              </div>
+
+            </div>
+          -->
+
+                </div>
+
+                <div class="pricing-compare-wrap" style="display:none;">
+
+                  <div class="pricing-compare-heading">Price Comparison</div>
+
+                  <div class="pricing-compare-chart">
+
+                    <div class="pricing-compare-chart-col">
+
+                      <div class="pricing-compare-chart-bar-wrap">
+
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+
+                        <div id="chart_bar_0" class="pricing-compare-chart-bar pricing-compare-chart-bar-selected">
+                          <div class="pricing-compare-chart-price text-gradient-2"></div>
+                        </div>
+
+                      </div>
+                      <div class="pricing-compare-chart-logo-wrap">
+
+                        Unreal
+
+                      </div>
+
+                    </div>
+                    <div class="pricing-compare-chart-col">
+
+                      <div class="pricing-compare-chart-bar-wrap">
+
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+
+                        <div id="chart_bar_1" class="pricing-compare-chart-bar">
+                          <div class="pricing-compare-chart-price"></div>
+                        </div>
+
+                      </div>
+                      <div class="pricing-compare-chart-logo-wrap">
+
+                        ElevenLabs
+
+                      </div>
+
+                    </div>
+                    <div class="pricing-compare-chart-col">
+
+                      <div class="pricing-compare-chart-bar-wrap">
+
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+
+                        <div id="chart_bar_2" class="pricing-compare-chart-bar">
+                          <div class="pricing-compare-chart-price"></div>
+                        </div>
+
+                      </div>
+                      <div class="pricing-compare-chart-logo-wrap">
+
+                        Play.ht
+
+                      </div>
+
+                    </div>
+                    <div class="pricing-compare-chart-col">
+
+                      <div class="pricing-compare-chart-bar-wrap">
+
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+
+                        <div id="chart_bar_3" class="pricing-compare-chart-bar">
+                          <div class="pricing-compare-chart-price"></div>
+                        </div>
+
+                      </div>
+                      <div class="pricing-compare-chart-logo-wrap">
+
+                        Amazon
+
+                      </div>
+
+                    </div>
+                    <div class="pricing-compare-chart-col">
+
+                      <div class="pricing-compare-chart-bar-wrap">
+
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+
+                        <div id="chart_bar_4" class="pricing-compare-chart-bar">
+                          <div class="pricing-compare-chart-price"></div>
+                        </div>
+
+                      </div>
+                      <div class="pricing-compare-chart-logo-wrap">
+
+                        Microsoft
+
+                      </div>
+
+                    </div>
+                    <div class="pricing-compare-chart-col">
+
+                      <div class="pricing-compare-chart-bar-wrap">
+
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+                        <div class="pricing-compare-line"></div>
+
+                        <div id="chart_bar_5" class="pricing-compare-chart-bar">
+                          <div class="pricing-compare-chart-price"></div>
+                        </div>
+
+                      </div>
+                      <div class="pricing-compare-chart-logo-wrap">
+
+                        Google
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="pricing-compare-chart-message">
+                    Calculated using public prices. Custom plans may be cheaper.
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="pricing-info" style="display:none;">
+            <div>* 1 minute of audio = roughly 750 characters (~150 WPM)</div>
+          </div>
+
+
+          <div class="pricing-button-wrap">
+
+            <div class="button button-inline button-outlined" onclick="showSignInDialog()" data-aos="zoom-out"
+              data-aos-delay="0">
+              <span>Get Started for Free <b>&rarr;</b></span>
+            </div>
+
+          </div>
+
+
+          <div class="pricing-custom" style="display:none;">
+            Need a custom solution? <span class="pricing-link text-gradient-2" onclick="openTidio();">Contact
+              us</span>
+          </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="home-testimonials">
+
+      <div class="testimonial-wrap">
+
+        <div class="testimonial-quote" data-aos="zoom-out" data-aos-delay="0">
+          "Unreal Speech saved us 75% on our text-to-speech cost. It sounds better than Amazon Polly, and is much
+          cheaper. We switched over at high volumes, and often processing 10,000+ pages per hour. Unreal was able to
+          handle the volume, while delivering a high quality listening experience."
+        </div>
+
+        <div class="testimonial-credit" data-aos="zoom-out" data-aos-delay="200">
+          <img src="/images/testimonial-derek.jpg" loading="lazy" /><br />
+          <a href="https://www.listening.com/" target="_blank">Derek Pankaew <i>&mdash;</i> <span>CEO,
+              Listening.com</span></a>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+    <div class="home-stats">
+
+      <div class="stats-table-wrap" data-aos="zoom-out" data-aos-delay="200">
+
+        <div class="stats-table-box">
+          <div class="text-gradient-2 stats-text-large">7B</div>
+          <div class="stats-subheading">Characters per month</div>
+        </div>
+        <div class="stats-table-box">
+          <div class="text-gradient-2 stats-text-large">0.3s</div>
+          <div class="stats-subheading">Latency</div>
+        </div>
+        <div class="stats-table-box">
+          <div class="text-gradient-2 stats-text-large">99.9%</div>
+          <div class="stats-subheading">Uptime</div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+    <div class="home-code">
+
+      <div class="home-code-header" data-aos="zoom-out" data-aos-delay="0">
+
+        <h1 class="font-title font-title-smaller -text-gradient-2">Code Samples</h1>
+
+        <h2 class="title-description title-description2">Get started quickly with our simple text-to-speech API.
+        </h2>
+
+      </div>
+
+      <div class="code-snippet-root">
+
+        <div class="code-toolbar -output-options">
+
+          <div class="code-toolbar-col">
+
+            <div class="onboard-tabs">
+
+              <div class="onboard-tabs-wrap" style="width: 350px;">
+                <div id="onboard_tab_short" class="onboard-tab onboard-tab-selected"
+                  onclick="selectOnboardCodeType('short')"><b>/stream</b></div>
+                <div id="onboard_tab_medium" class="onboard-tab" onclick="selectOnboardCodeType('medium')">
+                  <b>/speech</b>
+                </div>
+                <div id="onboard_tab_long" class="onboard-tab" onclick="selectOnboardCodeType('long')">
+                  <b>/synthesisTasks</b>
+                </div>
+                <div id="onboard_tab_timestamps" class="onboard-tab" onclick="selectOnboardCodeType('timestamps')">
+                  <b>/streamWithTimestamps</b>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="code-toolbar-col code-toolbar-col-right">
+
+            <a id="sdk_button" class="sdk-button" href="https://github.com/unrealspeech" target="_blank">SDK</a>
+
+            <div class="dropdown">
+
+              <button class="dropdown-title" style="width:110px" id="dropdown_button_code" type="button">
+
+                <span class="text-grey">Python</span>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  class="dropdown-chevron">
+                  <path fill-rule="evenodd"
+                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                    clip-rule="evenodd"></path>
+                </svg>
+
+              </button>
+
+              <div class="dropdown-menu dropdown-menu-small" id="dropdown_menu_codes" style="width:155px">
+
+              </div>
+
+            </div>
+
+            <button id="copy_button" class="button button-copy"><span>Copy<svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="button-icon">
+                  <path fill-rule="evenodd"
+                    d="M13.887 3.182c.396.037.79.08 1.183.128C16.194 3.45 17 4.414 17 5.517V16.75A2.25 2.25 0 0114.75 19h-9.5A2.25 2.25 0 013 16.75V5.517c0-1.103.806-2.068 1.93-2.207.393-.048.787-.09 1.183-.128A3.001 3.001 0 019 1h2c1.373 0 2.531.923 2.887 2.182zM7.5 4A1.5 1.5 0 019 2.5h2A1.5 1.5 0 0112.5 4v.5h-5V4z"
+                    clip-rule="evenodd"></path>
+                </svg></span></button>
+
+          </div>
+
+        </div>
+
+        <div class="-card -card-full-width">
+
+          <div id="code_python" class="code-wrap code-wrap-show">
+            <div id="code_python_short" class="code-type-wrap">
+              <div class="card card-full-width">
+
+                <pre class="core-prismjs language-python"
+                  tabindex="0"><code class="language-python"><span class="token punctuation"># Endpoint: /stream
+# - Convert up to 1,000 characters ASAP
+# - Synchronous, instant response (0.3s)
+# - Streams back raw audio data (no timestamps)</span>
+
+<span class="token keyword">import</span> requests
+
+response <span class="token operator">=</span> requests<span class="token punctuation">.</span>post<span class="token punctuation">(</span>
+  <span class="token string">'https://api.v8.unrealspeech.com/stream'</span><span class="token punctuation">,</span>
+  headers <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">'Authorization'</span> <span class="token punctuation">:</span> <span class="token string">'Bearer <span class="code-api-key">YOUR_API_KEY</span>'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  json <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">'Text'</span><span class="token punctuation">:</span> <span id="code_python_text" class="token triple-quoted-string string">'''<span class="code-text">&lt;YOUR_TEXT&gt;</span>'''</span><span class="token punctuation">, # Up to 1,000 characters</span>
+    <span class="token string">'VoiceId'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-voice-id">&lt;VOICE_ID&gt;</span>'</span><span class="token punctuation">, # af, af_bella, af_sarah, am_adam, am_michael, bf_emma, bf_isabella, bm_george, bm_lewis, af_nicole, af_sky</span>
+    <span class="token string">'Bitrate'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-bitrate">192k</span>'</span><span class="token punctuation">, # 320k, 256k, 192k, ...</span>
+    <span class="token string">'Speed'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-speed">0</span>'</span><span class="token punctuation">, # -1.0 to 1.0</span>
+    <span class="token string">'Pitch'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-pitch">1</span>'</span><span class="token punctuation">, # 0.5 to 1.5</span>
+    <span class="token string">'Codec'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-codec">libmp3lame</span>'</span><span class="token punctuation">, # libmp3lame or pcm_mulaw</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'audio.mp3'</span><span class="token punctuation">,</span> <span class="token string">'wb'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
+    f<span class="token punctuation">.</span>write<span class="token punctuation">(</span>response<span class="token punctuation">.</span>content<span class="token punctuation">)</span></code></pre>
+
+              </div>
+            </div>
+            <div id="code_python_medium" class="code-type-wrap" style="display:none;">
+              <div class="card card-full-width">
+
+                <pre class="core-prismjs language-python" tabindex="0"><code class="language-python"><span class="token punctuation"># Endpoint: /speech
+# - Up to 3,000 characters
+# - Synchronous, takes ~1s per 700 chars
+# - Returns MP3 and JSON timestamp URLs</span>
+
+<span class="token keyword">import</span> requests
+
+response <span class="token operator">=</span> requests<span class="token punctuation">.</span>post<span class="token punctuation">(</span>
+  <span class="token string">'https://api.v8.unrealspeech.com/speech'</span><span class="token punctuation">,</span>
+  headers <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">'Authorization'</span> <span class="token punctuation">:</span> <span class="token string">'Bearer <span class="code-api-key">YOUR_API_KEY</span>'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  json <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">'Text'</span><span class="token punctuation">:</span> <span class="token triple-quoted-string string">'''<span class="code-text">&lt;YOUR_TEXT&gt;</span>'''</span><span class="token punctuation">, # Up to 3,000 characters</span>
+    <span class="token string">'VoiceId'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-voice-id">&lt;VOICE_ID&gt;</span>'</span><span class="token punctuation">, # Scarlett, Dan, Liv, Will, Amy</span>
+    <span class="token string">'Bitrate'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-bitrate">192k</span>'</span><span class="token punctuation">, # 320k, 256k, 192k, ...</span>
+    <span class="token string">'Speed'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-speed">0</span>'</span><span class="token punctuation">, # -1.0 to 1.0</span>
+    <span class="token string">'Pitch'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-pitch">1</span>'</span><span class="token punctuation">, # 0.5 to 1.5</span>
+    <span class="token string">'TimestampType'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-timestamp-type">sentence</span>'</span><span class="token punctuation"> # word or sentence</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">)</span>
+
+<span class="token builtin">print</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>json()<span class="token punctuation">)</span>
+</code></pre>
+
+
+              </div>
+            </div>
+            <div id="code_python_long" class="code-type-wrap" style="display:none;">
+              <div class="card card-full-width">
+
+                <pre class="core-prismjs language-python"
+                  tabindex="0"><code class="language-python"><span class="token punctuation"># Endpoint: /synthesisTasks
+# - Up to 500,000 characters
+# - Asynchronous, takes ~1s per 800 chars
+# - Returns a TaskId (use it to check status)</span>
+
+<span class="token keyword">import</span> requests
+
+response <span class="token operator">=</span> requests<span class="token punctuation">.</span>post<span class="token punctuation">(</span>
+  <span class="token string">'https://api.v8.unrealspeech.com/synthesisTasks'</span><span class="token punctuation">,</span>
+  headers <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">'Authorization'</span> <span class="token punctuation">:</span> <span class="token string">'Bearer <span class="code-api-key">YOUR_API_KEY</span>'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  json <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">'Text'</span><span class="token punctuation">:</span> <span id="code_python_text" class="token triple-quoted-string string">'''<span class="code-text">&lt;YOUR_TEXT&gt;</span>'''</span><span class="token punctuation">, # Up to 500,000 characters</span>
+    <span class="token string">'VoiceId'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-voice-id">&lt;VOICE_ID&gt;</span>'</span><span class="token punctuation">, # Scarlett, Dan, Liv, Will, Amy</span>
+    <span class="token string">'Bitrate'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-bitrate">192k</span>'</span><span class="token punctuation">, # 320k, 256k, 192k, ...</span>
+    <span class="token string">'Speed'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-speed">0</span>'</span><span class="token punctuation">, # -1.0 to 1.0</span>
+    <span class="token string">'Pitch'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-pitch">1</span>'</span><span class="token punctuation">, # 0.5 to 1.5</span>
+    <span class="token string">'TimestampType'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-output-format">sentence</span>'</span><span class="token punctuation">, # word or sentence</span>
+   <span class="token punctuation">#'CallbackUrl': '<span class="code-callback-url">&lt;URL&gt;</span>', # pinged when ready</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">)</span>
+
+<span class="token builtin">print</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>json()<span class="token punctuation">)</span></code></pre>
+
+              </div>
+            </div>
+            <div id="code_python_timestamps" class="code-type-wrap">
+              <div class="card card-full-width">
+
+                <pre class="core-prismjs language-python"
+                  tabindex="0"><code class="language-python"><span class="token punctuation"># Endpoint: /streamWithTimestamps
+# - Convert text with real-time word-level timestamps
+# - Streams audio with precise word timing information
+# - Perfect for word-by-word highlighting</span>
+
+<span class="token keyword">import</span> websocket
+<span class="token keyword">import</span> json
+
+audio_chunks <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+timestamps <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+<span class="token keyword">def</span> <span class="token function">on_message</span><span class="token punctuation">(</span>ws<span class="token punctuation">,</span> message<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">try</span><span class="token punctuation">:</span>
+        data <span class="token operator">=</span> json<span class="token punctuation">.</span>loads<span class="token punctuation">(</span>message<span class="token punctuation">)</span>
+        <span class="token keyword">if</span> data<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">"type"</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">"progress"</span> <span class="token operator">and</span> <span class="token string">"message"</span> <span class="token operator">in</span> data<span class="token punctuation">:</span>
+            msg_val <span class="token operator">=</span> data<span class="token punctuation">[</span><span class="token string">"message"</span><span class="token punctuation">]</span>
+            <span class="token keyword">if</span> <span class="token builtin">isinstance</span><span class="token punctuation">(</span>msg_val<span class="token punctuation">,</span> <span class="token builtin">list</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+                timestamps<span class="token punctuation">.</span>extend<span class="token punctuation">(</span>msg_val<span class="token punctuation">)</span>
+        <span class="token keyword">elif</span> data<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">"type"</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">"complete"</span><span class="token punctuation">:</span>
+            ws<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">except</span> <span class="token class-name">Exception</span><span class="token punctuation">:</span>
+        <span class="token comment"># Assume binary audio data</span>
+        audio_chunks<span class="token punctuation">.</span>append<span class="token punctuation">(</span>message<span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">on_open</span><span class="token punctuation">(</span>ws<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    config <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token string">"Text"</span><span class="token punctuation">:</span> <span class="token string">"&lt;YOUR_TEXT&gt;"</span><span class="token punctuation">,</span>
+        <span class="token string">"VoiceId"</span><span class="token punctuation">:</span> <span class="token string">"&lt;VOICE_ID&gt;"</span><span class="token punctuation">,</span>
+        <span class="token string">"Model"</span><span class="token punctuation">:</span> <span class="token string">"kokoro"</span><span class="token punctuation">,</span>
+        <span class="token string">"Codec"</span><span class="token punctuation">:</span> <span class="token string">"libmp3lame"</span><span class="token punctuation">,</span>
+        <span class="token string">"SampleRate"</span><span class="token punctuation">:</span> <span class="token number">24000</span><span class="token punctuation">,</span>
+        <span class="token string">"Speed"</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">"Bitrate"</span><span class="token punctuation">:</span> <span class="token string">"192k"</span><span class="token punctuation">,</span>
+        <span class="token string">"Pitch"</span><span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        <span class="token string">"TimestampType"</span><span class="token punctuation">:</span> <span class="token string">"word"</span>
+    <span class="token punctuation">}</span>
+    ws<span class="token punctuation">.</span>send<span class="token punctuation">(</span>json<span class="token punctuation">.</span>dumps<span class="token punctuation">(</span>config<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+ws <span class="token operator">=</span> websocket<span class="token punctuation">.</span>WebSocketApp<span class="token punctuation">(</span>
+    <span class="token string">"wss://api.v8.unrealspeech.com/streamWithTimestamps"</span><span class="token punctuation">,</span>
+    on_open<span class="token operator">=</span>on_open<span class="token punctuation">,</span>
+    on_message<span class="token operator">=</span>on_message
+<span class="token punctuation">)</span>
+ws<span class="token punctuation">.</span>run_forever<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
+
+              </div>
+            </div>
+          </div>
+          <div id="code_node_timestamps" class="code-type-wrap" style="display:none;">
+            <div class="card card-full-width">
+
+              <pre class="core-prismjs language-javascript"
+                tabindex="0"><code class="language-javascript"><span class="token punctuation">// Endpoint: streamWithTimestamps (WebSocket)
+# - Convert text with real-time word-level timestamps
+# - Streams audio with precise word timing information
+# - Perfect for word-by-word highlighting</span>
+
+<span class="token keyword">import</span> websocket
+<span class="token keyword">import</span> json
+<span class="token keyword">import</span> threading
+<span class="token keyword">import</span> time
+
+<span class="token comment"># Files to store output</span>
+audio_file <span class="token operator">=</span> <span class="token string">'output.mp3'</span>
+timestamps_file <span class="token operator">=</span> <span class="token string">'timestamps.json'</span>
+audio_chunks <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+timestamps <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+<span class="token keyword">def</span> <span class="token function">on_message</span><span class="token punctuation">(</span>ws<span class="token punctuation">,</span> message<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> <span class="token builtin">isinstance</span><span class="token punctuation">(</span>message<span class="token punctuation">,</span> <span class="token builtin">str</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token comment"># Handle JSON messages (timestamps or status)</span>
+        data <span class="token operator">=</span> json<span class="token punctuation">.</span>loads<span class="token punctuation">(</span>message<span class="token punctuation">)</span>
+        
+        <span class="token keyword">if</span> data<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'type'</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'progress'</span> <span class="token keyword">and</span> <span class="token string">'message'</span> <span class="token keyword">in</span> data<span class="token punctuation">:</span>
+            <span class="token comment"># Add timestamp information</span>
+            msg_val <span class="token operator">=</span> data<span class="token punctuation">[</span><span class="token string">'message'</span><span class="token punctuation">]</span>
+            <span class="token keyword">if</span> <span class="token builtin">isinstance</span><span class="token punctuation">(</span>msg_val<span class="token punctuation">,</span> <span class="token builtin">list</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+                timestamps<span class="token punctuation">.</span>extend<span class="token punctuation">(</span>msg_val<span class="token punctuation">)</span>
+        
+        <span class="token keyword">elif</span> data<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'type'</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'complete'</span><span class="token punctuation">:</span>
+            <span class="token comment"># Save the audio and timestamps when complete</span>
+            <span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span>audio_file<span class="token punctuation">,</span> <span class="token string">'wb'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
+                <span class="token keyword">import</span> io
+                buffer <span class="token operator">=</span> io<span class="token punctuation">.</span>BytesIO<span class="token punctuation">(</span><span class="token punctuation">)</span>
+                <span class="token keyword">for</span> chunk <span class="token keyword">in</span> audio_chunks<span class="token punctuation">:</span>
+                    buffer<span class="token punctuation">.</span>write<span class="token punctuation">(</span>chunk<span class="token punctuation">)</span>
+                f<span class="token punctuation">.</span>write<span class="token punctuation">(</span>buffer<span class="token punctuation">.</span>getvalue<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+            
+            <span class="token comment"># Save timestamps (filter out empty ones)</span>
+            filtered <span class="token operator">=</span> <span class="token punctuation">[</span>ts <span class="token keyword">for</span> ts <span class="token keyword">in</span> timestamps <span class="token keyword">if</span> ts <span class="token keyword">and</span> <span class="token string">'word'</span> <span class="token keyword">in</span> ts<span class="token punctuation">]</span>
+            <span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span>timestamps_file<span class="token punctuation">,</span> <span class="token string">'w'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
+                json<span class="token punctuation">.</span>dump<span class="token punctuation">(</span>filtered<span class="token punctuation">,</span> f<span class="token punctuation">,</span> indent<span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">)</span>
+            
+            <span class="token builtin">print</span><span class="token punctuation">(</span><span class="token string">"Audio saved to:"</span><span class="token punctuation">,</span> audio_file<span class="token punctuation">)</span>
+            <span class="token builtin">print</span><span class="token punctuation">(</span><span class="token string">"Timestamps saved to:"</span><span class="token punctuation">,</span> timestamps_file<span class="token punctuation">)</span>
+            ws<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+        <span class="token comment"># Handle binary audio data</span>
+        audio_chunks<span class="token punctuation">.</span>append<span class="token punctuation">(</span>message<span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">on_open</span><span class="token punctuation">(</span>ws<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># Send configuration when connection opens</span>
+    config <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token string">'Text'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-text">Welcome to Unreal Speech.</span>'</span><span class="token punctuation">,</span>
+        <span class="token string">'VoiceId'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-voice-id">&lt;VOICE_ID&gt;</span>'</span><span class="token punctuation">,</span>
+        <span class="token string">'Model'</span><span class="token punctuation">:</span> <span class="token string">'kokoro'</span><span class="token punctuation">,</span>
+        <span class="token string">'Codec'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-codec">libmp3lame</span>'</span><span class="token punctuation">,</span>
+        <span class="token string">'SampleRate'</span><span class="token punctuation">:</span> <span class="token number">24000</span><span class="token punctuation">,</span>
+        <span class="token string">'Bitrate'</span><span class="token punctuation">:</span> <span class="token string">'<span class="code-bitrate">192k</span>'</span><span class="token punctuation">,</span>
+        <span class="token string">'Pitch'</span><span class="token punctuation">:</span> <span class="token number"><span class="code-pitch">1.0</span></span><span class="token punctuation">,</span>
+        <span class="token string">'TimestampType'</span><span class="token punctuation">:</span> <span class="token string">'word'</span>
+    <span class="token punctuation">}</span>
+    ws<span class="token punctuation">.</span>send<span class="token punctuation">(</span>json<span class="token punctuation">.</span>dumps<span class="token punctuation">(</span>config<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment"># Connect to WebSocket endpoint</span>
+websocket<span class="token punctuation">.</span>enableTrace<span class="token punctuation">(</span><span class="token boolean">False</span><span class="token punctuation">)</span>
+ws <span class="token operator">=</span> websocket<span class="token punctuation">.</span>WebSocketApp<span class="token punctuation">(</span>
+    <span class="token string">"wss://api.v8.unrealspeech.com/streamWithTimestamps"</span><span class="token punctuation">,</span>
+    header<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">'Authorization'</span><span class="token punctuation">:</span> <span class="token string">'Bearer <span class="code-api-key">YOUR_API_KEY</span>'</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    on_open<span class="token operator">=</span>on_open<span class="token punctuation">,</span>
+    on_message<span class="token operator">=</span>on_message
+<span class="token punctuation">)</span>
+
+<span class="token comment"># Run WebSocket connection</span>
+ws<span class="token punctuation">.</span>run_forever<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div id="code_node" class="code-wrap">
+          <div id="code_node_short" class="code-type-wrap">
+            <div class="card card-full-width">
+
+              <pre class="core-prismjs language-javascript" tabindex="0"><code class="language-javascript"><span class="token punctuation">// Short endpoint: /stream
+// - Up to 1,000 characters
+// - Synchronous, instant response (0.3s+)
+// - Streams back raw audio data</span>
+
+<span class="token keyword">const</span> axios <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'axios'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'fs'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> headers <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">'Authorization'</span><span class="token operator">:</span> <span class="token string">'Bearer <span class="code-api-key">YOUR_API_KEY</span>'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">'Text'</span><span class="token operator">:</span> <span id="code_node_text" class="token string">'<span class="code-text">&lt;YOUR_TEXT&gt;</span>'</span><span class="token punctuation">, // Up to 1,000 characters</span>
+    <span class="token string-property property">'VoiceId'</span><span class="token operator">:</span> <span class="token string">'<span class="code-voice-id">&lt;VOICE_ID&gt;</span>'</span><span class="token punctuation">, // Scarlett, Dan, Liv, Will, Amy</span>
+    <span class="token string-property property">'Bitrate'</span><span class="token operator">:</span> <span class="token string">'<span class="code-bitrate">192k</span>'</span><span class="token punctuation">, // 320k, 256k, 192k, ...</span>
+    <span class="token string-property property">'Speed'</span><span class="token operator">:</span> <span class="token string">'<span class="code-speed">0</span>'</span><span class="token punctuation">, // -1.0 to 1.0</span>
+    <span class="token string-property property">'Pitch'</span><span class="token operator">:</span> <span class="token string">'<span class="code-pitch">1</span>'</span><span class="token punctuation">, // 0.5 to 1.5</span>
+    <span class="token string-property property">'Codec'</span><span class="token operator">:</span> <span class="token string">'<span class="code-codec">libmp3lame</span>'</span><span class="token punctuation">, // libmp3lame or pcm_mulaw</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token function">axios</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">method</span><span class="token operator">:</span> <span class="token string">'post'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">url</span><span class="token operator">:</span> <span class="token string">'https://api.v8.unrealspeech.com/stream'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">headers</span><span class="token operator">:</span> headers<span class="token punctuation">,</span>
+    <span class="token literal-property property">data</span><span class="token operator">:</span> data<span class="token punctuation">,</span>
+    <span class="token literal-property property">responseType</span><span class="token operator">:</span> <span class="token string">'stream'</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    response<span class="token punctuation">.</span>data<span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span>fs<span class="token punctuation">.</span><span class="token function">createWriteStream</span><span class="token punctuation">(</span><span class="token string">'audio.mp3'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+            </div>
+          </div>
+          <div id="code_node_medium" class="code-type-wrap" style="display:none;">
+            <div class="card card-full-width">
+
+              <pre class="core-prismjs language-javascript" tabindex="0"><code class="language-javascript"><span class="token punctuation">// Medium endpoint: /speech
+// - Up to 3,000 characters
+// - Synchronous, takes ~1s per 700 chars
+// - Returns MP3 and JSON timestamp URLs</span>
+
+<span class="token keyword">const</span> axios <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'axios'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> headers <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">'Authorization'</span><span class="token operator">:</span> <span class="token string">'Bearer <span class="code-api-key">YOUR_API_KEY</span>'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">'Text'</span><span class="token operator">:</span> <span class="token string">'<span class="code-text">&lt;YOUR_TEXT&gt;</span>'</span><span class="token punctuation">, // Up to 3,000 characters</span>
+    <span class="token string-property property">'VoiceId'</span><span class="token operator">:</span> <span class="token string">'<span class="code-voice-id">&lt;VOICE_ID&gt;</span>'</span><span class="token punctuation">, // Scarlett, Dan, Liv, Will, Amy</span>
+    <span class="token string-property property">'Bitrate'</span><span class="token operator">:</span> <span class="token string">'<span class="code-bitrate">192k</span>'</span><span class="token punctuation">, // 320k, 256k, 192k, ...</span>
+    <span class="token string-property property">'Speed'</span><span class="token operator">:</span> <span class="token string">'<span class="code-speed">0</span>'</span><span class="token punctuation">, // -1.0 to 1.0</span>
+    <span class="token string-property property">'Pitch'</span><span class="token operator">:</span> <span class="token string">'<span class="code-pitch">1</span>'</span><span class="token punctuation">, // 0.5 to 1.5</span>
+    <span class="token string-property property">'TimestampType'</span><span class="token operator">:</span> <span class="token string">'<span class="code-timestamp-type">sentence</span>'</span><span class="token punctuation">, // word or sentence</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token function">axios</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">method</span><span class="token operator">:</span> <span class="token string">'post'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">url</span><span class="token operator">:</span> <span class="token string">'https://api.v8.unrealspeech.com/speech'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">headers</span><span class="token operator">:</span> headers<span class="token punctuation">,</span>
+    <span class="token literal-property property">data</span><span class="token operator">:</span> data<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">console.log</span><span class="token punctuation">(</span>JSON.stringify<span class="token punctuation">(</span>response.data<span class="token punctuation">));</span>
+<span class="token punctuation">}</span><span class="token punctuation">);</span>
+</code></pre>
+
+
+            </div>
+          </div>
+          <div id="code_node_long" class="code-type-wrap" style="display:none;">
+            <div class="card card-full-width">
+
+              <pre class="core-prismjs language-javascript" tabindex="0"><code class="language-javascript"><span class="token punctuation">// Long endpoint: /synthesisTasks
+// - Up to 500,000 characters
+// - Asynchronous, takes ~1s per 800 chars
+// - Returns a TaskId (use to check status)</span>
+
+<span class="token keyword">const</span> axios <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'axios'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> headers <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">'Authorization'</span><span class="token operator">:</span> <span class="token string">'Bearer <span class="code-api-key">YOUR_API_KEY</span>'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">'Text'</span><span class="token operator">:</span> <span id="code_node_text" class="token string">'<span class="code-text">&lt;YOUR_TEXT&gt;</span>'</span><span class="token punctuation">, // Up to 500,000 characters</span>
+    <span class="token string-property property">'VoiceId'</span><span class="token operator">:</span> <span class="token string">'<span class="code-voice-id">&lt;VOICE_ID&gt;</span>'</span><span class="token punctuation">, // Scarlett, Dan, Liv, Will, Amy</span>
+    <span class="token string-property property">'Bitrate'</span><span class="token operator">:</span> <span class="token string">'<span class="code-bitrate">192k</span>'</span><span class="token punctuation">, // 320k, 256k, 192k, ...</span>
+    <span class="token string-property property">'Speed'</span><span class="token operator">:</span> <span class="token string">'<span class="code-speed">0</span>'</span><span class="token punctuation">, // -1.0 to 1.0</span>
+    <span class="token string-property property">'Pitch'</span><span class="token operator">:</span> <span class="token string">'<span class="code-pitch">1</span>'</span><span class="token punctuation">, // 0.5 to 1.5</span>
+    <span class="token string-property property">'TimestampType'</span><span class="token operator">:</span> <span class="token string">'<span class="code-output-format">sentence</span>'</span><span class="token punctuation">, // word or sentence</span>
+  <span class="token punctuation">//'CallbackUrl': '<span class="code-callback-url">&lt;URL&gt;</span>', // pinged when ready</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token function">axios</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">method</span><span class="token operator">:</span> <span class="token string">'post'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">url</span><span class="token operator">:</span> <span class="token string">'https://api.v8.unrealspeech.com/synthesisTasks'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">headers</span><span class="token operator">:</span> headers<span class="token punctuation">,</span>
+    <span class="token literal-property property">data</span><span class="token operator">:</span> data<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">console.log</span><span class="token punctuation">(</span>JSON.stringify<span class="token punctuation">(</span>response.data<span class="token punctuation">));</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+            </div>
+
+            <div class="code-heading code-heading-single">Sample Response</div>
+
+            <div class="card card-full-width code-response">
+              <pre class="core-prismjs language-python" tabindex="0"><code class="language-python"><span class="token punctuation">{
+  <span class="token string">'SynthesisTask'</span>: {
+    <span class="token string">'CreationTime'</span>: <span class="token string">'2023-09-01T15:05:22.15Z'</span>,
+    <span class="token string">'OutputUri'</span>: <span class="token string">'https://unreal-tts-live-demo.s3-us-west-1.amazonaws.com/d8ef514d.mp3'</span>,
+    <span class="token string">'RequestCharacters'</span>: <span class="token string">14</span>,
+    <span class="token string">'TaskId'</span>: <span class="token string">'<span class="token builtin">d8ef514d</span>'</span>,
+    <span class="token string">'TaskStatus'</span>: <span class="token string">'scheduled'</span>,
+    <span class="token string">'TimestampsUri'</span>: <span class="token string">'https://unreal-tts-live-demo.s3-us-west-1.amazonaws.com/d8ef514d.json'</span>,
+    <span class="token string">'VoiceId'</span>: <span class="token string">'Scarlett'</span>
+  }
+}</span></code></pre>
+            </div>
+
+            <div class="code-heading">Check Task Status</div>
+            <div class="code-subeading">Make a GET request with <span>TaskId</span> in the URL to check the
+              status.</div>
+
+            <div class="card card-full-width -code-response">
+              <pre class="core-prismjs language-javascript" tabindex="0"><code class="language-javascript"><span class="token keyword">const</span> axios <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'axios'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> headers <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">'Authorization'</span><span class="token operator">:</span> <span class="token string">'Bearer <span class="code-api-key">YOUR_API_KEY</span>'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token function">axios</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">method</span><span class="token operator">:</span> <span class="token string">'get'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">url</span><span class="token operator">:</span> <span class="token string">'https://api.v8.unrealspeech.com/synthesisTasks/<span class="token builtin">d8ef514d</span>'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">headers</span><span class="token operator">:</span> headers<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">console.log</span><span class="token punctuation">(</span>JSON.stringify<span class="token punctuation">(</span>response.data<span class="token punctuation">));</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div id="code_reactnative" class="code-wrap">
+          <div id="code_reactnative_short" class="code-type-wrap">
+            <div class="card card-full-width">
+
+              <pre class="core-prismjs language-javascript" tabindex="0"><code class="language-javascript"><span class="token punctuation">// Short endpoint: /stream
+// - Up to 1,000 characters
+// - Synchronous, instant response (0.3s+)
+// - Streams back raw audio data</span>
+
+<span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">"react"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> View<span class="token punctuation">,</span> Button<span class="token punctuation">,</span> ActivityIndicator <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"react-native"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useUnrealSpeech<span class="token punctuation">,</span> blobToDataURI <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"react-native-unrealspeech"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Audio <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"expo-av"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export default function</span> App<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> stream<span class="token punctuation">,</span> requestState <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useUnrealSpeech</span><span class="token punctuation">(</span><span class="token string">"YOUR_API_KEY"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> play <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter">response<span class="token punctuation">:</span> any</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token operator">{</span>
+    <span class="token keyword">try</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>response<span class="token punctuation">.</span>ok<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token function">Error</span><span class="token punctuation">(</span><span class="token string">"Network response was not ok"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">const</span> blobData <span class="token operator">=</span> <span class="token keyword">await</span> response<span class="token punctuation">.</span><span class="token function">blob</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">const</span> blob <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token function">Blob</span><span class="token punctuation">(</span><span class="token punctuation">[</span>blobData<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token string-property property">type</span><span class="token operator">:</span> <span class="token string">"audio/mp3"</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">const</span> uri <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">blobToDataURI</span><span class="token punctuation">(</span>blob<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+      <span class="token keyword">const</span> <span
+ class="token punctuation">{</span> sound <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">await</span> Audio<span class="token punctuation">.</span>Sound<span class="token punctuation">.</span><span class="token function">createAsync</span><span class="token punctuation">(</span><span class="token punctuation">{</span> uri <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>uri<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">await</span> sound<span class="token punctuation">.</span><span class="token function">playAsync</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token string">"Error occurred while playing sound:"</span><span class="token punctuation">,</span> error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> handleSpeak <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token operator">{</span>
+    <span class="token keyword">try</span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> response <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">stream</span><span class="token punctuation">(</span>
+          <span class="token string">"&lt;YOUR_TEXT&gt;"</span><span class="token punctuation">,</span> <span class="token punctuation">// Up to 1,000 characters</span>
+          <span class="token string">"&lt;VOICE_ID&gt;"</span><span class="token punctuation">,</span> <span class="token punctuation">// Scarlett, Dan, Liv, Will, Amy</span>
+          <span class="token string">"192k"</span><span class="token punctuation">,</span> <span class="token punctuation">// 320k, 256k, 192k, ...</span>
+          <span class="token number">0</span><span class="token punctuation">,</span> <span class="token punctuation">// Speed: -1.0 to 1.0</span>
+          <span class="token number">1</span><span class="token punctuation">,</span> <span class="token punctuation">// Pitch: 0.5 to 1.5</span>
+          <span class="token string">"libmp3lame"</span> <span class="token punctuation">// Codec: libmp3lame or pcm_mulaw</span>
+      <span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token function">play</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token string">"Error occurred while handling speak:"</span><span class="token punctuation">,</span> error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token tag">&lt;View</span> <span class="token style-attr">style<span class="token punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> <span class="token string-property property">flex</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token string-property property">justifyContent</span><span class="token operator">:</span> <span class="token string">"center"</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">&gt;</span>
+      <span class="token punctuation">{</span>requestState <span class="token operator">===</span> <span class="token string">"loading"</span> <span class="token operator">?</span> <span class="token punctuation">(</span>
+        <span class="token tag">&lt;ActivityIndicator</span> <span class="token tag">/&gt;</span>
+      <span class="token punctuation">) : (</span> 
+        <span class="token tag">&lt;Button</span> <span class="token style-attr">title<span class="token punctuation">=</span><span class="token string">"Speak"</span></span> <span class="token style-attr">onPress<span class="token punctuation">=</span><span class="token punctuation">{</span>handleSpeak<span class="token punctuation">}</span> <span class="token tag">/&gt;</span>
+      <span class="token punctuation">)}</span>
+    <span class="token tag">&lt;/View&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+            </div>
+          </div>
+          <div id="code_reactnative_medium" class="code-type-wrap">
+            <div class="card card-full-width">
+
+              <pre class="core-prismjs language-javascript" tabindex="0"><code class="language-javascript"><span class="token punctuation">// Medium endpoint: /speech</span>
+<span class="token punctuation">// - Up to 3,000 characters</span>
+<span class="token punctuation">// - Synchronous, takes ~1s per 700 chars</span>
+<span class="token punctuation">// - Returns MP3 and JSON timestamp URLs</span>
+
+<span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">"react"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> StatusBar <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"expo-status-bar"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> StyleSheet<span class="token punctuation">,</span> Button<span class="token punctuation">,</span> View<span class="token punctuation">,</span> ActivityIndicator <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"react-native"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useUnrealSpeech <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"react-native-unrealspeech"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export default function</span> App<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> speech<span class="token punctuation">,</span> requestState <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useUnrealSpeech</span><span class="token punctuation">(</span><span class="token string">"YOUR_API_KEY"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> handleSpeak <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token operator">{</span>
+    <span class="token keyword">const</span> mySpeech <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">speech</span><span class="token punctuation">(</span>
+      <span class="token string">"&lt;YOUR_TEXT&gt;"</span><span class="token punctuation">,</span> <span class="token punctuation">// Up to 3,000 characters</span>
+      <span class="token string">"&lt;VOICE_ID&gt;"</span><span class="token punctuation">,</span> <span class="token punctuation">// Scarlett, Dan, Liv, Will, Amy</span>
+      <span class="token string">"192k"</span><span class="token punctuation">,</span> <span class="token punctuation">// 320k, 256k, 192k, ...</span>
+      <span class="token string">"sentence"</span> <span class="token punctuation">// word or sentence</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>mySpeech<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token tag">&lt;View</span> <span class="token style-attr">style<span class="token punctuation">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>container<span class="token punctuation">}</span><span class="token punctuation">&gt;</span>
+      <span class="token tag">&lt;StatusBar</span> <span class="token style-attr">style<span class="token punctuation">=</span><span class="token string">"auto"</span> <span class="token tag">/&gt;</span>
+      <span class="token punctuation">{</span>requestState <span class="token operator">===</span> <span class="token string">"loading"</span> <span class="token operator">?</span> <span class="token punctuation">(</span>
+        <span class="token tag">&lt;ActivityIndicator</span> <span class="token tag">/&gt;</span>
+      <span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token punctuation">(</span>
+        <span class="token tag">&lt;Button</span> <span class="token style-attr">title<span class="token punctuation">=</span><span class="token string">"Speak"</span></span> <span class="token style-attr">onPress<span class="token punctuation">=</span><span class="token punctuation">{</span>handleSpeak<span class="token punctuation">}</span> <span class="token tag">/&gt;</span>
+      <span class="token punctuation">)}</span>
+    <span class="token tag">&lt;/View&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> styles <span class="token operator">=</span> StyleSheet<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span>
+  <span class="token punctuation">{</span>
+    container<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      flex<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      backgroundColor<span class="token operator">:</span> <span class="token string">"#fff"</span><span class="token punctuation">,</span>
+      alignItems<span class="token operator">:</span> <span class="token string">"center"</span><span class="token punctuation">,</span>
+      justifyContent<span class="token operator">:</span> <span class="token string">"center"</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+
+            </div>
+          </div>
+          <div id="code_reactnative_long" class="code-type-wrap" style="display:none;">
+            <div class="card card-full-width">
+
+              <pre class="core-prismjs language-javascript" tabindex="0"><code class="language-javascript"><span class="token punctuation">// Long endpoint: /synthesisTasks</span>
+<span class="token punctuation">// - Up to 500,000 characters
+// - Asynchronous, takes ~1s per 800 chars
+// - Returns a TaskId (use to check status)</span>
+
+<span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">"react"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> StatusBar <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"expo-status-bar"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> StyleSheet<span class="token punctuation">,</span> Button<span class="token punctuation">,</span> View<span class="token punctuation">,</span> ActivityIndicator <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"react-native"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useUnrealSpeech <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"react-native-unrealspeech"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export default function</span> App<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> 
+    createSynthesisTask<span class="token punctuation">,</span> 
+    getSynthesisTaskStatus<span class="token punctuation">,</span> 
+    speech<span class="token punctuation">,</span> 
+    stream<span class="token punctuation">,</span> 
+    status<span class="token punctuation">,</span> 
+    requestState 
+  <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useUnrealSpeech</span><span class="token punctuation">(</span><span class="token string">"YOUR_API_KEY"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> handleSpeak <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token operator">{</span>
+
+    <span class="token keyword">const</span> task <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">createSynthesisTask</span><span class="token punctuation">(</span>
+      <span class="token string">"&lt;YOUR_TEXT&gt;"</span><span class="token punctuation">,</span> <span class="token punctuation">// Up to 500,000 characters</span>
+      <span class="token string">"&lt;VOICE_ID&gt;"</span><span class="token punctuation">,</span> <span class="token punctuation">// Scarlett, Dan, Liv, Will, Amy</span>
+      <span class="token string">"192k"</span><span class="token punctuation">,</span> <span class="token punctuation">// 320k, 256k, 192k, ...</span>
+      <span class="token string">"sentence"</span> <span class="token punctuation">// word or sentence</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>status<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> response <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">getSynthesisTaskStatus</span><span class="token punctuation">(</span>status<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token tag">&lt;View</span> <span class="token style-attr">style<span class="token punctuation">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>container<span class="token punctuation">}</span><span class="token punctuation">&gt;</span>
+      <span class="token tag">&lt;StatusBar</span> <span class="token style-attr">style<span class="token punctuation">=</span><span class="token string">"auto"</span> <span class="token tag">/&gt;</span>
+      <span class="token punctuation">{</span>requestState <span class="token operator">===</span> <span class="token string">"loading"</span> <span class="token operator">?</span> <span class="token punctuation">(</span>
+        <span class="token tag">&lt;ActivityIndicator</span> <span class="token tag">/&gt;</span>
+      <span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token punctuation">(</span>
+        <span class="token tag">&lt;Button</span> <span class="token style-attr">title<span class="token punctuation">=</span><span class="token string">"Speak"</span></span> <span class="token style-attr">onPress<span class="token punctuation">=</span><span class="token punctuation">{</span>handleSpeak<span class="token punctuation">}</span> <span class="token tag">/&gt;</span>
+      <span class="token punctuation">)}</span>
+    <span class="token tag">&lt;/View&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> styles <span class="token operator">=</span> StyleSheet<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span>
+  <span class="token punctuation">{</span>
+    container<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      flex<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      backgroundColor<span class="token operator">:</span> <span class="token string">"#fff"</span><span class="token punctuation">,</span>
+      alignItems<span class="token operator">:</span> <span class="token string">"center"</span><span class="token punctuation">,</span>
+      justifyContent<span class="token operator">:</span> <span class="token string">"center"</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div id="code_bash" class="code-wrap">
+          <div id="code_bash_short" class="code-type-wrap">
+            <div class="card card-full-width">
+
+              <pre class="core-prismjs language-bash"
+                tabindex="0"><code class="language-bash"><span class="token punctuation"># Short endpoint: /stream
+# - Up to 1,000 characters
+# - Synchronous, instant response (0.3s+)
+# - Streams back raw audio data</span>
+
+<span class="token function">curl</span> <span class="token parameter variable">-X</span> POST <span class="token string">"https://api.v8.unrealspeech.com/stream"</span> <span class="token parameter variable">-H</span> <span class="token string">"Content-Type: application/json"</span> <span class="token parameter variable">-H</span> <span class="token string">"Authorization: Bearer <span class="code-api-key">YOUR_API_KEY</span>"</span> <span class="token parameter variable">--data</span> <span id="code_bash_text" class="token string">'{"Text": "<span class="code-text">&lt;YOUR_TEXT&gt;</span>", "VoiceId": "<span class="code-voice-id">&lt;VOICE_ID&gt;</span>", "Bitrate": "<span class="code-bitrate">128k</span>", "Speed": "<span class="code-speed">0</span>", "Pitch": "<span class="code-pitch">1</span>", "Codec": "<span class="code-codec">libmp3lame</span>"}'</span> <span class="token parameter variable">--output</span> audio.mp3</code></pre>
+
+            </div>
+          </div>
+          <div id="code_bash_medium" class="code-type-wrap" style="display:none;">
+            <div class="card card-full-width">
+
+              <pre class="core-prismjs language-bash" tabindex="0"><code class="language-bash"><span class="token punctuation"># Medium endpoint: /speech
+# - Up to 3,000 characters
+# - Synchronous, takes ~1s per 700 chars
+# - Returns MP3 and JSON timestamp URLs</span>
+
+<span class="token function">curl</span> <span class="token parameter variable">-X</span> POST <span class="token string">"https://api.v8.unrealspeech.com/speech"</span> <span class="token parameter variable">-H</span> <span class="token string">"Content-Type: application/json"</span> <span class="token parameter variable">-H</span> <span class="token string">"Authorization: Bearer <span class="code-api-key">YOUR_API_KEY</span>"</span> <span class="token parameter variable">--data</span> <span class="token string">'{"Text": "<span class="code-text">&lt;YOUR_TEXT&gt;</span>", "VoiceId": "<span class="code-voice-id">&lt;VOICE_ID&gt;</span>", "Bitrate": "<span class="code-bitrate">192k</span>", "Speed": "<span class="code-speed">0</span>", "Pitch": "<span class="code-pitch">1</span>", "TimestampType": "<span class="code-timestamp-type">sentence</span>"}'</span>
+</code></pre>
+
+
+            </div>
+          </div>
+          <div id="code_bash_long" class="code-type-wrap" style="display:none;">
+            <div class="card card-full-width">
+
+              <pre class="core-prismjs language-bash"
+                tabindex="0"><code class="language-bash"><span class="token punctuation"># Long endpoint: /synthesisTasks
+# - Up to 500,000 characters
+# - Asynchronous, takes ~1s per 800 chars
+# - Returns a TaskId (use to check status)</span>
+
+<span class="token function">curl</span> <span class="token parameter variable">-X</span> POST <span class="token string">"https://api.v8.unrealspeech.com/synthesisTasks"</span> <span class="token parameter variable">-H</span> <span class="token string">"Content-Type: application/json"</span> <span class="token parameter variable">-H</span> <span class="token string">"Authorization: Bearer <span class="code-api-key">YOUR_API_KEY</span>"</span> <span class="token parameter variable">--data</span> <span id="code_bash_text" class="token string">'{"Text": "<span class="code-text">&lt;YOUR_TEXT&gt;</span>", "VoiceId": "<span class="code-voice-id">&lt;VOICE_ID&gt;</span>", "Bitrate": "<span class="code-bitrate">128k</span>", "Speed": "<span class="code-speed">0</span>", "Pitch": "<span class="code-pitch">1</span>", "TimestampType": "<span class="code-output-format">sentence</span>"}'</span> </code></pre>
+
+            </div>
+
+            <div class="code-heading code-heading-single">Sample Response</div>
+
+            <div class="card card-full-width code-response">
+              <pre class="core-prismjs language-python" tabindex="0"><code class="language-python"><span class="token punctuation">{
+  <span class="token string">'SynthesisTask'</span>: {
+    <span class="token string">'CreationTime'</span>: <span class="token string">'2023-09-01T15:05:22.15Z'</span>,
+    <span class="token string">'OutputUri'</span>: <span class="token string">'https://unreal-tts-live-demo.s3-us-west-1.amazonaws.com/d8ef514d.mp3'</span>,
+    <span class="token string">'RequestCharacters'</span>: <span class="token string">14</span>,
+    <span class="token string">'TaskId'</span>: <span class="token string">'<span class="token builtin">d8ef514d</span>'</span>,
+    <span class="token string">'TaskStatus'</span>: <span class="token string">'scheduled'</span>,
+    <span class="token string">'TimestampsUri'</span>: <span class="token string">'https://unreal-tts-live-demo.s3-us-west-1.amazonaws.com/d8ef514d.json'</span>,
+    <span class="token string">'VoiceId'</span>: <span class="token string">'Scarlett'</span>
+  }
+}</span></code></pre>
+            </div>
+
+            <div class="code-heading">Check Task Status</div>
+            <div class="code-subeading">Make a GET request with <span>TaskId</span> in the URL to check the
+              status.</div>
+
+            <div class="card card-full-width -code-response">
+              <pre class="core-prismjs language-bash"
+                tabindex="0"><code class="language-bash"><span class="token function">curl</span> <span class="token parameter variable">-X</span> GET <span class="token string">"https://api.v8.unrealspeech.com/synthesisTasks/<span class="token builtin">d8ef514d</span>"</span> <span class="token parameter variable">-H</span> <span class="token string">"Content-Type: application/json"</span> <span class="token parameter variable">-H</span> <span class="token string">"Authorization: Bearer <span class="code-api-key">YOUR_API_KEY</span>"</span> </code></pre>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div style="display:none" class="home-bottom-button-wrap" data-aos="zoom-out" data-aos-delay="300">
+
+      <a class="button button-inline button-outlined" href="https://docs.v8.unrealspeech.com/">
+        <span>API Docs <b>&rarr;</b></span>
+      </a>
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="home-bottom-button-wrap" data-aos="zoom-out" data-aos-delay="300">
+
+      <div style="padding-bottom:30px">
+        <h1 class="font-title font-title-smaller text-gradient-1">Ready to dive in?</h1>
+      </div>
+
+      <div class="button button-inline button-outlined" onclick="showSignInDialog()">
+        <span>Get a Free API Key <b>&rarr;</b></span>
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="home-speed-wrap">
+
+      <div class="home-speed">
+
+        <div class="home-speed-header">
+
+          <h1 class="font-title font-title-smaller -text-gradient-2">Super Fast Text-to-Speech API</h1>
+
+          <h2 class="title-description title-description2">Build real-time apps. Generate long-form audio fast.</h2>
+
+        </div>
+
+        <div class="stats-table-wrap speed-table-wrap" data-aos="zoom-out" data-aos-delay="200">
+
+          <div class="stats-table-box speed-table-box">
+            <div class="stats-text-top"><a href="https://docs.v8.unrealspeech.com/reference/stream">/stream</a></div>
+            <div class="stats-text-middle">Play audio in</div>
+            <div class="text-gradient-2 stats-text-large">0.3s</div>
+          </div>
+          <div class="stats-table-box speed-table-box">
+            <div class="stats-text-top"><a
+                href="https://docs.v8.unrealspeech.com/reference/synthesistasks">/synthesisTasks</a></div>
+            <div class="stats-text-middle">Create 10-hour audio in</div>
+            <div class="text-gradient-2 stats-text-large">15 min</div>
+          </div>
+
+        </div>
+
+        <div class="pricing-button-wrap">
+
+          <div class="button button-inline button-outlined" onclick="showSignInDialog()" data-aos="zoom-out"
+            data-aos-delay="0">
+            <span>Get Started for Free <b>&rarr;</b></span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+    <!-- <div class="home-studio">
+
+          <div class="home-studio-header" data-aos="zoom-out" data-aos-delay="0">
+
+            <h1 class="font-title font-title-smaller -text-gradient-2">Unreal Speech Studio</h1>
+
+            <h2 class="title-description title-description2">Make studio-quality voice overs for podcasts, videos &
+              more.</h2>
+
+          </div>
+
+          <div class="home-studio-image" data-aos="zoom-out" data-aos-delay="50">
+            <a href="/studio"><img src="/images/studio-screenshot-new3.png" loading="lazy" /></a>
+          </div>
+
+          <a class="button button-inline button-outlined" href="/studio" data-aos="zoom-out" data-aos-delay="20">
+            <span>Open Studio <b>&rarr;</b></span>
+          </a>
+
+        </div> -->
+
+
+    <div id="faq" class="faq-root">
+
+      <h2 class="font-title font-title-smaller -text-gradient-2">FAQ</h2>
+
+      <div class="faq-container">
+
+        <span class="faq-item">
+
+          <span class="faq-item-title font-medium"><span class="text">Do you offer voices in other
+              languages?</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              aria-hidden="true" class="chevron">
+              <path fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd"></path>
+            </svg></span>
+
+          <div class="faq-text font-io">Yes, we provide 48 voices across 8 different languages, including US English, UK
+            English, Mandarin Chinese, Hindi, Spanish, Portuguese, Japanese, French and Italian.</div>
+        </span>
+
+        <span class="faq-item">
+
+          <span class="faq-item-title font-medium"><span class="text">Can I create custom voices (voice
+              cloning)?</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              aria-hidden="true" class="chevron">
+              <path fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd"></path>
+            </svg></span>
+
+          <div class="faq-text font-io">Not right now, but we're working on it!</div>
+
+        </span>
+
+        <span class="faq-item">
+
+          <span class="faq-item-title font-medium"><span class="text">What happens if I use all of my monthly
+              characters?</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              aria-hidden="true" class="chevron">
+              <path fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd"></path>
+            </svg></span>
+
+          <div class="faq-text font-io">Additional usage over the monthly allowance will be charged daily at the
+            rate of your current plan:
+
+            <ul>
+              <!--<li>Starter &ndash; $20 per 1M characters</li>-->
+              <li>Basic &ndash; $16 per 1M characters</li>
+              <li>Plus &ndash; $12 per 1M characters</li>
+              <li>Pro &ndash; $10 per 1M characters</li>
+              <li>Enterprise &ndash; $8 per 1M characters</li>
+            </ul>
+
+          </div>
+
+        </span>
+
+        <span class="faq-item">
+
+          <span class="faq-item-title font-medium"><span class="text">What happens to unused characters at the end
+              of the month?</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              aria-hidden="true" class="chevron">
+              <path fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd"></path>
+            </svg></span>
+
+          <div class="faq-text font-io">
+
+            <ul>
+              <li>Free plan &ndash; Characters are reset on the 1st of every month.</li>
+              <li>Paid plan &ndash; Unused characters roll over to the next billing cycle.</li>
+            </ul>
+
+          </div>
+
+        </span>
+
+        <span class="faq-item">
+
+          <span class="faq-item-title font-medium"><span class="text">Can I use generated audio
+              commercially?</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              aria-hidden="true" class="chevron">
+              <path fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd"></path>
+            </svg></span>
+
+          <div class="faq-text font-io">Yes, audio generated with Unreal Speech can be used commercially. The
+            following terms apply, based on your subscription plan:
+
+            <ul>
+              <li>Free plan &ndash; You must attribute Unreal Speech when publishing audio by including a link to
+                "unrealspeech.com" in the description.</li>
+              <li>Paid plan &ndash; You do not need to include any attribution.</li>
+            </ul>
+
+          </div>
+
+        </span>
+
+        <span class="faq-item">
+
+          <span class="faq-item-title font-medium"><span class="text">How do I update my payment method?</span><svg
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+              class="chevron">
+              <path fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd"></path>
+            </svg></span>
+
+          <div class="faq-text font-io">Go to your <a href="/dashboard">Dashboard</a> and choose "Manage
+            Subscription".</div>
+
+        </span>
+
+        <span class="faq-item">
+
+          <span class="faq-item-title font-medium"><span class="text">How do I cancel my subscription?</span><svg
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+              class="chevron">
+              <path fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd"></path>
+            </svg></span>
+
+          <div class="faq-text font-io">You can cancel your subscription at any time. Go to your <a
+              href="/dashboard">Dashboard</a> and choose "Manage Subscription".</div>
+
+        </span>
+
+        <span class="faq-item">
+
+          <span class="faq-item-title font-medium"><span class="text">Do you have an affiliate program?</span><svg
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+              class="chevron">
+              <path fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd"></path>
+            </svg></span>
+
+          <div class="faq-text font-io">Yes! You can earn 15% recurring on all paid referrals. <a
+              href="https://unreal.tolt.io/">Click here</a> to sign up.</div>
+
+        </span>
+
+      </div>
+
+    </div>
+
+
+    
+
+<div class="footer">
+
+	<div class="footer-column">
+
+		<div class="logo logo-footer">
+		  <div class="logo-wrap logo-wrap-footer">
+		    <a href="/"><img class="logo-image" src="/images/unreal-logo.svg" loading="lazy" /></a>
+		  </div>
+		</div>
+
+		<div class="footer-made">Made with ❤️ in SF <br />Powered by <a href="https://huggingface.co/hexgrad/Kokoro-82M" target="_blank">Kokoro TTS</a></div>
+		<a href="https://theresanaiforthat.com/ai/unreal-speech/?ref=featured&v=8041" target="_blank" rel="nofollow"><img width="300" src="https://media.theresanaiforthat.com/featured-on-taaft.png?width=600"></a>
+
+    <a href="https://f.inc/" target="_blank">
+      <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27125%27%20height=%2720%27/%3e"></span><img alt="Founder" src="/images/FounderLogo.svg" loading="lazy" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"></span>
+    </a>
+	</div>
+
+	<div class="footer-column footer-links">
+
+		<a href="https://docs.v8.unrealspeech.com/" target="_blank">API Docs</a>
+		<a href="/pricing">Pricing</a>
+		<a href="/studio">Studio</a>
+		<a href="" onclick="openTidio(); return false">Contact</a>
+		<a href="https://blog.unrealspeech.com/">Blog</a>
+		<a href="/compare">Compare</a>
+		<a href="/ai-apps">Browse AI Apps</a>
+		<a href="https://unreal.tolt.io/">Affiliate</a>
+
+	</div>
+
+	<div class="footer-column">
+		
+		<h3>Recent Posts</h3>
+
+		<div class="footer-posts">
+
+			
+			<a href="https://blog.unrealspeech.com/integrating-fastspeech-2-for-text-to-speech-synthesis-with-fairseq-and-hugging-face/">Integrating FastSpeech 2 for Text-to-Speech Synthesis with Fairseq and Hugging Face</a>
+			
+			<a href="https://blog.unrealspeech.com/exploring-the-potential-of-gpt-sovits-fork-for-text-to-speech-applications/">Exploring the Potential of GPT-SoVITS-Fork for Text-to-Speech Applications</a>
+			
+			<a href="https://blog.unrealspeech.com/exploring-the-gpt-sovits-kancolle-zuikaku-tts-model-a-comprehensive-guide/">Exploring the GPT-SoVITS Kancolle Zuikaku TTS Model: A Comprehensive Guide</a>
+			
+			<a href="https://blog.unrealspeech.com/exploring-voice-synthesis-with-espnet-a-deep-dive-into-the-kan-bayashi_csmsc_fastspeech-model/">Exploring Voice Synthesis with ESPnet: A Deep Dive into the kan-bayashi_csmsc_fastspeech Model</a>
+			
+			<a href="https://blog.unrealspeech.com/introducing-openvoice-revolutionizing-text-to-speech-with-instant-voice-cloning-and-multilingual-capabilities/">Introducing OpenVoice: Revolutionizing Text-to-Speech with Instant Voice Cloning and Multilingual Capabilities</a>
+			
+			<a href="https://blog.unrealspeech.com/how-to-leverage-tweleve-labs-api-for-effortless-youtube-video-summaries-chapters-and-highlights/">How to Leverage Twelve Labs API for Effortless YouTube Video Summaries, Chapters, and Highlights</a>
+			
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+      </div>
+
+      
+
+<audio id="audio_unreal">
+  <source src="" type="audio/mpeg">
+</audio>
+
+<audio id="audio_unreal_onboard">
+  <source src="" type="audio/mpeg">
+</audio>
+
+
+<div id="menu" class="menu">
+  <div class="menu-inner">
+
+    <a href="https://docs.v8.unrealspeech.com/" class="menu-link">API Docs</a>
+    <a href="/pricing" class="menu-link">Pricing</a>
+    <a href="/studio" class="menu-link">Studio</a>
+    <a href="https://blog.unrealspeech.com/" class="menu-link">Blog</a>
+    <a id="sign_in_link_menu" href="" class="menu-link">Sign In</a>
+
+  </div>
+</div>
+
+
+<div id="sign_in" class="dialog-wrap">
+  <div class="dialog-inner">
+
+    <div class="dialog-close"></div>
+
+    <div class="dialog-title">Sign In</div>
+
+    <div id="firebaseui-auth-container"></div>
+
+  </div>
+</div>
+
+
+<div id="copied_message" class="copied-message MuiSnackbar-root MuiSnackbar-anchorOriginBottomLeft css-qwe366" role="presentation">
+  <div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1v82f4w" role="alert" style="opacity: 1; transform: none; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;" direction="up"><div class="MuiAlert-icon css-1l54tgj"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1cw4hi4" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SuccessOutlinedIcon"><path d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"></path></svg></div><div class="MuiAlert-message css-1xsto0d">Copied to clipboard!</div><div class="MuiAlert-action css-1mzcepu"><button id="copied_message_close" class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeSmall css-q28n79" tabindex="0" type="button" aria-label="Close" title="Close"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="CloseIcon"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg><span class="MuiTouchRipple-root css-w0pj6f"></span></button></div></div>
+</div>
+
+
+
+<!--
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+-->
+
+<script>
+  window.intercomSettings = {
+    api_base: "https://api-iam.intercom.io",
+    app_id: "htcixrt3",
+    action_color: "#F92EC6", // "#F935DE", // "#F84751", // "#F85338", //"#FE5336",
+    background_color: "#eee",
+  };
+</script>
+
+
+<script>
+// We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/htcixrt3'
+(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/htcixrt3';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R9DC634LHD"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-R9DC634LHD');
+</script>
+
+
+<!-- Hotjar Tracking Code for Unreal Speech -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3730659,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+<script async src="https://cdn.tolt.io/tolt.js" data-tolt="a9d8badd-4972-496c-ba91-3f3680ecbf68"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/9.13.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.13.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css" />
+
+
+<script src="/jquery-3.5.1.min.js"></script>
+<script src="/landing.js?73673"></script>
+
+
+
+
+
+
+</body>
+
+</html>
