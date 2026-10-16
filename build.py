@@ -211,8 +211,38 @@ T=[
 ("taskade","Taskade","https://www.taskade.com","自動化・AI 代理工作區・免費可用",
  "把待辦、文件和 AI 代理放在同一個工作區，可以用一句話生出小工具、儀表板和自動化流程。免費版可 2 人使用；Pro 每月 10 美元起，最多 10 人共用。介面英文，中文支援未查證。",
  ["自動化","寫作",F,P],"AI 代理 待辦 專案 筆記 心智圖 自動化 App 生成"),
+("playht","PlayHT","https://playht.co","配音・聲音複製・免費可用",
+ "文字轉語音和聲音複製平台，適合旁白、有聲內容和即時語音。免費 Starter 每月 10,000 點、1 個聲音複製名額；Creator 月繳每月 9.99 美元（年繳每月 8.33 美元），每月 100 萬點。介面英文為主。",
+ ["配音",F,P],"文字轉語音 TTS 聲音複製 旁白 API Play.ht"),
+("opusclip","OpusClip","https://www.opus.pro","影片・短影片剪輯・免費可用",
+ "把長影片自動剪成適合社群的短影片，會挑高光片段並上字幕。免費版每月 60 點、匯出有浮水印且限 3 天下載；Starter 每月 15 美元，每月 150 點並去浮水印。",
+ ["影片","字幕",F,P],"短影片 Reels Shorts 剪輯 高光 字幕 社群"),
+("wispr","Wispr Flow","https://wisprflow.ai","寫作・語音輸入・免費可用",
+ "在任何 App 裡用說話代替打字，支援 100 多種語言，也能在本機做會議筆記（不用機器人進場）。免費版桌面每週 2,000 字、手機每週 1,000 字，Notetaker 有上限；Pro 年繳每月 12 美元（月繳 15 美元），口述不限量。",
+ ["寫作","會議",F,P],"語音輸入 口述 dictation 逐字稿 筆記 bot-free"),
+("litmaps","Litmaps","https://www.litmaps.com","研究・文獻地圖・免費可用",
+ "把論文引用關係畫成地圖，從幾篇種子文獻往外找相關研究，適合文獻回顧起步。免費版最多 2 張地圖、每張約 100 篇；Pro 每月 10 美元，地圖與篇數不限。介面英文。",
+ ["研究",F,P],"論文 文獻 引用地圖 學術 discovery 文獻回顧"),
+("scite","Scite","https://scite.ai","研究・引用語境・每月 20 美元內",
+ "不只找論文被誰引用，還標出引用是支持、對比還是提及，方便判斷證據強度。有 7 天免費試用；Basic 年繳每月 12 美元，Pro 年繳每月 40 美元。介面英文。",
+ ["研究",P],"論文 引用 citation 學術 證據 Smart Citations"),
+("tldv","tl;dv","https://tldv.io","會議・錄影逐字稿・免費可用",
+ "自動錄 Zoom、Google Meet、Teams，轉逐字稿並做 AI 摘要，也可剪片段分享。免費版錄音與轉錄不限量（AI 筆記約 10 場、資料保留約 3 個月）；Pro 年繳每席每月 18 歐元（官網美元標價同為 18）。",
+ ["會議","字幕",F,P],"會議紀錄 逐字稿 錄影 Zoom Meet Teams 摘要 片段"),
+("uizard","Uizard","https://uizard.io","設計・UI 原型・免費可用",
+ "用文字或手繪草圖快速生成 App／網站介面原型，適合不會設計軟體的人先把畫面想清楚。免費版每月 3 次 AI 生成、最多 2 個專案；Pro 年繳每月 12 美元，每月 500 次 AI 生成。",
+ ["設計","做 App",F,P],"UI UX 原型 wireframe mockup 介面 草圖 Autodesigner"),
+("slidebean","Slidebean","https://slidebean.com","簡報・募資簡報・每月 20 美元內",
+ "專為新創募資簡報設計，AI 幫你排版，並提供常見募資結構範本。可免費試用基本功能；Starter 年繳每月 7 美元，AI 簡報與範本不限。介面英文。",
+ ["簡報",P],"投影片 募資 pitch deck 新創 投資人 PPT"),
+("mindstudio","MindStudio","https://www.mindstudio.ai","自動化・AI 代理・免費可用",
+ "用拖拉方式打造 AI 代理和小工具，串接模型與常用服務，偏無程式碼自動化。免費版可建 1 個代理（另計用量）；付費版代理不限量，年繳每月 16 美元（月繳 20 美元）。介面英文。",
+ ["自動化","做 App",F,P],"AI 代理 Agent 無程式碼 工作流程 拖拉"),
+("paperpal","Paperpal","https://paperpal.com","寫作・學術論文・免費可用",
+ "專為學術寫作的英文潤稿與生成工具，檢查文法、學術語氣，也有改寫與投稿前檢查。免費版每月 200 次語言修正，AI 功能有額度上限；Prime 年繳每月 12 美元（一年 144 美元，月繳 25 美元）。",
+ ["寫作","研究",F,P],"論文 學術 潤稿 文法 投稿 英文寫作"),
 ]
-assert len(T)==70
+assert len(T)==80
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -234,9 +264,9 @@ cnt.textContent=n+' 個';em.style.display=n?'none':'block';}
 bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.classList.remove('on')});b.classList.add('on');cat=b.dataset.k;run();});});
 ps.forEach(function(b){b.addEventListener('click',function(){ps.forEach(function(x){x.classList.remove('on')});b.classList.add('on');pri=b.dataset.p;run();});});
 q.addEventListener('input',run);document.getElementById('qc').addEventListener('click',function(){q.value='';run();q.focus();});})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-15</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-16</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-15 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-16 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
