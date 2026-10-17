@@ -241,8 +241,38 @@ T=[
 ("paperpal","Paperpal","https://paperpal.com","寫作・學術論文・免費可用",
  "專為學術寫作的英文潤稿與生成工具，檢查文法、學術語氣，也有改寫與投稿前檢查。免費版每月 200 次語言修正，AI 功能有額度上限；Prime 年繳每月 12 美元（一年 144 美元，月繳 25 美元）。",
  ["寫作","研究",F,P],"論文 學術 潤稿 文法 投稿 英文寫作"),
+("chronicle","Chronicle","https://chroniclehq.com","簡報・網頁式簡報・免費可用",
+ "做出像網頁一樣可捲動、帶動畫的互動式簡報，AI 可以幫你排版和改內容，Plus 方案還能匯出 PowerPoint。免費版最多 10 份簡報、可發布成網頁和匯出 PDF，但不含 AI 功能；Pro 年繳每人每月 12 美元（月繳 15 美元），每月 500 點 AI 點數並去除浮水印。介面英文。",
+ ["簡報","設計",F,P],"投影片 互動簡報 網頁簡報 PDF PowerPoint 動畫 Muse"),
+("prezi","Prezi","https://prezi.com","簡報・動態縮放・每月 20 美元內",
+ "招牌是可以縮放、移動畫面的非線性簡報，也能做影片和資訊圖，Prezi AI 可從文字快速生成簡報。官網可先用 Basic 方案（額度未查證），付費版都有 14 天免費試用；Standard 年繳每月 7 美元含 500 點 AI 點數，Plus 年繳每月 19 美元 AI 不限量，可匯入 PowerPoint、匯出 PDF。中文介面未查證。",
+ ["簡報","影片",P],"投影片 縮放 動態簡報 資訊圖 影片 PowerPoint 匯入 教學"),
+("storydoc","Storydoc","https://www.storydoc.com","簡報・互動提案・每月 20 美元內",
+ "把簡報、提案和銷售文件做成互動網頁，AI 能從零生成整份，還能追蹤對方看了哪幾頁。Starter 年繳每月 19.8 美元（一年 237.6 美元），5 份啟用中文件、每月 20 次 AI 圖片和 25 次 AI 文字；可先免費建立試用（免費額度未查證）。偏業務與行銷用途，介面英文。",
+ ["簡報","寫作",P],"投影片 提案 pitch deck 銷售 互動簡報 分析追蹤 個人化 CRM"),
+("hemingway","Hemingway Editor","https://hemingwayapp.com","寫作・可讀性潤稿・免費可用",
+ "把冗長句、被動語態、太難的字用顏色標出來，並給可讀性年級分數，讓英文寫得更清楚。官網的基本檢查和線上文法、可讀性小工具免費；AI 版 Hemingway Editor Plus 有 2 週免費試用，Individual 5K 年繳每月 8.33 美元（一年 100 美元），每月 5,000 句 AI 改寫。只適合英文寫作。",
+ ["寫作",F,P],"潤稿 可讀性 文法 英文寫作 改寫 簡潔 編輯"),
+("novelcrafter","Novelcrafter","https://www.novelcrafter.com","寫作・小說工作室・每月 20 美元內",
+ "給小說作者的寫作工作室，用「Codex」管理角色、地點和設定，AI 依你的大綱和資料續寫或改寫，可接自己的 AI 金鑰。沒有永久免費版，有 21 天全功能免費試用（不需信用卡）；Scribe 每月 4 美元（不含 AI），可用 AI 的 Hobbyist 每月 8 美元（自備金鑰），價格會依地區調整。介面英文。",
+ ["寫作",P],"小說 長篇 創作 角色設定 大綱 世界觀 續寫 BYOK 作者"),
+("narakeet","Narakeet","https://www.narakeet.com","配音・簡報轉影片・免費可用",
+ "貼上文字或丟進 PowerPoint，就自動配上 AI 旁白、做成有聲影片，也能做語音轉文字。免費帳號可轉換 20 次、腳本長度有限且不能商用；付費是一次性加值不是訂閱，最便宜 6 美元買 30 分鐘（每分鐘 0.2 美元），點數不會過期。",
+ ["配音","簡報","影片",F,P],"文字轉語音 TTS 旁白 PowerPoint 轉影片 有聲書 一次付費 語音轉文字"),
+("avoma","Avoma","https://www.avoma.com","會議・AI 助理與排程・每月 20 美元內",
+ "錄影、即時逐字稿、AI 摘要、會後追蹤信一次包辦，還附 1 對 1 排程工具，可把筆記自動存進 CRM。沒有永久免費版，有 14 天免費試用；Startup 年繳每位錄音者每月 19 美元（月繳 29 美元），只看不錄的成員免費。偏業務團隊，介面英文。",
+ ["會議","自動化",P],"會議紀錄 逐字稿 摘要 CRM 排程 業務 sales 追蹤信"),
+("supernormal","Supernormal","https://www.supernormal.com","會議・無機器人筆記・免費可用",
+ "不用讓機器人進會議就能做 AI 會議筆記，還能接著把內容生成簡報、圖片和試算表，並可用 MCP 串到其他工具。免費版永久可用，每天 5 點、每月 15 點；付費方案改成按點數計價，官網價格頁未顯示實際金額（未查證）。介面英文。",
+ ["會議","簡報",F],"會議紀錄 無機器人 bot-free 筆記 簡報生成 MCP 點數"),
+("ifttt","IFTTT","https://ifttt.com","自動化・App 與智慧家庭串接・免費可用",
+ "老牌的「如果這樣、就那樣」自動化服務，串接上千種 App 和智慧家電，Pro+ 也有 AI 服務。免費版可建 2 個 Applet；Pro 年繳每月 2.99 美元（一年 35.88 美元）可建 20 個並支援多步驟和 Webhook，Pro+ 年繳每月 8.99 美元不限數量。介面英文。",
+ ["自動化",F,P],"工作流程 Applet 智慧家庭 串接 Webhook 無程式碼 手機"),
+("albato","Albato","https://albato.com","自動化・平價串接・免費可用",
+ "類似 Zapier 的無程式碼串接平台，付費版加入 AI 代理和平行流程。免費版每月 100 次交易、最多 5 個啟用中流程（每個 2 步）；Pro 年繳每月 15 美元（月繳 22 美元），每月 1,000 次交易、流程和步驟不限，有 7 天試用。介面英文。",
+ ["自動化",F,P],"工作流程 串接 整合 Zapier 替代 無程式碼 AI 代理 webhook"),
 ]
-assert len(T)==80
+assert len(T)==90
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -264,9 +294,9 @@ cnt.textContent=n+' 個';em.style.display=n?'none':'block';}
 bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.classList.remove('on')});b.classList.add('on');cat=b.dataset.k;run();});});
 ps.forEach(function(b){b.addEventListener('click',function(){ps.forEach(function(x){x.classList.remove('on')});b.classList.add('on');pri=b.dataset.p;run();});});
 q.addEventListener('input',run);document.getElementById('qc').addEventListener('click',function(){q.value='';run();q.focus();});})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-16</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-17</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-16 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-17 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
