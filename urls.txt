@@ -28,3 +28,13 @@ uizard https://uizard.io/
 slidebean https://slidebean.com/
 mindstudio https://www.mindstudio.ai/
 paperpal https://paperpal.com/
+languagetool https://languagetool.org/
+squibler https://www.squibler.io/
+mentimeter https://www.mentimeter.com/
+sendsteps https://www.sendsteps.com/en/
+ttsmaker https://ttsmaker.com/
+kits https://www.kits.ai/
+grain https://grain.com/
+spinach https://www.spinach.ai/
+latenode https://latenode.com/
+browseai https://www.browse.ai/

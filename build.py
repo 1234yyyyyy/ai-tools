@@ -271,8 +271,38 @@ T=[
 ("albato","Albato","https://albato.com","自動化・平價串接・免費可用",
  "類似 Zapier 的無程式碼串接平台，付費版加入 AI 代理和平行流程。免費版每月 100 次交易、最多 5 個啟用中流程（每個 2 步）；Pro 年繳每月 15 美元（月繳 22 美元），每月 1,000 次交易、流程和步驟不限，有 7 天試用。介面英文。",
  ["自動化",F,P],"工作流程 串接 整合 Zapier 替代 無程式碼 AI 代理 webhook"),
+("languagetool","LanguageTool","https://languagetool.org","寫作・文法校對・免費可用",
+ "德國團隊做的多語文法與風格檢查工具，支援 30 多種語言，可裝在瀏覽器、Word、Google 文件和 Gmail 裡邊寫邊改。免費版每段文字最多 2,000 字元、AI 改寫每天 3 次；Premium 年繳每月 5.83 美元（一年 69.90 美元，月繳 24.90 美元），每段上限 15 萬字元、改寫不限量。中文檢查能力未查證。",
+ ["寫作",F,P],"文法 校對 拼字 標點 改寫 瀏覽器擴充 Word Google Docs Gmail 多語 德國"),
+("squibler","Squibler","https://www.squibler.io","寫作・小說與劇本・免費可用",
+ "用聊天的方式寫小說、長篇書稿和劇本，AI 會盡量讓角色、情節和結構前後一致，從一個點子一路生成到完整手稿。免費版每月 1,000 點 AI 點數；Plus 年繳每月 15.83 美元（月繳 29.99 美元），每月 1 萬點，可生成整本 200–300 頁的書。介面英文。",
+ ["寫作",F,P],"小說 劇本 書稿 長篇 創作 角色 情節 作者 screenplay 寫書"),
+("mentimeter","Mentimeter","https://www.mentimeter.com","簡報・互動投票・免費可用",
+ "瑞典的互動簡報工具，在簡報裡加入即時投票、文字雲、問答和小測驗，觀眾用手機就能參與；Menti AI 可直接生成整份互動簡報。免費版含 Menti AI，每月 50 位參與者（每月有一次不限人數）；Basic 年繳每位講者每月 14 美元，參與人數不限，可匯入 PowerPoint、Keynote、PDF。",
+ ["簡報",F,P],"互動簡報 投票 文字雲 Q&A 問答 測驗 quiz 教學 會議 PowerPoint 匯入 瑞典"),
+("sendsteps","Sendsteps","https://www.sendsteps.com","簡報・課堂互動・免費可用",
+ "主打教學的互動簡報平台，AI 幫你產生課程、簡報和測驗，上課時用投票、問答讓學生即時參與。免費版永久可用、參與人數不限，AI 生成每 30 天 2 次、PowerPoint 匯入 2 次；Starter 年繳每月 6.5 美元（一年 78 美元，未稅），AI 生成與 PowerPoint 匯入不限次數並去除品牌標誌。介面英文。",
+ ["簡報",F,P],"互動簡報 教學 課堂 投票 測驗 quiz PowerPoint 匯入 老師 問卷"),
+("ttsmaker","TTSMaker","https://ttsmaker.com","配音・免費文字轉語音・免費可用",
+ "簡單好上手的線上文字轉語音，有 600 多種聲音、100 多種語言（含中文），免費版產出的音檔也能商用。免費版每週 2 萬字元、每次最多 500 字元，要過驗證碼且有廣告；Lite 年繳每月 9.99 美元（月繳 13.99 美元），每月 30 萬字元（約 6.9 小時音訊）、無廣告。",
+ ["配音",F,P],"文字轉語音 TTS 中文 旁白 有聲書 免費 商用 MP3 配音"),
+("kits","Kits AI","https://www.kits.ai","配音・AI 歌聲與變聲・免費可用",
+ "給音樂創作者的 AI 歌聲工具，可以把人聲換成其他音色、複製自己的聲音，還有合唱工具。免費版每月 15 分鐘轉換但不能下載；Starter 年繳每月 8 美元（一年 96 美元，月繳 10 美元），每月 60 分鐘轉換、15 分鐘下載，可做專業聲音複製。介面英文。",
+ ["配音",F,P],"AI 歌聲 變聲 voice changer 聲音複製 音樂 人聲 合唱 翻唱 歌手"),
+("grain","Grain","https://grain.com","會議・AI 筆記・免費可用",
+ "自動錄 Zoom、Google Meet、Teams 會議，產生 AI 筆記和待辦，也能剪出重點片段分享；桌面版可以不讓機器人進場就錄音。免費版會議數不限但每場限 45 分鐘、紀錄保留 30 天；Starter 年繳每席每月 15 美元（月繳 19 美元），會議長度與紀錄不限。介面英文。",
+ ["會議",F,P],"會議紀錄 逐字稿 AI 筆記 待辦 片段 Zoom Meet Teams 業務 MCP bot-free"),
+("spinach","Spinach AI","https://www.spinach.ai","會議・按時數計費・免費可用",
+ "會議 AI 助理會錄音、轉逐字稿並整理摘要，支援 100 多種語言，Zoom、Meet、Teams、Webex 都能用，付費版還能把待辦同步到 Jira、Asana 等工具。免費 Starter 有錄音、逐字稿和基本摘要，但錄音只保留 7 天；Pro 按會議時數計費，每小時 2.9 美元、使用者人數不限（每月開會約 6.9 小時內就在 20 美元內）。介面英文。",
+ ["會議","自動化",F,P],"會議紀錄 逐字稿 摘要 待辦 Zoom Meet Teams Webex Jira Asana 按量計費"),
+("latenode","Latenode","https://latenode.com","自動化・按執行時間計費・免費可用",
+ "拖拉式的自動化與 AI 代理平台，可串接 5,500 多種服務、在任何節點寫 JavaScript，也內建無頭瀏覽器和 335 多種模型。依 CPU 執行時間收費，步驟再多也不另計：免費版每月 1 萬 CPU 秒、5 個啟用中流程；超過後隨用隨付、沒有月費，10 萬 CPU 秒約 10.8 美元。介面英文。",
+ ["自動化","寫程式",F,P],"工作流程 workflow 無程式碼 JavaScript AI 代理 Agent Zapier 替代 Make 替代 無頭瀏覽器 MCP"),
+("browseai","Browse AI","https://www.browse.ai","自動化・網頁資料擷取・免費可用",
+ "不用寫程式，在網頁上點選想要的資料就能訓練「機器人」定期抓取並監控變化，例如價格、職缺或商品清單。免費版每月 50 點（最多 50 頁或 500 列資料）；Personal 每月 19 美元起（年繳一次給 12,000 點）。介面英文。",
+ ["自動化",F,P],"網頁抓取 scraper 爬蟲 監控 價格追蹤 無程式碼 資料擷取 名單"),
 ]
-assert len(T)==90
+assert len(T)==100
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -294,9 +324,9 @@ cnt.textContent=n+' 個';em.style.display=n?'none':'block';}
 bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.classList.remove('on')});b.classList.add('on');cat=b.dataset.k;run();});});
 ps.forEach(function(b){b.addEventListener('click',function(){ps.forEach(function(x){x.classList.remove('on')});b.classList.add('on');pri=b.dataset.p;run();});});
 q.addEventListener('input',run);document.getElementById('qc').addEventListener('click',function(){q.value='';run();q.focus();});})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-17</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-18</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-17 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-18 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
