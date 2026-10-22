@@ -301,8 +301,38 @@ T=[
 ("browseai","Browse AI","https://www.browse.ai","自動化・網頁資料擷取・免費可用",
  "不用寫程式，在網頁上點選想要的資料就能訓練「機器人」定期抓取並監控變化，例如價格、職缺或商品清單。免費版每月 50 點（最多 50 頁或 500 列資料）；Personal 每月 19 美元起（年繳一次給 12,000 點）。介面英文。",
  ["自動化",F,P],"網頁抓取 scraper 爬蟲 監控 價格追蹤 無程式碼 資料擷取 名單"),
+("slidesgpt","SlidesGPT","https://slidesgpt.com","簡報・PPT 生成・免費可用",
+ "輸入主題就生成整份投影片，可匯出 PowerPoint、PDF 和 Google 簡報，也能把 PDF 或 YouTube 影片轉成簡報。免費版可建立、檢視和分享簡報，但不能下載；Pro 年繳 89.99 美元（約每月 7.49 美元），每月 10 次下載和 30 張 AI 圖片。介面英文。",
+ ["簡報",F,P],"投影片 PPT PowerPoint Google Slides PDF 轉簡報 YouTube 轉簡報 簡報生成 MCP API"),
+("ahaslides","AhaSlides","https://ahaslides.com","簡報・互動投票・免費可用",
+ "在簡報裡加入即時投票、文字雲、問答、測驗和轉盤，觀眾用手機參與，Pro 方案有 AI 功能。免費版所有題型都能用，每月 50 位參與者；Essential 年繳每月 5.95 美元，參與人數不限並可匯出分析，含 AI 的 Pro 年繳每月 12.95 美元。教師與學生另有優惠價。",
+ ["簡報",F,P],"互動簡報 投票 文字雲 Q&A 問答 測驗 quiz 轉盤 教學 會議 Mentimeter 替代"),
+("trinka","Trinka","https://www.trinka.ai","寫作・學術英文校對・免費可用",
+ "專為學術和技術寫作設計的英文文法與用語檢查，懂 APA、IEEE 等格式，也有改寫、檔案校對、抄襲與 AI 偵測，可裝在 Word 裡用。有不需信用卡的免費 Basic 方案（額度未查證）；Premium 年繳 48 美元（原價 80 美元，約每月 4 美元），寫作功能不限量。",
+ ["寫作","研究",F,P],"學術寫作 論文 英文 文法 校對 改寫 抄襲檢查 AI 偵測 APA IEEE Word"),
+("typeai","Type.ai","https://type.ai","寫作・長篇創作編輯器・免費可用",
+ "給長篇寫作的 AI 編輯器，從小說、劇本到出版都能在裡面完成，AI 可以續寫、改寫並和你討論內容。免費版送一次性的有限點數、用完不會重置；Basic 年繳每月 8 美元（一年 96 美元），每月 50 萬點，首次付費 30 天內可退款。介面英文。",
+ ["寫作",F,P],"長篇 小說 劇本 書稿 創作 編輯器 續寫 改寫 出版 作者"),
+("voicemaker","Voicemaker","https://voicemaker.in","配音・平價文字轉語音・免費可用",
+ "便宜好用的線上文字轉語音，有大量多語聲音，也有語音轉語音、語音轉文字和聲音複製。免費版每月 2.5 萬點、每次最多 250 字元，只能用部分聲音；Starter 每月 5 美元，20 萬點並可商用、可複製 5 種聲音（月繳或年繳未查證）。",
+ ["配音",F,P],"文字轉語音 TTS 旁白 聲音複製 語音轉文字 SSML 商用 平價 印度"),
+("camb","CAMB.AI","https://www.camb.ai","配音・多語配音與翻譯・免費可用",
+ "主打把影片和音訊翻譯成多種語言並保留原本的聲音，也有文字轉語音、旁白和字幕，模型叫 MARS。免費版送一次性 5,000 點；Essentials 每月 5 美元，每月 1 萬點，Pro 每月 20 美元 4.2 萬點；年繳最多可省 2 個月。",
+ ["配音","翻譯","影片",F,P],"AI 配音 多語 影片翻譯 dubbing 文字轉語音 TTS 聲音保留 字幕 在地化"),
+("laxis","Laxis","https://www.laxis.com","會議・紀錄與語音輸入・免費可用",
+ "線上和實體會議都能錄音、轉逐字稿並做摘要，另附一個可在任何 App 用的語音輸入鍵盤，會自動去掉「嗯、呃」。免費 Basic 每月 300 分鐘、每次最多 45 分鐘、紀錄保留 30 天；Premium 每月 9.99 美元，每月 2,000 分鐘並有即時翻譯（計費週期未查證）。",
+ ["會議","自動化",F,P],"會議紀錄 逐字稿 摘要 語音輸入 聽寫 即時翻譯 實體會議 Zoom Meet Teams CRM MCP"),
+("votars","Votars","https://votars.ai","會議・多語逐字稿・免費可用",
+ "會議錄音即時轉逐字稿，支援多語辨識和講者區分，Zoom、Teams、Meet 都能用，付費版還能即時翻譯。免費版每月 300 分鐘、每次最多 30 分鐘、AI 摘要 20 次；Personal 年繳每月 8 美元（月繳 11.99 美元），每月 1,800 分鐘並可下載逐字稿。",
+ ["會議","字幕","翻譯",F,P],"會議紀錄 逐字稿 語音轉文字 多語 講者辨識 即時翻譯 Zoom Teams Meet 摘要"),
+("bubbles","Bubbles","https://usebubbles.com","會議・AI 筆記與錄影留言・免費可用",
+ "AI 筆記員會自動進會議錄影、做摘要和待辦，也能錄螢幕影片讓同事在時間軸上留言，減少開會。免費版每週 5 場會議錄影、每場最多 30 分鐘，影片 2 週後鎖住；1～2 人用的 Pro Personal 年繳每月 18 美元（月繳 22 美元），3 人以上 Pro Teams 年繳每人每月 12 美元。介面英文。",
+ ["會議","影片",F,P],"會議紀錄 AI 筆記 摘要 待辦 錄螢幕 非同步 留言 Loom 替代 notetaker"),
+("bika","Bika.ai","https://bika.ai","自動化・AI 資料庫與工作流程・免費可用",
+ "把資料庫、自動化流程和 AI 代理放在一起，有大量範本可做行銷、銷售和專案的自動化，例如定時寄信、整理報表。免費版最多 5 人、每天 3,000 點 AI 點數、每月 200 次自動化執行；Plus 每席每月 16 美元，每月 3 萬次自動化執行（月繳或年繳未查證）。",
+ ["自動化",F,P],"工作流程 workflow AI 代理 Agent 資料庫 CRM 範本 無程式碼 Airtable 替代 自動寄信"),
 ]
-assert len(T)==100
+assert len(T)==110
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -324,9 +354,9 @@ cnt.textContent=n+' 個';em.style.display=n?'none':'block';}
 bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.classList.remove('on')});b.classList.add('on');cat=b.dataset.k;run();});});
 ps.forEach(function(b){b.addEventListener('click',function(){ps.forEach(function(x){x.classList.remove('on')});b.classList.add('on');pri=b.dataset.p;run();});});
 q.addEventListener('input',run);document.getElementById('qc').addEventListener('click',function(){q.value='';run();q.focus();});})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-18</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-22</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-18 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-22 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)

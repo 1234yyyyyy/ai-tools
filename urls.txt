@@ -38,3 +38,13 @@ grain https://grain.com/
 spinach https://www.spinach.ai/
 latenode https://latenode.com/
 browseai https://www.browse.ai/
+slidesgpt https://slidesgpt.com/
+ahaslides https://ahaslides.com/
+trinka https://www.trinka.ai/
+typeai https://type.ai/
+voicemaker https://voicemaker.in/
+camb https://www.camb.ai/
+laxis https://www.laxis.com/
+votars https://votars.ai/
+bubbles https://usebubbles.com/
+bika https://bika.ai/
