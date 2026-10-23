@@ -331,8 +331,38 @@ T=[
 ("bika","Bika.ai","https://bika.ai","自動化・AI 資料庫與工作流程・免費可用",
  "把資料庫、自動化流程和 AI 代理放在一起，有大量範本可做行銷、銷售和專案的自動化，例如定時寄信、整理報表。免費版最多 5 人、每天 3,000 點 AI 點數、每月 200 次自動化執行；Plus 每席每月 16 美元，每月 3 萬次自動化執行（月繳或年繳未查證）。",
  ["自動化",F,P],"工作流程 workflow AI 代理 Agent 資料庫 CRM 範本 無程式碼 Airtable 替代 自動寄信"),
+("wonderslide","Wonderslide","https://wonderslide.com","簡報・AI 簡報設計・免費可用",
+ "輸入主題或上傳草稿，AI 會自動查資料、排版並套上設計，做出可直接報告的簡報，也能用對話慢慢修改。免費版每月 3 份簡報（每份最多 10 張、僅限非商用、可下載 PDF）；Starter 月繳每月 12.99 美元（年繳每月 9.99 美元起），每月 20 份並可匯出可編輯 PPTX、去浮水印。也有單次購買 1 份 4.99 美元。介面英文。",
+ ["簡報",F,P],"投影片 PPT PPTX 簡報設計 自動排版 資訊圖 PDF 單次購買"),
+("slidesgo","Slidesgo AI","https://slidesgo.com/ai-presentations","簡報・範本與 AI 簡報・免費可用",
+ "以大量設計師做的 Google 簡報和 PowerPoint 範本出名，也能輸入主題讓 AI 直接生成一份簡報，再用線上編輯器修改。免費版每月 3 次 AI 生成、3 次範本下載，需標註來源；Premium 月繳 5.99 美元、年繳 35.99 美元（約每月 3 美元），生成和下載不限（每月上限 150 次）。",
+ ["簡報","設計",F,P],"投影片 範本 模板 Google Slides PowerPoint 教學 AI 簡報 Freepik"),
+("visme","Visme","https://www.visme.co","簡報・設計與資訊圖・免費可用",
+ "簡報、資訊圖、報告、社群圖和互動表單都能做的線上設計平台，內建 AI 生成簡報與文案。免費版可試用編輯器和所有 AI 工具、每月 10 點 AI 點數，但不能公開分享或下載；Starter 年繳每月 12.25 美元（月繳 29 美元），每月 200 點並可下載 JPG、PNG、PDF。介面英文。",
+ ["簡報","設計",F,P],"投影片 資訊圖 infographic 報告 圖表 互動內容 品牌 範本"),
+("paragraphai","ParagraphAI","https://www.paragraphai.com","寫作・AI 鍵盤與改寫・免費可用",
+ "手機 AI 鍵盤加上電腦與瀏覽器擴充，打字時就能幫你修正、改語氣、回覆訊息或寫信，支援 40 多種語言。免費版每天 5 次撰寫、修正、回覆和編輯，每次最多 1,000 字元；Pro 年繳 149.88 美元（約每月 12.49 美元），修正和編輯次數不限（月繳價格未查證）。",
+ ["寫作",F,P],"AI 鍵盤 改寫 潤稿 語氣 回信 Email 訊息 手機 iOS Android 多語"),
+("linguix","Linguix","https://linguix.com","寫作・英文文法與改寫・免費可用",
+ "英文文法、拼字和風格檢查，裝成瀏覽器擴充後在任何網站打字都能用，還有 AI 改寫和文字快捷鍵。免費版有基本文法拼字檢查和有限的改寫；Pro 年繳每月 11.67 美元（一年 140 美元），有進階風格建議與完整改寫。介面英文。",
+ ["寫作",F,P],"英文 文法檢查 拼字 改寫 paraphrase 瀏覽器擴充 快捷鍵 Grammarly 替代"),
+("luvvoice","Luvvoice","https://luvvoice.com","配音・平價文字轉語音・免費可用",
+ "線上文字轉語音，有 200 多種聲音、70 多種語言，可調語速和音調並下載 MP3，也能聲音複製和把電子書轉成有聲書。免費版每月 1 萬字元；Lite 年繳每月 4.75 美元（一年 57 美元，月繳 8 美元），每月 70 萬字元；可商用的 Plus 年繳每月 7.75 美元。",
+ ["配音",F,P],"文字轉語音 TTS 旁白 聲音複製 有聲書 電子書 MP3 平價 商用"),
+("fliki","Fliki","https://fliki.ai","配音・文字轉影片旁白・免費可用",
+ "把想法、腳本、部落格文章或 PPT 變成有 AI 旁白、素材和字幕的影片，聲音選擇很多，也能翻譯成 80 多種語言。免費版每月 3 點、720p 且有浮水印；Standard 年繳每月 16.80 美元（一年 201.60 美元，月繳 28 美元），1080p、聲音複製並可商用。介面英文。",
+ ["配音","影片",F,P],"文字轉影片 AI 旁白 TTS 配音 PPT 轉影片 部落格轉影片 聲音複製 YouTube 短影音"),
+("hedy","Hedy","https://www.hedy.ai","會議・即時 AI 會議教練・免費可用",
+ "不用機器人進會議，在電腦或手機上聽對話，即時給你重點、建議提問和摘要，支援 30 多種語言，實體會議也能用。免費版每月 5 小時，即時 AI 建議每場只到前 30 分鐘；Pro 月繳每月 12.99 美元、年繳 99.99 美元（約每月 8.33 美元），會議長度和次數不限。",
+ ["會議",F,P],"會議紀錄 即時建議 會議教練 摘要 逐字稿 實體會議 無機器人 多語 MCP"),
+("wudpecker","Wudpecker","https://www.wudpecker.io","會議・AI 筆記員・免費可用",
+ "AI 筆記員自動加入 Zoom、Google Meet、Teams 會議做逐字稿和筆記，也能用手機和電腦 App 錄實體會議，支援 39 種語言。免費版每月 10 場會議機器人、每份紀錄可問 AI 3 次，App 錄音不限；Plus 年繳每月 19 美元（月繳 23 美元），每月 30 場並可串 Notion、Slack。介面英文。",
+ ["會議",F,P],"會議紀錄 AI 筆記 逐字稿 摘要 notetaker Zoom Meet Teams 實體會議 Notion"),
+("thunderbit","Thunderbit","https://thunderbit.com","自動化・AI 網頁擷取・免費可用",
+ "Chrome 擴充，用 AI 看懂網頁後一鍵把清單、商品、聯絡資料抓成表格，可匯出到 Excel、Google 試算表、Airtable、Notion，也能排程監控和自動填表。免費版每月 6 頁；Starter 年繳每月 9 美元（一年一次給 5,000 點，月繳價格未查證）。介面英文。",
+ ["自動化",F,P],"網頁抓取 scraper 爬蟲 Chrome 擴充 名單 Email 擷取 監控 自動填表 Excel Google Sheets"),
 ]
-assert len(T)==110
+assert len(T)==120
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -354,9 +384,9 @@ cnt.textContent=n+' 個';em.style.display=n?'none':'block';}
 bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.classList.remove('on')});b.classList.add('on');cat=b.dataset.k;run();});});
 ps.forEach(function(b){b.addEventListener('click',function(){ps.forEach(function(x){x.classList.remove('on')});b.classList.add('on');pri=b.dataset.p;run();});});
 q.addEventListener('input',run);document.getElementById('qc').addEventListener('click',function(){q.value='';run();q.focus();});})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-22</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-23</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-22 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-23 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
