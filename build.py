@@ -361,8 +361,38 @@ T=[
 ("thunderbit","Thunderbit","https://thunderbit.com","自動化・AI 網頁擷取・免費可用",
  "Chrome 擴充，用 AI 看懂網頁後一鍵把清單、商品、聯絡資料抓成表格，可匯出到 Excel、Google 試算表、Airtable、Notion，也能排程監控和自動填表。免費版每月 6 頁；Starter 年繳每月 9 美元（一年一次給 5,000 點，月繳價格未查證）。介面英文。",
  ["自動化",F,P],"網頁抓取 scraper 爬蟲 Chrome 擴充 名單 Email 擷取 監控 自動填表 Excel Google Sheets"),
+("classpoint","ClassPoint","https://www.classpoint.io","簡報・PowerPoint 互動測驗・免費可用",
+ "裝在 PowerPoint 裡的外掛，上課或簡報時直接在投影片上出選擇題、文字雲、填空、畫圖作答，還有 AI 讀投影片自動出題和星星、排行榜等遊戲化功能，不用切換軟體。免費版每班 25 人、最多 3 個班、5 種題型且每份簡報 5 題；Pro 年繳 96 美元（每月 8 美元，月繳方案未查證），每班 200 人、題型和題數不限。介面多語。",
+ ["簡報",F,P],"PowerPoint 外掛 互動 測驗 投票 文字雲 AI 出題 遊戲化 教學 上課 老師 培訓"),
+("aippt","AiPPT","https://www.aippt.com","簡報・AI 簡報生成・免費可用",
+ "輸入主題，或上傳 Word、PDF、網址、筆記，AI 幾分鐘就做出可編輯的整份簡報，有代理模式、範本模式和偏視覺的生成模式，範本很多。免費版一次性送 140 點、最多 15 張投影片，不能匯出 PPT／PDF；Plus 年繳每月 4.3 歐元（一年 52.1 歐元，月繳 7.8 歐元），每月 600 點並可匯出。官網以歐元標價，美元價格未查證。",
+ ["簡報",F,P],"投影片 PPT PDF 匯出 AI 簡報 範本 模板 Word 轉簡報 PDF 轉簡報 心智圖 Markdown"),
+("autocrit","AutoCrit","https://www.autocrit.com","寫作・小說稿件自我編修・免費可用",
+ "專給小說和非虛構作者的寫作與編修工作室，從角色、世界觀、大綱規劃到逐句檢查贅詞、用字、節奏、對話，還能和同類型暢銷書比較文風，並有 AI 試讀回饋。免費版寫作不限字數，含部分編修工具（副詞、用字、可讀性）；Pro 月繳 30 美元、年繳每月 15 美元，解鎖 25 種以上編修工具和完整報告。介面英文。",
+ ["寫作",F,P],"小說 稿件 編修 潤稿 自我編輯 文風 節奏 對話 大綱 角色 Beta Reader 出版 ePub"),
+("yomu","Yomu AI","https://www.yomu.ai","寫作・學術論文與引用",
+ "學術寫作助手，從大綱到整段草稿都能幫忙，打字時 AI 自動補完句子，可改寫、擴寫、縮寫，並找真實論文加引用、自動排參考文獻格式，也能和 PDF 對話。沒有免費版；Pro 年繳每月 10 美元（一年 120 美元，月繳 21 美元），每月 1,000 次 AI 操作。介面英文。",
+ ["寫作",P],"論文 學術寫作 引用 參考文獻 文獻回顧 essay 報告 自動補完 改寫 PDF 聊天 學生"),
+("narrationbox","Narration Box","https://narrationbox.com","配音・旁白與有聲書・免費可用",
+ "文字轉語音和聲音複製平台，有 1,500 多個 AI 旁白聲音、80 多種語言和口音，可指定情緒、語速、停頓和發音，也能把 PDF、EPUB、Word 整本書轉成分章節的有聲書。免費版 1,000 字、1 個複製聲音，匯出有浮水印且音質低；Plus 月繳每月 15 美元，每月 2 萬字、去浮水印高音質（年繳目前促銷 5 折至 11 月 2 日）。介面英文。",
+ ["配音",F,P],"文字轉語音 TTS 旁白 配音 聲音複製 有聲書 audiobook EPUB PDF YouTube 廣告配音 情緒"),
+("turboscribe","TurboScribe","https://turboscribe.ai","會議・不限量轉逐字稿・免費可用",
+ "上傳錄音或影片就轉成逐字稿，支援 98 種以上語言（含繁體中文）、可辨識說話者，還能翻譯成 134 種語言、匯出字幕檔。免費版每天 3 個檔案、每個最長 30 分鐘；Unlimited 年繳每月 10 美元（一年 120 美元，月繳 20 美元），轉錄不限量、單檔最長 10 小時。",
+ ["會議","字幕",F,P],"逐字稿 語音轉文字 轉錄 會議錄音 訪談 Podcast 字幕 SRT 說話者辨識 翻譯 Whisper 繁中"),
+("happyscribe","Happy Scribe","https://www.happyscribe.com","會議・逐字稿與字幕・免費可用",
+ "歐洲團隊做的 AI 會議筆記和轉錄工具，可錄 Zoom、Meet、Teams 和實體會議，也能把任何音訊影片轉逐字稿、字幕和翻譯，支援 150 多種語言，需要時可加購真人校對。免費版會議錄音不限、每場最長 45 分鐘，AI 轉錄只送 10 分鐘試用；Basic 年繳每月 8.5 美元（月繳 17 美元），一年 1,440 分鐘轉錄。",
+ ["會議","字幕",F,P],"會議紀錄 AI 筆記 逐字稿 字幕 SRT 翻譯 轉錄 Zoom Meet Teams 真人校對 歐盟 GDPR"),
+("scribbl","Scribbl","https://scribbl.co","會議・無機器人 AI 筆記・免費可用",
+ "Chrome 擴充，開 Google Meet、Zoom、Teams 會議時不會有機器人進會議室，就能自動產生 AI 筆記、待辦、逐字稿和錄影，還能把會議接到 ChatGPT 或 Claude 提問。免費版每月 10 場、會議長度不限、每場可問 AI 1 次；Pro 年繳每月 13 美元（一年 156 美元，月繳 20 美元），會議和提問不限並可串 HubSpot、Slack。介面英文。",
+ ["會議",F,P],"會議紀錄 AI 筆記 無機器人 Chrome 擴充 Google Meet Zoom Teams 逐字稿 錄影 待辦 HubSpot"),
+("reclaim","Reclaim.ai","https://reclaim.ai","自動化・AI 行事曆排程・免費可用",
+ "串上 Google 或 Outlook 行事曆後，AI 自動幫你保留專注時間、安排待辦和例行習慣、找大家都有空的會議時段，行程變動時會自己重新排。免費版 Lite 有 5 個 AI 代理、1 個行事曆同步、可排 1 週內；Starter 每人每月 10 美元（年繳價格，月繳未查證），可排 8 週、3 個行事曆同步。介面英文。",
+ ["自動化",F,P],"行事曆 排程 時間管理 專注時間 待辦 習慣 會議排程 預約連結 Calendly 替代 Google Calendar Outlook"),
+("raycast","Raycast","https://www.raycast.com","自動化・快捷啟動器與 AI",
+ "取代 Mac 內建 Spotlight 的快捷啟動器（也有 Windows 和 iOS 版），一個快捷鍵就能開 App、搜檔案、管剪貼簿、排視窗，還有上千個擴充把常用操作變成指令；Pro 加入 AI，可在任何地方叫 AI 改寫、翻譯、看螢幕回答。免費版有核心工具但沒有 AI；Pro 月繳 10 美元、年繳 96 美元（約每月 8 美元），每月 500 點 AI 額度。介面英文。",
+ ["自動化",P],"啟動器 launcher Spotlight 快捷鍵 剪貼簿 視窗管理 擴充 指令 AI 聽寫 Mac Windows 生產力"),
 ]
-assert len(T)==120
+assert len(T)==130
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -384,9 +414,9 @@ cnt.textContent=n+' 個';em.style.display=n?'none':'block';}
 bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.classList.remove('on')});b.classList.add('on');cat=b.dataset.k;run();});});
 ps.forEach(function(b){b.addEventListener('click',function(){ps.forEach(function(x){x.classList.remove('on')});b.classList.add('on');pri=b.dataset.p;run();});});
 q.addEventListener('input',run);document.getElementById('qc').addEventListener('click',function(){q.value='';run();q.focus();});})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-23</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-24</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-23 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-24 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)

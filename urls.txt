@@ -58,3 +58,13 @@ fliki https://fliki.ai/
 hedy https://www.hedy.ai/
 wudpecker https://www.wudpecker.io/
 thunderbit https://thunderbit.com/
+classpoint https://www.classpoint.io/
+aippt https://www.aippt.com/
+autocrit https://www.autocrit.com/
+yomu https://www.yomu.ai/
+narrationbox https://narrationbox.com/
+turboscribe https://turboscribe.ai/
+happyscribe https://www.happyscribe.com/
+scribbl https://scribbl.co/
+reclaim https://reclaim.ai/
+raycast https://www.raycast.com/
