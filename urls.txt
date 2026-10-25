@@ -68,3 +68,13 @@ happyscribe https://www.happyscribe.com/
 scribbl https://scribbl.co/
 reclaim https://reclaim.ai/
 raycast https://www.raycast.com/
+piktochart https://piktochart.com/
+venngage https://venngage.com/
+genially https://genially.com/
+quarkle https://www.quarkle.ai/
+mailmaestro https://www.maestrolabs.com/
+audiopen https://www.audiopen.ai/
+speechactors https://speechactors.com/
+vomo https://vomo.ai/
+sally https://www.sally.io/
+trevor https://www.trevorai.com/
