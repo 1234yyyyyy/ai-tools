@@ -421,8 +421,38 @@ T=[
 ("trevor","Trevor AI","https://www.trevorai.com","自動化・AI 每日排程・免費可用",
  "把待辦清單和 Google、Microsoft 行事曆放在同一個畫面，AI 會預估每件事要花多久、建議放在哪個空檔，拖拉或一鍵就變成行事曆上的時間區塊，也能串 Todoist。免費版個人使用，排程不限、含 AI 時長預估和排程建議；Pro 年繳每月 5 美元、月繳每月 6 美元（官網註明可能含註冊時 25% 折扣），可連多個行事曆帳號並有個人化 AI。介面英文。",
  ["自動化",F,P],"行事曆 排程 時間區塊 time blocking 待辦 每日計畫 Todoist Google Calendar Outlook 專注模式 時間管理"),
+("presenton","Presenton","https://presenton.ai","簡報・開源 AI 簡報產生器・免費可用",
+ "輸入主題或上傳文件，AI 就產生可編輯的 PPTX 和 PDF 簡報，也能學你自己的版型、字型和配色做成範本，還有聊天式修改和 API。程式碼開源（GitHub 上萬顆星），可用 Docker 在自己電腦免費架設、接自己的 AI 金鑰或本地模型；雲端版免費額度未查證，Plus 每月 10 美元（月繳，年繳另享 7 折），每月 200 點。介面英文。",
+ ["簡報",F,P],"AI 簡報 投影片 PPTX PDF 開源 自架 Docker 本地 範本 品牌 API 聊天修改 PowerPoint"),
+("powtoon","Powtoon","https://www.powtoon.com","簡報・動畫簡報與解說影片・免費可用",
+ "老牌動畫簡報和解說影片工具，用卡通角色、範本拖拉就能做出會動的簡報、教學和行銷短片，現在還能把文字、文件一鍵轉成影片，並內建 AI 配音、翻譯配音和數位人。免費版影片最長 3 分鐘、720p、有浮水印；Lite 年繳每月 15 美元（月繳價格未查證），去浮水印每月 5 次匯出、1080p、每年 300 點 AI。介面英文。",
+ ["簡報","影片",F,P],"動畫簡報 解說影片 explainer 卡通角色 白板動畫 教學影片 行銷短片 範本 AI 配音 數位人 翻譯 螢幕錄影"),
+("speaktor","Speaktor","https://speaktor.com","配音・文字轉語音與影片配音",
+ "把文字、文件或網頁轉成自然的 AI 語音，支援 55 種以上語言、多人對話配音，可匯出 MP3、WAV 和 SRT 字幕，Pro 還能用自己的聲音複製做影片翻譯配音，有網頁和手機版。可免費試用（額度未查證）；Lite 年繳每月 4.99 美元（一年 59.99 美元，月繳 9.99 美元），每月 90 分鐘；Pro 年繳每月 12.49 美元，每月 600 分鐘。介面多語。",
+ ["配音","影片",P],"文字轉語音 TTS 旁白 配音 多人對話 影片配音 聲音複製 翻譯 MP3 WAV SRT 字幕 有聲書 手機 App"),
+("anarlog","Anarlog（原 Hyprnote）","https://anarlog.so","會議・開源本地 AI 會議筆記・免費可用",
+ "前身是 Hyprnote，開源（MIT）的會議筆記 App，直接錄電腦的系統音訊，不會有機器人進會議室，轉錄和摘要可以全部在自己電腦上跑，也能接自己的 AI 金鑰，還有本地 API、CLI 和 MCP。免費版本地轉錄不限量；Pro 每人每月 14 美元（年繳一年 140 美元），加雲端轉錄、聽寫、同步和團隊共享。Mac 版最成熟，Windows、Linux 為測試版。介面英文。",
+ ["會議",F,P],"會議紀錄 AI 筆記 無機器人 本地 離線 隱私 開源 MIT 逐字稿 摘要 系統音訊 Hyprnote Char MCP Mac Windows Linux"),
+("meetily","Meetily","https://meetily.ai","會議・本地隱私會議助理・免費可用",
+ "開源的會議記錄與筆記工具，錄音、轉錄、摘要全部在你的電腦上完成、資料不上雲，支援 Windows GPU 加速、匯入 10 種影音格式重新轉錄。社群版開源免費、有完整本地轉錄引擎與本地 AI；Pro 年繳每人每月 10 美元（一年 120 美元，月繳價格未查證），加說話者辨識、自訂範本、自動偵測會議和 PDF／DOCX／Markdown 匯出。介面英文。",
+ ["會議",F,P],"會議紀錄 逐字稿 本地 離線 隱私 開源 Whisper 摘要 說話者辨識 Windows GPU 匯出 DOCX Markdown"),
+("macwhisper","MacWhisper","https://goodsnooze.gumroad.com/l/macwhisper","會議・Mac 本地語音轉文字・免費可用",
+ "獨立開發者做的 Mac 原生 App，用 Whisper 模型在電腦上把錄音、影片、Podcast 轉成逐字稿和字幕，不用上傳雲端，M 系列晶片跑得很快。免費版可用基本模型轉錄；Pro 是一次買斷、沒有訂閱（Gumroad 頁面顯示個人授權約 72.91 美元，實際以結帳幣別為準），轉錄不限量並享未來更新。只支援 macOS 14 以上。介面英文。",
+ ["會議","字幕",F],"語音轉文字 逐字稿 字幕 SRT Whisper 本地 離線 Mac Podcast 訪談 會議錄音 一次買斷"),
+("superwhisper","Superwhisper","https://superwhisper.com","寫作・AI 語音聽寫・免費可用",
+ "按一個快捷鍵開口講，在任何 App 裡直接變成整理好的文字，可以選正式、輕鬆、法律等語氣模式，模型能離線在本機跑，也支援會議錄音（Mac）、檔案轉錄和翻譯成英文，有 Mac、Windows、iOS、Android 版。免費版本機語音轉文字可一直用（另送 3,000 字 Pro 試用）；Pro 每月 8.49 美元（年繳和買斷價格未查證），雲端和本地模型不限、可用自己的 API 金鑰。介面英文。",
+ ["寫作","會議",F,P],"語音聽寫 語音輸入 dictation 語音轉文字 Whisper 離線 本地 快捷鍵 語氣 翻譯 Mac Windows iPhone Android 打字加速"),
+("konnectify","Konnectify","https://konnectify.co","自動化・AI 代理與工作流程・免費可用",
+ "印度團隊做的自動化平台，用拖拉式流程或 AI 代理串起 200 多個商務 App（Slack、Salesforce、Zendesk、Freshdesk 等），自動搬資料、建工單、發通知，Zapier 和 Make 的便宜替代。免費版每月 2,000 個任務、3 個 AI 代理、3 個整合；Startup 每月 12 美元，1 萬點、整合不限，並有 Webhook、迴圈、分支和 AI 協助建流程。介面英文。",
+ ["自動化",F,P],"自動化 工作流程 AI 代理 iPaaS 整合 Zapier 替代 Make 替代 Slack Salesforce Zendesk Freshdesk Webhook 無程式碼"),
+("buildship","BuildShip","https://buildship.com","自動化・AI 工作流程與後端 API",
+ "用視覺化節點拖拉，加上 AI 幫你寫節點，就能做出 AI 工作流程、AI 代理、排程任務和後端 API，常拿來當 FlutterFlow、Bubble 等無程式碼 App 的後端。沒有永久免費版，只有 7 天免費試用；Starter 年繳每月約 19 美元（一年 225 美元，月繳價格未查證），每月 2 萬點、20 個流程、10 個代理。介面英文。",
+ ["自動化","做 App",P],"自動化 工作流程 AI 代理 後端 API 低程式碼 無程式碼 排程 資料庫 FlutterFlow Bubble Webhook OpenAI"),
+("shyeditor","Shy Editor","https://www.shyeditor.com","寫作・小說與長文 AI 寫作室・免費可用",
+ "給小說家和長文作者的線上寫作室，有 Markdown 編輯器、筆記與資料庫、軟木板（corkboard）視圖、書目引用，AI 助理會給寫作建議、檢查文法，Pro 還能學你的寫作風格、做深度研究。免費版每月 20 點 AI、專案不限；Pro 每月 10 美元（月繳，年繳價格未查證），每月 500 點 AI，並可匯出 Markdown、PDF、DOCX。介面英文。",
+ ["寫作",F,P],"小說 長篇 寫作室 Markdown 筆記 軟木板 大綱 書目 引用 文法 寫作風格 研究 Scrivener 替代"),
 ]
-assert len(T)==140
+assert len(T)==150
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -459,9 +489,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-25</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-26</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-25 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-26 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
