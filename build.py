@@ -451,8 +451,38 @@ T=[
 ("shyeditor","Shy Editor","https://www.shyeditor.com","寫作・小說與長文 AI 寫作室・免費可用",
  "給小說家和長文作者的線上寫作室，有 Markdown 編輯器、筆記與資料庫、軟木板（corkboard）視圖、書目引用，AI 助理會給寫作建議、檢查文法，Pro 還能學你的寫作風格、做深度研究。免費版每月 20 點 AI、專案不限；Pro 每月 10 美元（月繳，年繳價格未查證），每月 500 點 AI，並可匯出 Markdown、PDF、DOCX。介面英文。",
  ["寫作",F,P],"小說 長篇 寫作室 Markdown 筆記 軟木板 大綱 書目 引用 文法 寫作風格 研究 Scrivener 替代"),
+("chatslide","ChatSlide","https://www.chatslide.ai","簡報・文件轉簡報與講解影片・免費可用",
+ "上傳 PDF、Word、PPTX、CSV 或貼網址，AI 代理會先規劃大綱再做出整份可編輯簡報，附圖表、講稿，還能一鍵把簡報變成有數位人講解的影片，匯出 PPTX、PDF。有免費方案（只讀長文件開頭、額度未查證）；Plus 年繳每月 8.25 美元（一年 99 美元，月繳 14.90 美元），每月 500 點。介面英文。",
+ ["簡報","影片",F,P],"AI 簡報 投影片 PDF 轉簡報 文件轉簡報 PPTX 講稿 圖表 數位人 講解影片 Keynote 匯出 AI 代理"),
+("mapify","Mapify","https://mapify.so","簡報・AI 心智圖摘要・免費可用",
+ "前身叫 Chatmind 的 AI 心智圖工具，把 PDF、文件、YouTube 影片、網頁或錄音一鍵整理成心智圖，可再編輯、問答、做深度研究，也能直接當簡報播放，匯出 PDF、Markdown、SVG。免費版一次性 30 點、可做 5 份文件和 5 支影片；Basic 年繳每月 5.99 美元（月繳 9.99 美元），每月 1,000 點。有網頁、擴充功能和手機 App，支援中文。",
+ ["簡報","研究",F,P],"心智圖 mind map 摘要 PDF 摘要 YouTube 摘要 Podcast 錄音 深度研究 簡報播放 Xmind Markdown SVG 讀書筆記"),
+("tana","Tana","https://tana.inc","會議・AI 會議代理與筆記・免費可用",
+ "原本以大綱筆記出名的 Tana，現在主打會議：不用機器人進會議室就能錄 Zoom、Teams、Google Meet，自動產生逐字稿、摘要和待辦，再整理進你的筆記和知識庫，並支援 MCP 和各種整合。免費版每月 5 場會議、50 次 AI 查詢；Pro 早鳥價年繳每人每月 20 美元（月繳 30 美元），會議不限。介面英文。",
+ ["會議","寫作",F,P],"會議紀錄 會議筆記 無機器人 逐字稿 摘要 待辦 大綱筆記 知識庫 Zoom Teams Google Meet MCP 整合"),
+("auphonic","Auphonic","https://auphonic.com","配音・Podcast 與旁白 AI 音訊後製・免費可用",
+ "奧地利團隊做的 AI 音訊後製服務，上傳錄音或影片就自動調音量、降噪、去回音、剪掉贅字和停頓，輸出符合 Podcast、YouTube 響度標準的聲音，也能做多軌和自動上字幕章節（付費）。免費每月 2 小時（成品會加 Auphonic 片頭音效）；年繳每月 11 美元（一年 132 美元），每月 9 小時，另有一次性點數。介面英文。",
+ ["配音","影片",F,P],"音訊後製 降噪 去回音 音量平衡 響度 Podcast 旁白 錄音 剪贅字 去停頓 多軌 字幕 章節 API"),
+("cleanvoice","Cleanvoice AI","https://cleanvoice.ai","配音・Podcast AI 自動剪輯・每月 20 美元內",
+ "專門幫 Podcast 和旁白錄音自動清理：刪掉「嗯、呃」等贅字、口水聲、呼吸聲、過長停頓和背景雜音，還能做錄音室音質強化、逐字稿與摘要，可匯出時間軸給剪輯軟體接著修。可免費試用（不需信用卡，額度未查證）；訂閱每月 11 美元起，每月 10 小時，未用完可累積，另有隨用隨付點數。介面英文。",
+ ["配音","影片",P],"Podcast 剪輯 贅字 填充詞 口水聲 呼吸聲 停頓 降噪 錄音室音質 旁白 逐字稿 時間軸 API"),
+("goodtape","Good Tape","https://goodtape.io","會議・記者用高準確度逐字稿・每月 20 美元內",
+ "丹麥團隊做的轉錄工具，強調準確度和隱私（資料在歐盟處理、不拿來訓練模型），支援 100 多種語言、說話者標示、AI 摘要、批次上傳和錄音 App，適合採訪、會議和研究訪談。免費試用 1 小時；Pro 年繳每月 16 歐元（約 18.6 美元，依匯率；月繳價格未查證），每月 20 小時。介面英文。",
+ ["會議","字幕",P],"逐字稿 語音轉文字 採訪 訪談 記者 會議錄音 說話者辨識 AI 摘要 字幕匯出 GDPR 隱私 錄音 App MCP"),
+("wreally","Transcribe by Wreally","https://transcribe.wreally.com","會議・平價逐字稿與聽打工具",
+ "美國小公司做的老牌聽打軟體，有整合播放器、快捷鍵、踏板和語音聽寫幫你手動打逐字稿，也能用機器自動轉錄（含時間碼、說話者辨識、做字幕），不會自動續約。沒有永久免費版：自己聽打版一年 20 美元（等於每月不到 2 美元），自動轉錄再加每小時 6 美元，可免費試用 1 週。介面英文。",
+ ["會議","字幕",P],"逐字稿 聽打 語音轉文字 自動轉錄 時間碼 說話者辨識 字幕 踏板 快捷鍵 語音聽寫 訪談 論文訪談 便宜"),
+("parseur","Parseur","https://parseur.com","自動化・AI 文件與郵件資料擷取・免費可用",
+ "把發票、訂單、收據、PDF 或電子郵件轉寄給它，AI 就自動抓出需要的欄位，輸出到 Excel、Google 試算表，或透過 Zapier、Make、Power Automate、Webhook、API 送進其他系統。免費版每月 20 頁；付費 100 頁方案月繳每月 49 美元（年繳每月 39 美元），超過 20 美元預算。介面英文。",
+ ["自動化",F],"文件擷取 資料擷取 OCR 發票 收據 訂單 PDF 解析 郵件解析 Excel Google 試算表 Zapier Make Webhook API"),
+("mem","Mem","https://get.mem.ai","寫作・AI 筆記與個人助理・免費可用",
+ "AI 筆記 App，隨手記下筆記、會議、想法和研究，不用自己分類，Mem Agent 會自動找出待辦和專案、在對的時候提醒你，也能用語音模式錄會議或自言自語整理成筆記。免費版每月 25 則新筆記、25 則訊息、3 小時語音模式；Plus 每月 9 美元，額度加倍、語音 10 小時。介面英文。",
+ ["寫作","會議",F,P],"AI 筆記 第二大腦 知識管理 待辦 專案追蹤 語音筆記 會議筆記 個人助理 WhatsApp Email"),
+("saner","Saner.AI","https://www.saner.ai","寫作・ADHD 友善的 AI 筆記與待辦助理・免費可用",
+ "AI 個人助理，主打 ADHD 族群：把筆記、電子郵件、行事曆和待辦放在同一處，用聊天就能搜尋筆記、把信件變成待辦、排優先順序和排進行程，可同步 Google Drive、Gmail、Slack，有 Chrome 擴充和手機 App。免費版每月 30 次 AI、100 則筆記；Starter 每月 8 美元起（月繳或年繳價差未查證）。介面英文。",
+ ["寫作","自動化",F,P],"AI 筆記 待辦 ADHD 個人助理 郵件轉待辦 行事曆 排程 知識管理 Chrome 擴充 Google Drive Gmail Slack"),
 ]
-assert len(T)==150
+assert len(T)==160
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -489,9 +519,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-26</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-27</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-26 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-27 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
