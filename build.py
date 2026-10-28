@@ -481,8 +481,38 @@ T=[
 ("saner","Saner.AI","https://www.saner.ai","寫作・ADHD 友善的 AI 筆記與待辦助理・免費可用",
  "AI 個人助理，主打 ADHD 族群：把筆記、電子郵件、行事曆和待辦放在同一處，用聊天就能搜尋筆記、把信件變成待辦、排優先順序和排進行程，可同步 Google Drive、Gmail、Slack，有 Chrome 擴充和手機 App。免費版每月 30 次 AI、100 則筆記；Starter 每月 8 美元起（月繳或年繳價差未查證）。介面英文。",
  ["寫作","自動化",F,P],"AI 筆記 待辦 ADHD 個人助理 郵件轉待辦 行事曆 排程 知識管理 Chrome 擴充 Google Drive Gmail Slack"),
+("xmind","Xmind（含 Xmind AI）","https://xmind.com","簡報・心智圖與 AI 發想・免費可用",
+ "老牌心智圖軟體，現在內建 Xmind AI：輸入一句話就展開成完整心智圖，也能摘要長文、檔案和網址，把專案拆成待辦，再用 Pitch 模式把心智圖直接變成簡報播放，匯出 PNG、SVG、PDF、Markdown 和 Office 格式。免費版可建 10 張線上心智圖、送 50 點 AI；Pro 年繳每月 4.92 美元（月繳 10 美元），Premium 年繳每月 8.25 美元（月繳 15 美元）、每月 500 點 AI。支援中文。",
+ ["簡報","研究",F,P],"心智圖 mind map 腦力激盪 發想 大綱 摘要 PDF 簡報 Pitch 甘特圖 待辦 Markdown Office 匯出 中文"),
+("slidescom","Slides.com","https://slides.com","簡報・網頁式簡報與 AI 代理・免費可用",
+ "老牌線上簡報工具，可以手動精細排版，也能用內建 AI 代理起草、潤飾投影片，或把 Claude、ChatGPT 透過 MCP 接進來直接改簡報；簡報能線上播放、分享連結、嵌入網頁、匯出 PDF，還能看觀眾停在哪一頁。有免費版（AI 額度未查證）；Lite 年繳每月 5 美元，每月 50 點 AI；Pro 年繳每月 10 美元，每月 400 點 AI 和 API、MCP（月繳價格未查證）。介面英文。",
+ ["簡報",F,P],"線上簡報 投影片 reveal.js HTML 簡報 AI 代理 MCP Claude ChatGPT 嵌入 分享連結 PDF 匯出 觀看分析 程式碼簡報"),
+("audioread","Audioread","https://audioread.com","配音・文章轉 Podcast 朗讀・免費可用",
+ "把網頁文章、PDF、電子郵件和 RSS 轉成自然的 AI 朗讀，變成你自己的私人 Podcast 頻道，用 Apple Podcasts、Spotify 等任何播放器在通勤時聽，支援 150 多種語言、附 AI 摘要，內容 30 天後自動刪除。免費版每月 3 篇、每篇限 1,000 字元（約 1 分鐘）；Pro 每月 9.99 美元，每月 100 萬字元、文章長度不限、可下載音檔。有網頁、iOS 和 Android App。介面英文。",
+ ["配音","研究",F,P],"文字轉語音 TTS 朗讀 文章轉音訊 PDF 轉語音 Podcast RSS 稍後讀 通勤 有聲 摘要 Email 電子報 多語"),
+("listening","Listening.com","https://www.listening.com","配音・論文與 PDF 朗讀 App",
+ "專為學生和研究者做的朗讀 App，用像真人的 AI 聲音把學術論文、PDF 和網頁文章念給你聽，會自動跳過參考文獻和引用、能只聽摘要與結果，還能邊聽邊做筆記，並整合 Zotero 和瀏覽器擴充。沒有永久免費版，只有 3 天免費試用；年繳每月 3.25 美元（一年 39 美元），月繳 12.99 美元。有網頁、桌面和手機 App。介面英文。",
+ ["配音","研究",P],"論文朗讀 文字轉語音 TTS PDF 轉語音 學術 研究 Zotero 文獻 學生 讀書 有聲 跳過引用 閱讀障礙 ADHD"),
+("craft","Craft","https://www.craft.do","寫作・精美文件與 AI 筆記・免費可用",
+ "設計感很強的文件與筆記 App，把文件、待辦、行事曆、白板和每日筆記放在一起，內建 AI 可以幫你寫、改寫、摘要，寫好的頁面一鍵就能發布成網頁。免費版總共 1,500 個區塊、含基本 AI 模型；Plus 年繳每月 6.4 美元（月繳 8 美元），內容不限並可用最強的 AI 模型；學生驗證後 Plus 免費。Mac、Windows、iOS、Android 和網頁都能用。介面英文。",
+ ["寫作",F,P],"筆記 文件 AI 寫作 摘要 改寫 待辦 每日筆記 白板 發布網頁 部落格 知識庫 Notion 替代 Mac iPad 學生免費"),
+("capacities","Capacities","https://capacities.io","寫作・物件導向 AI 筆記與知識庫・免費可用",
+ "歐洲遠端小團隊做的「第二大腦」筆記 App，把書、人物、想法、會議都當成不同類型的物件互相連結，不用煩惱資料夾分類；Pro 有 AI 助理能跟筆記對話、分析圖片、PDF 和網頁，還有白板、任務和行事曆整合。免費版筆記不限量、可跨裝置同步；Pro 每月 9.99 美元（年繳約省 16%），AI 額度不多，想常用 AI 可再加購 Plus（年繳每月 8.33 美元）。介面英文。",
+ ["寫作","研究",F,P],"筆記 第二大腦 知識管理 PKM 物件 雙向連結 AI 助理 PDF 分析 白板 任務 行事曆 Readwise Kindle Obsidian 替代"),
+("goblin","Goblin Tools","https://goblin.tools","寫作・ADHD 友善的小工具組・免費可用",
+ "工程師 Bram De Buyser 個人做的免費小工具集，主要幫神經多樣性族群處理難以下手的事：Magic ToDo 把一件大事拆成小步驟、Formalizer 改寫語氣（更正式、更客氣）、Judge 判斷一段文字的情緒、Compiler 把腦中雜念整理成待辦、Estimator 估計要花多久。網頁版永久免費、沒有廣告；手機 App 低價付費、進階功能 Pro 為小額月費（實際價格未查證）。介面英文。",
+ ["寫作","自動化",F],"待辦拆解 ADHD 神經多樣性 自閉 語氣改寫 情緒判斷 時間估計 腦力傾倒 brain dump 免費 小工具 Magic ToDo"),
+("shadow","Shadow","https://www.shadow.do","會議・Mac 本機無機器人會議筆記・免費可用",
+ "Mac 上的 AI 會議助理，不會派機器人進會議室，會議一開始就自動錄音、在你的電腦上轉錄，連畫面上分享的內容也能擷取，每場會議都存成你自己擁有的 Markdown 檔，可接 Obsidian 和你的 AI 代理；會議之外還能用快捷鍵對畫面、語音或選取文字執行 AI 指令。免費版轉錄、錄音和智慧截圖都不限量；Plus 每月 8 美元（年繳價格未查證），AI 會議筆記和 AI 聊天不限。只支援 Mac。介面英文。",
+ ["會議",F,P],"會議紀錄 AI 筆記 無機器人 本機轉錄 Mac Markdown Obsidian AI 代理 MCP 螢幕擷取 快捷鍵 Granola 替代 隱私"),
+("noty","Noty.ai","https://noty.ai","會議・會議轉錄與待辦追蹤・每月 20 美元內",
+ "AI 會議助理，開會時即時顯示逐字稿、可以邊聽邊標重點，會後自動產生摘要，並把討論內容變成可指派、可追蹤的待辦，支援 90 種語言，可匯出到 Google Docs、PDF 並串 Zapier。沒有永久免費版，只有 7 天免費試用；Pro 年繳每人每月 10 美元（月繳 19.99 美元），每月 100 小時。介面英文。",
+ ["會議",P],"會議紀錄 逐字稿 即時轉錄 摘要 待辦 任務指派 追蹤 Google Meet Zoom 多語 Google Docs PDF Zapier"),
+("harpa","HARPA AI","https://harpa.ai","自動化・瀏覽器 AI 代理與網頁自動化・免費可用",
+ "Chrome 擴充功能型的 AI 代理，在任何網頁按 Alt+A 就能用多家模型摘要 YouTube、PDF、文章、回信和改稿，還能抓網頁資料、監控價格與頁面變化、排程執行指令，做出瀏覽器裡的自動化流程，也能接本機模型或自己的 API 金鑰。免費 DEMO 方案可每天 10 則網頁連線訊息、總共 100 次指令；付費年繳每月 14.3 歐元起（約 16.6 美元，依匯率；月繳價格未查證），另有一次買斷 238 歐元。介面英文。",
+ ["自動化","研究",F,P],"瀏覽器擴充 Chrome AI 代理 網頁自動化 摘要 YouTube 摘要 PDF 資料擷取 價格監控 網頁監控 排程 回信 本機模型 API 金鑰"),
 ]
-assert len(T)==160
+assert len(T)==170
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -519,9 +549,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-27</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-28</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-27 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-28 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
