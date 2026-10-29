@@ -511,8 +511,38 @@ T=[
 ("harpa","HARPA AI","https://harpa.ai","自動化・瀏覽器 AI 代理與網頁自動化・免費可用",
  "Chrome 擴充功能型的 AI 代理，在任何網頁按 Alt+A 就能用多家模型摘要 YouTube、PDF、文章、回信和改稿，還能抓網頁資料、監控價格與頁面變化、排程執行指令，做出瀏覽器裡的自動化流程，也能接本機模型或自己的 API 金鑰。免費 DEMO 方案可每天 10 則網頁連線訊息、總共 100 次指令；付費年繳每月 14.3 歐元起（約 16.6 美元，依匯率；月繳價格未查證），另有一次買斷 238 歐元。介面英文。",
  ["自動化","研究",F,P],"瀏覽器擴充 Chrome AI 代理 網頁自動化 摘要 YouTube 摘要 PDF 資料擷取 價格監控 網頁監控 排程 回信 本機模型 API 金鑰"),
+("podcastle","Async（原 Podcastle）","https://async.com","配音・影片・免費可用",
+ "Podcastle 已改名 Async，用聊天指令剪片，能自動刪贅字、停頓和重拍，也有錄音室、文字轉語音和音訊降噪，適合做 Podcast 和短影音。有免費版（額度未查證）；Essentials 年繳每月 11.99 美元，每月 450 點並含 2 小時文字轉語音。",
+ ["配音","影片",F,P],"Podcastle Async Podcast 錄音 剪輯 文字轉語音 TTS 降噪 刪停頓 字幕"),
+("sonix","Sonix","https://sonix.ai","會議・逐字稿・每月 20 美元內",
+ "上傳錄音或影片就能轉出附時間碼的逐字稿，支援 54 種以上語言並分辨講者，還能把逐字稿和文件放在一起問問題，適合訪談、法律和醫療紀錄。沒有永久免費版，只有 30 分鐘免費試用；隨用隨付每小時 10 美元，Core 方案每月 25 美元。",
+ ["會議","字幕",P],"逐字稿 語音轉文字 訪談 轉錄 翻譯 分講者 字幕 隨用隨付"),
+("voicenotes","Voicenotes","https://voicenotes.com","會議・筆記・免費可用",
+ "不用讓機器人進會議，按下錄音就能記線上或實體會議，會後自動出摘要和待辦事項，也能錄語音備忘和口述，支援 100 多種語言。免費版每週 100 分鐘轉錄、保留 30 天紀錄；Pro 每人每月 9 美元，轉錄不限時數。",
+ ["會議","寫作",F,P],"會議紀錄 語音筆記 錄音 轉錄 摘要 待辦 口述 無機器人 MCP"),
+("leexi","Leexi","https://www.leexi.ai","會議・業務通話・每月 20 美元內",
+ "比利時的 AI 會議記錄工具，可錄 Meet、Teams、Zoom 和實體會議，自動轉錄、摘要並整理後續任務，ISO 27001 認證、重視隱私。沒有永久免費版，只有免費試用；Starter 年繳每月 12 美元（月繳 15 美元），每月 20 小時錄音。",
+ ["會議","自動化",P],"會議紀錄 業務 通話 轉錄 摘要 Zoom Teams Meet 實體會議 手機 App 歐洲"),
+("whimsical","Whimsical","https://whimsical.com","簡報・圖表・免費可用",
+ "畫流程圖、心智圖、線框圖和寫文件的白板工具，能和 AI 一起把想法變成圖，適合規劃產品或整理簡報架構。免費版每月 50 個白板物件和 50 個文件區塊、匯出有浮水印；Pro 年繳每位編輯者每月 10 美元，不限數量。",
+ ["簡報","設計",F,P],"白板 流程圖 心智圖 線框圖 wireframe 圖表 文件 協作"),
+("writefull","Writefull","https://www.writefull.com","寫作・學術英文・免費可用",
+ "專為論文寫作設計的英文潤稿 AI，用數百萬篇期刊論文訓練，能改文法、換說法、產生標題和摘要，還能裝在 Word 和 Overleaf 裡用。免費版各功能有每日額度；Premium 定價頁顯示 150 美元（計費週期未查證），改稿不限量。",
+ ["寫作","研究",F],"論文 學術英文 潤稿 文法 改寫 摘要 Overleaf LaTeX Word 研究生"),
+("curipod","Curipod","https://curipod.com","寫作・教學・免費可用",
+ "給老師用的寫作練習工具，學生寫完馬上得到 AI 回饋再修改，課程對齊美國各州標準，也有雙語學習者練習。老師個人免費使用（每週有練習次數限制）；學校和學區方案需要詢價。缺點是內容以美國課綱為主。",
+ ["寫作",F],"教學 老師 學生 寫作練習 AI 回饋 課堂 K-12 教育"),
+("twistly","Twistly","https://twistly.ai","簡報・PowerPoint・免費可用",
+ "輸入主題或丟進文件，就自動寫大綱、做出可編輯的 PowerPoint 檔，也有 PowerPoint 增益集可在原本的簡報裡重寫文字、重新設計投影片。生成和下載 PDF 免費，可編輯 .pptx 有 7 天免費試用；Starter 每月 16 美元（月繳或年繳未查證）。",
+ ["簡報",F,P],"投影片 PPT PowerPoint 增益集 簡報生成 大綱 PDF"),
+("windmill","Windmill","https://www.windmill.dev","自動化・開發者・免費可用",
+ "給工程師用的開源自動化平台，可以用程式碼做腳本、工作流程、內部 App 和 AI 代理，Git 版本控管，自己架設幾分鐘就能跑。自架開源版免費、不限執行次數；企業版每月 120 美元起，雲端方案價格未查證。缺點是要會寫程式。",
+ ["自動化","寫程式",F],"工作流程 workflow 開源 自架 腳本 AI 代理 內部工具 資料管線"),
+("felo","Felo","https://felo.ai","研究・簡報・免費可用",
+ "日本新創做的 AI 搜尋，有繁體中文介面，查完資料能直接做成投影片、圖片或短影片。免費版不限次數快速搜尋、每天 3 次檔案分析，但 AI 簡報等功能要付費；年繳每月 12.50 美元（月繳 14.99 美元），每月 15,000 點。",
+ ["研究","簡報",F,P],"AI 搜尋 查資料 簡報生成 投影片 深度研究 繁中 日本")
 ]
-assert len(T)==170
+assert len(T)==180
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -549,9 +579,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-28</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-29</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-28 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-29 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
