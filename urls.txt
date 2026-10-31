@@ -78,3 +78,13 @@ speechactors https://speechactors.com/
 vomo https://vomo.ai/
 sally https://www.sally.io/
 trevor https://www.trevorai.com/
+aquavoice https://aquavoice.com/
+willow https://willowvoice.com/
+cleft https://cleftnotes.com/
+polleverywhere https://www.polleverywhere.com/
+wooclap https://www.wooclap.com/
+wave https://wave.co/
+speakai https://speakai.co/
+sim https://www.sim.ai/
+tango https://www.tango.ai/
+recall https://www.recall.it/

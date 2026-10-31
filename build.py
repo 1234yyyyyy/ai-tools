@@ -540,9 +540,69 @@ T=[
  ["自動化","寫程式",F],"工作流程 workflow 開源 自架 腳本 AI 代理 內部工具 資料管線"),
 ("felo","Felo","https://felo.ai","研究・簡報・免費可用",
  "日本新創做的 AI 搜尋，有繁體中文介面，查完資料能直接做成投影片、圖片或短影片。免費版不限次數快速搜尋、每天 3 次檔案分析，但 AI 簡報等功能要付費；年繳每月 12.50 美元（月繳 14.99 美元），每月 15,000 點。",
- ["研究","簡報",F,P],"AI 搜尋 查資料 簡報生成 投影片 深度研究 繁中 日本")
+ ["研究","簡報",F,P],"AI 搜尋 查資料 簡報生成 投影片 深度研究 繁中 日本"),
+("typefully","Typefully","https://typefully.com","寫作・社群貼文寫作與排程・免費可用",
+ "專門寫 X、LinkedIn、Threads、Bluesky 貼文和串文的編輯器，可以排程發文、看 X 數據，付費版有 AI 幫你改寫、潤飾和寫圖片說明，也能透過 API、MCP 讓 AI 代理幫你發文。免費版每月 10 則貼文；Creator 一年 99 美元（約每月 8.25 美元，只有年繳），每月 1,000 則並含 AI 寫作。介面英文。",
+ ["寫作",F,P],"社群貼文 X Twitter 串文 LinkedIn Threads Bluesky 排程 發文 AI 改寫 數據分析 創作者 MCP API"),
+("mailmeteor","Mailmeteor","https://mailmeteor.com","自動化・Gmail 大量個人化寄信・免費可用",
+ "法國小團隊做的 Gmail 合併列印工具，從 Google 試算表或 Excel 一次寄出幾百封個人化信件，可追蹤開信、排程、自動追蹤信，內建 AI 寫信，高階方案還能用 AI 自動分類回信和用你的語氣擬草稿。免費版每月 500 封（每天 50 封）；Starter 年繳每月 4.49 美元（一年 53.99 美元，月繳 5.99 美元），每月 5,000 封。介面英文。",
+ ["自動化","寫作",F,P],"合併列印 mail merge 大量寄信 Gmail Google 試算表 Excel 個人化 郵件追蹤 排程寄送 追蹤信 AI 寫信 自動草稿"),
+("spark","Spark Mail","https://sparkmailapp.com","寫作・AI 電子郵件與會議筆記・免費可用",
+ "烏克蘭 Readdle 做的郵件 App，把多個信箱合在一起，用智慧收件匣、Gatekeeper 擋陌生寄件人，Spark +AI 能幫你寫信、改語氣、翻譯、摘要長串信件，還能記會議筆記。免費版可用基本功能（AI 額度較少，實際額度未查證）；Plus 年繳每月 8.25 美元（一年 99 美元），每月 40 次 AI 會議筆記。Mac、Windows、iOS、Android 都有。",
+ ["寫作","會議",F,P],"電子郵件 Email App 收件匣 AI 寫信 郵件摘要 翻譯 會議筆記 Gatekeeper 多信箱 Gmail Outlook Readdle"),
+("excalidraw","Excalidraw+","https://plus.excalidraw.com","簡報・手繪風白板與 AI 圖表・免費可用",
+ "開源的手繪風白板 Excalidraw 的雲端版，打一段文字就生成流程圖，也能把手繪線框圖變成網頁程式碼、把 Mermaid 語法轉成圖，白板還能直接當投影片播放，Plus 可匯出 PDF 和 PPTX。免費版每天 10 次 AI、1 個畫布；Plus 年繳每人每月 6 美元（月繳 7 美元），每天 100 次 AI 並可自帶 API 金鑰，有 14 天試用。介面英文。",
+ ["簡報","設計",F,P],"白板 手繪風 流程圖 文字轉圖表 線框圖 wireframe 轉程式碼 Mermaid 投影片 PPTX PDF 開源 協作 MCP"),
+("mermaid","Mermaid（原 Mermaid Chart）","https://mermaid.ai","簡報・AI 流程圖與系統圖・免費可用",
+ "開源圖表語法 Mermaid.js 原班人馬做的線上版，打字描述、丟一份文件或寫 Mermaid 語法，AI 就畫出流程圖、時間軸、循序圖、架構圖，可在白板上拖拉修改，適合寫技術文件和報告配圖。免費 Basic 最多 6 張圖、15 點 AI；Plus 年繳每人每月 10 美元（月繳價格未查證），圖表不限、每年 300 點 AI。介面英文。",
+ ["簡報","寫程式",F,P],"流程圖 圖表 Mermaid.js 時間軸 循序圖 架構圖 系統圖 文字轉圖表 技術文件 白板 開源"),
+("creately","Creately","https://creately.com","簡報・AI 圖表與組織圖・免費可用",
+ "斯里蘭卡起家的線上圖表與白板平台，各種流程圖、組織圖、心智圖都能畫，AI 能把文件裡的作業流程自動變成流程圖，也能從人資資料產生組織圖，可多人即時協作。免費版每張圖最多 45 個圖形；Pro 年繳每人每月 5 美元（一年 60 美元，月繳 8 美元），圖形不限並可匯出 PDF、SVG、PNG。介面英文。",
+ ["簡報","設計",F,P],"流程圖 組織圖 心智圖 白板 圖表 作業流程 SOP 流程對應 協作 PDF SVG 匯出 Visio 替代"),
+("magicschool","MagicSchool","https://www.magicschool.ai","寫作・老師與學生 AI 工具・免費可用",
+ "專為學校做的 AI 平台，給老師 80 多種工具（教案、學習單、測驗、簡報、作文回饋、個別化教學計畫），也有 50 多種學生工具，強調隱私與安全，學校可以集中管理。老師個人免費版就能用主要工具；Plus 年繳每月 8.33 美元（月繳 12.99 美元），生成次數不限並開放學生工具。內容以美國課綱為主，介面英文。",
+ ["寫作","簡報",F,P],"教育 老師 教案 學習單 測驗 出題 簡報 作文回饋 IEP 學生 K-12 課堂 學校"),
+("podsqueeze","Podsqueeze","https://podsqueeze.com","配音・Podcast AI 文案與後製・免費可用",
+ "上傳 Podcast 音檔或影片，AI 自動產生逐字稿、節目說明（show notes）、標題、時間章節、電子報和社群文案，還能剪短影音片段、強化音質，並一鍵做 Podcast 網站。免費版每月 30 分鐘；Starter 年繳每月 5.99 美元（一年 71.88 美元，月繳 8.99 美元），每月 120 分鐘、8 支短片。介面英文。",
+ ["配音","寫作",F,P],"Podcast 節目說明 show notes 逐字稿 標題 章節 電子報 社群文案 短影音 片段 音質強化 Podcast 網站"),
+("headliner","Headliner","https://www.headliner.app","配音・Podcast 音波影片與字幕・免費可用",
+ "專門幫 Podcast 宣傳的工具，把音檔變成有音波動畫和字幕的影片（audiogram），自動轉逐字稿、剪出短片並直接發到 YouTube 和社群，還能依新集數自動產生宣傳影片。永久免費版有廣告、每月 1 支無浮水印音波影片、每月 2 小時轉錄；Basic 年繳每月 7.99 美元（月繳價格未查證），每月 10 支無浮水印。介面英文。",
+ ["配音","影片",F,P],"Podcast 宣傳 音波影片 audiogram 字幕 逐字稿 短影音 剪片 YouTube 社群 自動發布 音訊轉影片"),
+("readwise","Readwise Reader","https://readwise.io/read","研究・稍後讀與 AI 閱讀助理",
+ "把網頁文章、PDF、EPUB、電子報、YouTube、RSS 全收進同一個閱讀器，可以畫重點、做筆記，內建 Ghostreader AI 幫你解釋、摘要、出問題，還有文字轉語音讓你用聽的。沒有永久免費版，只有 30 天免費試用；Reader 年繳每月 7.99 美元（月繳 8.99 美元），連 Kindle 重點複習的 Full Readwise 年繳每月 9.99 美元。介面英文。",
+ ["研究","配音",P],"稍後讀 read later 閱讀器 畫重點 筆記 PDF EPUB 電子報 RSS YouTube AI 摘要 Ghostreader 文字轉語音 Kindle 重點"),
+("aquavoice","Aqua Voice","https://aquavoice.com","寫作・AI 語音輸入・免費可用",
+ "在任何 App 裡按一下就用說的打字，AI 會自動去掉贅字、整理標點，也能用語音下指令改寫選取的文字，寫信、寫文件或對 AI 寫程式工具下指令都很快，Mac、Windows、iOS、Android 都有。免費版含 1,000 字（是否每月重置未查證）；Pro 年繳每月 10 美元（月繳 12 美元），字數不限並可自訂詞庫。介面英文。",
+ ["寫作","配音",F,P],"語音輸入 聽寫 dictation 說話打字 語音轉文字 改寫 詞庫 Mac Windows iOS Android Vibe coding"),
+("willow","Willow Voice","https://willowvoice.com","寫作・AI 語音聽寫・免費可用",
+ "用說的取代打字，在任何輸入框都能用，會記住你的寫作風格和常用詞，Willow Scribe 還能把你隨口說的意思直接寫成完整訊息或信件。免費版可無限使用較陽春的 Frontier Mini 辨識模型、每週 20 次 Scribe；Pro 年繳每月 12 美元（月繳 15 美元），改用最準的 Frontier Pro 模型、Scribe 不限次數。Mac、Windows、iPhone 都有，介面英文。",
+ ["寫作","配音",F,P],"語音輸入 聽寫 dictation 說話打字 語音轉文字 寫信 Scribe 寫作風格 Mac Windows iPhone"),
+("cleft","Cleft","https://cleftnotes.com","寫作・AI 語音筆記・免費可用",
+ "想到什麼就對手機或手錶說出來，在裝置上轉成文字，AI 再把碎碎念整理成有重點和待辦的筆記，可直接送到 Notion、Apple 備忘錄、Obsidian，連開車用 CarPlay 都能記。免費 Basic 每段錄音 5 分鐘、3 種輸出格式；Cleft Plus 一年 39.99 美元（約每月 3.33 美元，月繳價格未查證），每段 30 分鐘並可自訂格式。只支援 iPhone、iPad、Mac、Apple Watch，介面英文。",
+ ["寫作","會議",F,P],"語音筆記 voice notes 錄音轉文字 碎念整理 待辦 Notion Apple 備忘錄 Obsidian CarPlay 離線 iPhone Mac"),
+("polleverywhere","Poll Everywhere","https://www.polleverywhere.com","簡報・即時投票互動・免費可用",
+ "在簡報裡加入即時投票、問答、文字雲和測驗，觀眾用手機就能回答，可直接嵌進 PowerPoint、Google 簡報和 Keynote，AI 會幫你出題。免費 Intro 每場最多 40 位觀眾、每月 10 次 AI 出題；Present 一年 120 美元（約每月 10 美元，只有年繳），最多 700 位觀眾、每月 100 次 AI。介面英文。",
+ ["簡報",F,P],"即時投票 互動簡報 問答 Q&A 文字雲 測驗 觀眾互動 PowerPoint Google Slides Keynote AI 出題 上課 研討會"),
+("wooclap","Wooclap","https://www.wooclap.com","簡報・課堂與培訓互動・免費可用",
+ "比利時團隊做的互動教學平台，20 多種題型（投票、選擇題、文字雲、配對、圖片題），參與人數不限，能嵌進 PowerPoint、Google 簡報和 Teams，Pro 方案還有 AI 幫你生成並主持整堂互動。免費 Starter 每月 5 題；Basic 年繳每月 13 美元、題數不限；含 AI 的 Pro 年繳每位講者每月 25 美元（月繳價格未查證）。介面英文。",
+ ["簡報",F,P],"互動簡報 即時投票 選擇題 文字雲 測驗 課堂互動 教育訓練 PowerPoint Google Slides Teams Moodle AI 出題"),
+("wave","Wave","https://wave.co","會議・AI 錄音筆記・免費可用",
+ "手機 App 一鍵錄下會議、課堂或面談，AI 自動轉逐字稿、整理摘要和待辦，可匯出 PDF、OneNote 或寄信，不用讓會議機器人進場。免費版每月 30 分鐘；Pro 一年 80 美元（約每月 6.67 美元）或月繳 15 美元，錄音和轉錄不限量。iOS、Android、Mac、Windows、網頁都能用，介面英文。",
+ ["會議","字幕",F,P],"錄音 逐字稿 會議記錄 摘要 待辦 錄音筆 上課筆記 訪談 iOS Android 無機器人"),
+("speakai","Speak AI","https://speakai.co","會議・逐字稿與質性分析・每月 20 美元內",
+ "加拿大團隊做的錄音、會議轉文字平台，支援 100 多種語言，除了逐字稿還會分析關鍵字、主題和情緒，適合訪談研究、市場調查和質性資料分析，也有 API 和 MCP。新帳號 7 天免費試用，之後可儲值隨用隨付（1 點 1 美元，一般語言轉錄每小時 2 點）；Pro 年繳每人每月 20 美元（月繳 25 美元），每月 25 點。介面英文。",
+ ["會議","研究",P],"逐字稿 語音轉文字 會議記錄 訪談 質性研究 情緒分析 關鍵字 主題分析 市場調查 API MCP"),
+("sim","Sim","https://www.sim.ai","自動化・開源 AI 代理流程・免費可用",
+ "開源的 AI 代理工作流程平台，用拖拉方塊把 270 多種服務和各家大型語言模型串起來，做出能自動處理資料、回信、查資料的 AI 代理，也能自己架設。免費版一次性 1,000 點、1 個工作區；Pro 月繳每人每月 25 美元（每月 6,000 點，年繳折 15% 後實際價格未查證），超過 20 美元預算。介面英文。",
+ ["自動化","寫程式",F],"AI 代理 Agent 工作流程 workflow 開源 自架 拖拉 無程式碼 LLM 串接 n8n 替代"),
+("tango","Tango","https://www.tango.ai","自動化・操作教學自動生成・免費可用",
+ "裝好瀏覽器擴充後照平常操作一遍，Tango 就自動截圖並寫成一步一步的圖文教學，適合做 SOP、新人訓練和客服說明，可用連結分享或嵌進文件。免費版 5 份分享教學、每個工作區最多 10 人；Pro 年繳每人每月 22 美元（月繳 30 美元，1–2 人），超過 20 美元預算。介面英文。",
+ ["自動化","寫作",F],"操作教學 SOP 說明文件 步驟截圖 新人訓練 教育訓練 瀏覽器擴充 how-to 流程文件 Scribe 替代"),
+("recall","Recall","https://www.recall.it","研究・AI 知識庫與摘要・免費可用",
+ "把 YouTube 影片、Podcast、文章、PDF 存進來，AI 自動摘要、加標籤，並把相關內容連成知識圖譜，之後可以跟自己的資料庫聊天，還有測驗和間隔複習幫你記住。免費版每月 10 次 AI 摘要、收藏不限；Plus 年繳每月 10 美元（月繳價格未查證），摘要不限並可用文字轉語音聽內容。介面英文。",
+ ["研究","寫作",F,P],"知識庫 摘要 YouTube 摘要 Podcast PDF 稍後讀 筆記 知識圖譜 間隔複習 測驗 第二大腦 MCP")
 ]
-assert len(T)==180
+assert len(T)==200
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -579,9 +639,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-29</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-31</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個</h1><div class="s">2026-10-29 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-10-31 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
