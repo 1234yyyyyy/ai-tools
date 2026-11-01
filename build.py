@@ -600,9 +600,39 @@ T=[
  ["自動化","寫作",F],"操作教學 SOP 說明文件 步驟截圖 新人訓練 教育訓練 瀏覽器擴充 how-to 流程文件 Scribe 替代"),
 ("recall","Recall","https://www.recall.it","研究・AI 知識庫與摘要・免費可用",
  "把 YouTube 影片、Podcast、文章、PDF 存進來，AI 自動摘要、加標籤，並把相關內容連成知識圖譜，之後可以跟自己的資料庫聊天，還有測驗和間隔複習幫你記住。免費版每月 10 次 AI 摘要、收藏不限；Plus 年繳每月 10 美元（月繳價格未查證），摘要不限並可用文字轉語音聽內容。介面英文。",
- ["研究","寫作",F,P],"知識庫 摘要 YouTube 摘要 Podcast PDF 稍後讀 筆記 知識圖譜 間隔複習 測驗 第二大腦 MCP")
+ ["研究","寫作",F,P],"知識庫 摘要 YouTube 摘要 Podcast PDF 稍後讀 筆記 知識圖譜 間隔複習 測驗 第二大腦 MCP"),
+("outwrite","Outwrite","https://www.outwrite.com","寫作・AI 英文潤稿・免費可用",
+ "澳洲團隊做的英文寫作助理，除了抓拼字和文法錯誤，Pro 版還會幫你改寫句子、調整語氣和結構、偵測被動語態，並附抄襲檢查，可用在 Google 文件、Word 和瀏覽器。免費 Essential 版可檢查拼字、文法並用同義詞庫；Pro 每月 9.95 美元（月繳或年繳價差未查證），每月 50 次抄襲檢查。只支援英文，介面英文。",
+ ["寫作",F,P],"英文潤稿 文法檢查 拼字 改寫 句子重組 語氣 抄襲檢查 Google Docs Word 瀏覽器擴充 Grammarly 替代"),
+("transkriptor","Transkriptor","https://transkriptor.com","會議・錄音轉文字與會議記錄・每月 20 美元內",
+ "上傳錄音、影片或直接錄會議，AI 轉成 100 多種語言的逐字稿，並產生摘要和待辦，可匯出 TXT、SRT、Word，也能用 Chrome 擴充和桌面版錄線上會議（和已收錄的 Speaktor 是同一家公司）。官網可免費試用，但免費額度未查證；Pro 年繳每月 8.33 美元（一年 99.99 美元，月繳 19.99 美元），每月 2,400 分鐘並含 AI 摘要和 AI 問答。介面英文。",
+ ["會議","字幕",P],"逐字稿 語音轉文字 會議記錄 摘要 待辦 SRT 字幕 Chrome 擴充 錄音 上課 訪談 多語言"),
+("timeless","Timeless","https://www.timeless.day","會議・AI 會議筆記與組織記憶・免費可用",
+ "把每一場會議錄下來、做成 60 多種語言的 AI 筆記，還會用你的語氣寫追蹤信，並把所有對話變成團隊可以搜尋、問答的「組織記憶」，也有 API 和 MCP 讓 AI 工具直接讀會議內容。免費版最多 5 場 AI 會議、每場 90 分鐘；Pro 年繳每月 19 美元（月繳 29 美元），會議筆記不限。Mac、Windows、手機都有，介面英文。",
+ ["會議","自動化",F,P],"會議記錄 AI 筆記 逐字稿 追蹤信 follow-up 組織記憶 會議搜尋 預約連結 Notion Google Drive API MCP 多語言"),
+("tiro","Tiro","https://tiro.ooo","會議・多語言 AI 會議筆記",
+ "主打跨語言的 AI 會議筆記，線上會議、面對面討論和研討會都能錄，錄音前可以先告訴它主題、與會者和專有名詞並存成詞彙表，讓辨識更準，結束後產生一頁式重點、待辦、決議和翻譯，還能跟所有筆記對話。新帳號可免費試用全部功能 3 週（最多 300 分鐘、每則 50 分鐘）；Lite 每月 7 美元（月繳或年繳未查證），每月 300 分鐘。Windows、手機 App 都有，介面英文。",
+ ["會議","翻譯",P],"會議記錄 AI 筆記 逐字稿 翻譯 多語言 詞彙表 待辦 決議 研討會 面對面會議 講者辨識"),
+("cap","Cap","https://cap.so","會議・開源螢幕錄影分享・免費可用",
+ "開源的 Loom 替代品，Mac、Windows、Linux 都能錄螢幕和鏡頭，錄完自動放大游標區域、可剪輯，產生分享連結讓人非同步觀看，省掉一場會議；Cap Pro 會自動幫影片下標題、寫摘要、分章節並轉逐字稿。個人使用免費、本機錄影不限時間；商用的 Desktop 授權一年 29 美元，Cap Pro 年繳每月 8.16 美元（月繳 12 美元），雲端分享不限並含 AI 功能。介面英文。",
+ ["會議","影片",F,P],"螢幕錄影 錄屏 Loom 替代 非同步溝通 分享連結 開源 自架 逐字稿 摘要 章節 教學影片 Mac Windows Linux"),
+("infogram","Infogram","https://infogram.com","簡報・AI 互動圖表與資訊圖・免費可用",
+ "Prezi 旗下的資料視覺化工具，貼上數據就能做出可互動、有動畫的圖表、地圖、資訊圖、報告和儀表板，可嵌進網站或簡報，也有 AI 幫你生成圖片。免費 Basic 版 1 人、最多 10 個專案、35 種以上圖表；Pro 年繳每月 19 美元（月繳價格未查證），100 個專案並可下載高畫質圖片和影片。介面英文。",
+ ["簡報","設計",F,P],"資訊圖 圖表 互動圖表 數據視覺化 地圖 報告 儀表板 嵌入網站 動畫 Prezi infographic"),
+("powerpresent","PowerPresent","https://www.powerpresent.ai","簡報・AI 生成 PowerPoint・免費可用",
+ "輸入一句提示或上傳文件，AI 幫你整理故事架構並做出設計好的投影片，可以直接在瀏覽器裡編輯、播放，付費後匯出可編輯的 PowerPoint（文字、原生圖表和字型都保留）或 Google 簡報。免費版建立、編輯、播放不限，但只能匯出有浮水印的 PDF；Starter 年繳每月 7 美元（一年 84 美元，月繳 9 美元），每月 10 份簡報點數；也可 1 份 1 美元單買。介面英文。",
+ ["簡報",F,P],"AI 簡報 投影片 PowerPoint PPTX Google Slides 文件轉簡報 提示生成 簡報設計 演講稿 免費簡報"),
+("kukarella","Kukarella","https://www.kukarella.com","配音・AI 對話音檔與旁白・每月 20 美元內",
+ "描述你想要的對話情境（語言、程度、角色），它會幫你寫好劇本、分配不同聲音直接做成多人對話音檔，也能做旁白、轉逐字稿和生圖，聲音來自多家 AI 供應商共 2,000 多種，英文有 14 種口音，適合老師做聽力教材或公司做訓練音檔。不用帳號可試 3 次、免費帳號有額外贈點；Prime 一年 170 美元（約每月 14.17 美元，月繳 21 美元），每月 30 萬字元配音、300 分鐘轉錄並可商用。介面英文。",
+ ["配音","寫作",P],"文字轉語音 TTS 多人對話 旁白 配音 聽力教材 有聲書 逐字稿 聲音複製 口音 訓練教材 IVR"),
+("uberduck","Uberduck","https://www.uberduck.ai","配音・AI 文字轉語音與 AI 人聲・免費可用",
+ "給創作者、音樂人和行銷用的 AI 配音平台，支援含中文在內的數十種語言、大量現成聲音，另有 AI 人聲（vocals）、AI 饒舌、生圖和生影片工具，也提供 API。有免費版（額度未查證）；Starter 年繳每月 2 美元（每月 1,000 點，非商用），可商用的 Creator 年繳每月 5 美元（每月 3,600 點，月繳價格未查證）。介面英文。",
+ ["配音",F,P],"文字轉語音 TTS AI 人聲 vocals 饒舌 rap 配音 旁白 多語言 中文 API 音樂創作"),
+("rtrvr","rtrvr.ai","https://www.rtrvr.ai","自動化・AI 瀏覽器代理・免費可用",
+ "Chrome 擴充形式的 AI 瀏覽器代理（Retriever），用一句話就能讓它在你已登入的網站和公開網頁上操作，例如把多個頁面整理成表格、收集名單、定期監看網頁並回報結果，也能在雲端執行或從 API、MCP 呼叫。免費模式有廣告、每日合理使用額度，另送一次性 100 點、可設 1 個每日排程；Starter 每月 9.99 美元（年繳送 2 個月），每月 1,000 點且無廣告。介面英文。",
+ ["自動化","研究",F,P],"AI 代理 瀏覽器代理 browser agent Chrome 擴充 網頁擷取 爬蟲 表格整理 名單收集 網頁監看 排程 RPA API MCP")
 ]
-assert len(T)==200
+assert len(T)==210
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -639,9 +669,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-10-31</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-01</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-10-31 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-01 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
