@@ -630,9 +630,39 @@ T=[
  ["配音",F,P],"文字轉語音 TTS AI 人聲 vocals 饒舌 rap 配音 旁白 多語言 中文 API 音樂創作"),
 ("rtrvr","rtrvr.ai","https://www.rtrvr.ai","自動化・AI 瀏覽器代理・免費可用",
  "Chrome 擴充形式的 AI 瀏覽器代理（Retriever），用一句話就能讓它在你已登入的網站和公開網頁上操作，例如把多個頁面整理成表格、收集名單、定期監看網頁並回報結果，也能在雲端執行或從 API、MCP 呼叫。免費模式有廣告、每日合理使用額度，另送一次性 100 點、可設 1 個每日排程；Starter 每月 9.99 美元（年繳送 2 個月），每月 1,000 點且無廣告。介面英文。",
- ["自動化","研究",F,P],"AI 代理 瀏覽器代理 browser agent Chrome 擴充 網頁擷取 爬蟲 表格整理 名單收集 網頁監看 排程 RPA API MCP")
+ ["自動化","研究",F,P],"AI 代理 瀏覽器代理 browser agent Chrome 擴充 網頁擷取 爬蟲 表格整理 名單收集 網頁監看 排程 RPA API MCP"),
+("emaze","emaze","https://www.emaze.com","簡報・AI 簡報與網站・免費可用",
+ "簡報工具，除了 2D、3D 簡報，也能用 AI 生成簡報、網站、電子相簿、電子賀卡、問卷與測驗，不用設計底子。免費 Basic 版 5 個專案、不用信用卡；Pro 年繳每人每月 9 美元（月繳價格未查證），50 個專案、可匯入 PowerPoint 和 PDF、匯出 PDF／MP4、去浮水印。介面英文。",
+ ["簡報","設計",F,P],"AI 簡報 投影片 3D 簡報 網站 電子相簿 電子賀卡 問卷 測驗 PowerPoint 匯入 去浮水印"),
+("haiku","Haiku Deck","https://www.haikudeck.com","簡報・極簡圖片簡報・免費可用",
+ "主打「少字多圖」的簡報工具，內建 4,000 萬張免版稅圖片和上千種範本，網頁、iPad、iPhone 都能做，也有 AI 助手 Zuru 幫你自動生成簡報。免費 Basic 版只能做 1 份公開簡報且不能下載；Pro 年繳每月 9.99 美元（一年 119.88 美元，月繳 19.99 美元），簡報不限量、可下載、加旁白存成影片。介面英文。",
+ ["簡報",F,P],"簡報 投影片 極簡 圖片簡報 Zuru AI 簡報 教學 演講 旁白 影片 iPad 免版稅圖片"),
+("fictionary","Fictionary","https://fictionary.co","寫作・小說結構與編輯軟體・每月 20 美元內",
+ "給小說作者的故事結構軟體，把稿子拆成場景、人物、地點和情節弧線，依類型提供範本，並用 AI 給即時故事回饋，幫你一步步修稿而不是替你代寫。7 天免費試用（不用信用卡），沒有永久免費版；StoryTeller 月繳每月 19 美元（年繳價格未查證，官網稱年繳省 25% 以上）。介面英文。",
+ ["寫作",P],"小說 長篇 故事結構 情節 角色 場景 修稿 編輯 AI 回饋 類型小說 作者 結構編輯"),
+("elephas","Elephas","https://elephas.app","研究・私有文件 AI 問答與寫作・每月 20 美元內",
+ "Mac、Windows 上的「私有 AI」，把合約、客戶檔案、報告放進本機的「Brain」後直接發問，每個答案都標出處，送上雲端 AI 前會先遮掉個人資料，也可接自己的 API 金鑰或本機模型。7 天免費試用（不用信用卡），沒有永久免費版；Personal 年繳每月 15 美元（一年 180 美元，月繳 19 美元），限 1 台電腦。介面英文。",
+ ["研究","寫作",P],"私有 AI 本機 隱私 文件問答 合約 報告 出處 引用 RAG Brain Mac Windows API 金鑰 資料不上雲"),
+("voiceai","Voice.ai","https://voice.ai","配音・AI 變聲與文字轉語音・免費可用",
+ "把聲音即時或事後換成別的聲音，也有文字轉語音、聲音複製、人聲分離和降噪等音訊工具，另外還有能打電話的語音代理平台與開發者 API。免費版每月 5,000 點（約 5 分鐘文字轉語音），不能複製聲音；Starter 每月 8 美元，每月 15,000 點、5 個聲音複製並可商用（月繳或年繳未查證）。介面英文。",
+ ["配音",F,P],"變聲 voice changer 文字轉語音 TTS 聲音複製 語音代理 voice agent 人聲分離 降噪 音訊工具 API"),
+("lalal","LALAL.AI","https://www.lalal.ai","配音・人聲分離與變聲・免費可用",
+ "專做音訊拆分的 AI：把歌曲或影片拆成人聲、伴奏、鼓、貝斯、吉他等音軌，也能去背景音樂、去回音，另有變聲和聲音複製功能，桌面、手機都有 App，也有 VST 外掛和 API。Starter 免費，慢速佇列每月 10 分鐘；Lite 年繳每月 7.5 美元（一年 90 美元，月繳價格未查證），Pro 年繳每月 15 美元（一年 180 美元）。有繁體中文介面。",
+ ["配音",F,P],"人聲分離 去人聲 伴奏 stem splitter 去背景音 降噪 去回音 變聲 聲音複製 音樂 VST API 繁中"),
+("screenapp","ScreenApp","https://screenapp.io","會議・螢幕錄影與 AI 會議筆記・免費可用",
+ "錄螢幕、鏡頭、麥克風或直接上傳錄音錄影，AI 轉逐字稿、做摘要，還能用對話的方式查找「那段影片裡講了什麼」，也有 Chrome 擴充。免費版每月 10 次 AI 對話、2 次轉錄體驗，單支最長 45 分鐘；Pro 年繳每月 19 美元（月繳 30 美元，有 7 天試用但需信用卡），每月 50 次轉錄。介面英文，官網沒有原生 Slack、Notion 整合。",
+ ["會議","影片",F,P],"螢幕錄影 會議紀錄 逐字稿 摘要 影片分析 AI 對話 Chrome 擴充 上課 訪談 錄音"),
+("mymeet","mymeet.ai","https://mymeet.ai","會議・多平台會議機器人與逐字稿・免費可用",
+ "AI 助理會加入 Google Meet、Zoom 等線上會議錄音，產生有章節與講者標示的逐字稿、摘要和待辦，也能上傳錄音，並可用 AI 範本整理成報告，另有桌面 App、Telegram 機器人、API。免費版永久每月 180 分鐘、10 次 AI 對話；Lite 每人每月 8–10 美元（依計費週期，確切對應未查證），每月 500 分鐘。介面英文與俄文。",
+ ["會議","字幕",F,P],"會議紀錄 逐字稿 摘要 待辦 Google Meet Zoom 講者辨識 AI 範本 Telegram 俄文 API"),
+("viasocket","viaSocket","https://viasocket.com","自動化・App 串接與 AI 代理整合層・免費可用",
+ "Walkover 旗下的 viaSocket，把 2,300 多種 App 的授權、觸發和資料對應做成一層整合服務，讓自己做的產品或 AI 代理可以直接串接並執行動作，也能用 50 多種 AI 模型。免費方案永久每月 10 萬次任務、1,000 點 AI 點數，帳號、流程不限數量；超過額度的付費方案為客製報價，官網未列價格（未查證）。介面英文。",
+ ["自動化",F],"工作流程 串接 整合 AI 代理 MCP 無程式碼 Zapier 替代 Walkover 授權 webhook 開發者"),
+("guidde","Guidde","https://www.guidde.com","影片・AI 操作教學影片與流程文件・免費可用",
+ "在網頁上照平常操作一遍，AI 自動配上旁白、標註與游標效果，變成可分享的操作教學影片和流程文件（SOP），也能轉成簡報或 PDF，適合新人訓練和客服知識庫。免費版最多 25 支教學影片、可錄旁白；Pro 年繳每位創作者每月 19 美元（月繳 29 美元），影片不限量並去浮水印。介面英文。",
+ ["影片","自動化",F,P],"操作教學 SOP 流程文件 螢幕錄影 旁白 新人訓練 客服 知識庫 Tango 替代 how-to 影片")
 ]
-assert len(T)==210
+assert len(T)==220
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -669,9 +699,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-01</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-03</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-01 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-03 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
