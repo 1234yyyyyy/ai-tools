@@ -660,9 +660,39 @@ T=[
  ["自動化",F],"工作流程 串接 整合 AI 代理 MCP 無程式碼 Zapier 替代 Walkover 授權 webhook 開發者"),
 ("guidde","Guidde","https://www.guidde.com","影片・AI 操作教學影片與流程文件・免費可用",
  "在網頁上照平常操作一遍，AI 自動配上旁白、標註與游標效果，變成可分享的操作教學影片和流程文件（SOP），也能轉成簡報或 PDF，適合新人訓練和客服知識庫。免費版最多 25 支教學影片、可錄旁白；Pro 年繳每位創作者每月 19 美元（月繳 29 美元），影片不限量並去浮水印。介面英文。",
- ["影片","自動化",F,P],"操作教學 SOP 流程文件 螢幕錄影 旁白 新人訓練 客服 知識庫 Tango 替代 how-to 影片")
+ ["影片","自動化",F,P],"操作教學 SOP 流程文件 螢幕錄影 旁白 新人訓練 客服 知識庫 Tango 替代 how-to 影片"),
+("riffly","Riffly","https://tryriffly.app","簡報・對話式 AI 簡報產生器・免費可用",
+ "描述需求就生成整份簡報（例如「10 張投資人簡報、深色主題」），再用聊天改內容、調版面，也能貼網址讓它讀資料，可匯出 PowerPoint（.pptx）、Google Slides 和 PDF。免費版共 3 份簡報、每份最多 8 張，有浮水印；Pro 每月 12 美元（首月 1 美元），無浮水印、簡報不限量。年繳價格官網未直接標示（只寫省 45 美元，未查證）。介面英文。",
+ ["簡報",F,P],"簡報 投影片 pitch deck 對話 聊天 PPTX Google Slides PDF 網址 研究 Gamma 替代"),
+("storywith","StoryWith AI","https://storywith.ai","寫作・長篇小說稿件分析與修稿・免費可用",
+ "給小說與非小說作者的稿件分析工作室：匯入你寫好的書稿，掃描前後連貫性與情節涵蓋度、角色與主題發展，並可邀請讀者給回饋，重點是幫你找出問題而不是替你代寫。免費版不限本數，但只有 50 次一次性 AI 文字動作和 15 張 AI 圖（不會每月重置）；Author 月繳 19 美元（首次付款 25% 折扣），年繳 149 美元（約每月 12.42 美元），每月 500 次 AI 文字動作。介面英文。",
+ ["寫作",F,P],"小說 長篇 書稿 稿件分析 連貫性 角色 修稿 讀者回饋 非小說 作者 結構編輯 不代寫"),
+("penwrite","Penwrite","https://www.penwrite.ai","寫作・長篇小說寫作與 AI 共寫・免費可用",
+ "為寫書設計的安靜寫作空間，AI 會記住你的角色、世界觀和文風，附設定集（codex）、研究文件和有聲書試聽。免費版 2 個專案、每月 2 萬 AI 字，只能匯出 Markdown 與純文字，新帳號有 7 天 Pro 試用（不用信用卡）；Starter 每月 12 美元（頁面標價，月繳或年繳未查證），每月 20 萬 AI 字；EPUB、Word、KDP 列印 PDF 匯出要 Pro（每月 29 美元，超過預算）。介面英文。",
+ ["寫作",F,P],"小說 寫書 共寫 設定集 codex 角色 世界觀 文風 研究 有聲書 EPUB KDP 作者"),
+("mightier","Mightier","https://mightier.ink","寫作・小說、記者與部落客寫作工作室・免費可用",
+ "一個寫作空間同時管理人物、地點、大綱時間線和研究筆記，「AI 一致性檢查」會掃描整個專案，找出時間線衝突、事實與角色矛盾和缺漏的參照，也能上傳既有文件讓 AI 萃取人物與地點。免費版 1 個專案、最多 10 個角色、每月 5 次 AI 檢查、基本匯出；Pro 每月 12 美元，專案、條目和 AI 檢查不限量（年繳價格未查證）。介面英文。",
+ ["寫作",F,P],"小說 記者 部落客 日記 人物 世界觀 大綱 時間線 一致性檢查 矛盾 研究筆記 萃取"),
+("voicekeep","VoiceKeep","https://voicekeep.io","配音・聲音複製與文字轉語音・免費可用",
+ "約 30 秒複製出自己的聲音，輸入文字就轉成語音，也能做多角色對話。免費版每月 3,000 字元、1 個自訂聲音、12 個內建聲音，只能下載 MP3，檔案保留 14 天；Starter 每月 5 美元，3 萬字元、3 個自訂聲音、24 個內建聲音、無浮水印、WAV 等格式（月繳或年繳未查證）；Creator 每月 19 美元，10 萬字元，可輸出 M4B 有聲書。介面英文。",
+ ["配音",F,P],"文字轉語音 TTS 聲音複製 voice clone 多角色對話 有聲書 M4B 旁白 MP3 WAV"),
+("replicavox","Replicavox","https://replicavox.com","配音・文字轉語音與聲音複製・免費可用",
+ "有 60 個內建聲音、聲音複製、Studio 專案與相容 OpenAI 格式的 API，各方案都附 API。免費版每月 1.5 萬字元（約 15 分鐘語音）、1 個聲音複製，MP3 僅限個人使用；Creator 每月 5 美元，15 萬字元（約 2.5 小時）、3 個私人複製聲音、可商用、60 分鐘字幕。官網寫年繳「即將推出」，目前只有月繳。介面英文。",
+ ["配音","字幕",F,P],"文字轉語音 TTS 聲音複製 voice clone 旁白 字幕 API Studio 商用授權 OpenAI 相容"),
+("twinmind","TwinMind","https://twinmind.com","會議・隨身 AI 會議與生活筆記・免費可用",
+ "手機與電腦上的 AI 筆記助理：錄下會議、課程與對話，轉成逐字稿、摘要與每日回顧，也能用對話查詢過去的內容。Pro 另有電話錄音、上傳音檔、高階模型與 Apple Watch 錄音。免費版有摘要、AI 對話、逐字稿與每日回顧，但各項用量上限官網未列（未查證）；Pro 月繳每月 14.99 美元、年繳等於每月 11.99 美元；Max 超過預算。介面英文。",
+ ["會議",F,P],"會議紀錄 逐字稿 摘要 每日回顧 課程 錄音 電話錄音 Apple Watch MCP 隨身 筆記 翻譯"),
+("openwhispr","OpenWhispr","https://openwhispr.com","會議・語音輸入與 AI 會議筆記・免費可用",
+ "開源（MIT 授權）的語音轉文字軟體：在任何 App 裡說話就自動打字，開會時也能在背景錄音做筆記、上傳錄音檔，支援 macOS、Windows、Linux 與 iOS，可用本機模型（語音不離開電腦）或自備 API 金鑰，支援 100 多種語言。免費版本機聽寫不限量，雲端轉錄每週 2,000 字、會議錄音每月 5 小時；Pro 月繳每月 8 美元、年繳 80 美元（約每月 6.67 美元），每月 20 小時會議錄音。介面英文。",
+ ["會議",F,P],"語音輸入 聽寫 dictation 語音轉文字 會議筆記 開源 本機 離線 隱私 自備 API 金鑰 100 種語言 MCP"),
+("magicloops","Magic Loops","https://magicloops.dev","自動化・用文字描述生成 AI 小工具・免費可用",
+ "用一句話描述想做的事，AI 就生成可以反覆執行的小工具（Loop），不用寫程式，適合做資料整理、通知和小型自動化流程。每 1,000 點 1 美元：免費版每天 250 點生成、每月 500 點執行，Loop 為公開；Hobby 每月 9 美元（9,000 點）；Professional 每月 20 美元（2 萬點、私人 Loop）。年繳價格未查證。介面英文。",
+ ["自動化","做 App",F,P],"無程式碼 自動化 AI 生成 小工具 Loop 做 App 流程 點數 ChatSeed"),
+("flowyble","Flowyble","https://flowyble.com","自動化・視覺化工作流程與 AI 代理平台・免費可用",
+ "用視覺化介面串接 Gmail、Google 日曆、Slack、Discord、MCP 伺服器和 Webhook，加上條件分支、迴圈與 AI 代理（可選 OpenAI、Claude、Gemini），可排程或由 webhook 觸發，並有逐步執行紀錄。免費版 1 位使用者、5 個工具、3 個代理、一次性 150 點；Pro v1 月繳每月 19 美元（3 人、20 個工具、20 個代理、每月 1,000 點，年繳價格未查證）。介面英文。",
+ ["自動化",F,P],"工作流程 自動化 AI 代理 agent MCP webhook 排程 Gmail Slack Discord 無程式碼 Zapier 替代 點數")
 ]
-assert len(T)==220
+assert len(T)==230
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -699,9 +729,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-03</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-05</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-03 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-05 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
