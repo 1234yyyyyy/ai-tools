@@ -690,9 +690,39 @@ T=[
  ["自動化","做 App",F,P],"無程式碼 自動化 AI 生成 小工具 Loop 做 App 流程 點數 ChatSeed"),
 ("flowyble","Flowyble","https://flowyble.com","自動化・視覺化工作流程與 AI 代理平台・免費可用",
  "用視覺化介面串接 Gmail、Google 日曆、Slack、Discord、MCP 伺服器和 Webhook，加上條件分支、迴圈與 AI 代理（可選 OpenAI、Claude、Gemini），可排程或由 webhook 觸發，並有逐步執行紀錄。免費版 1 位使用者、5 個工具、3 個代理、一次性 150 點；Pro v1 月繳每月 19 美元（3 人、20 個工具、20 個代理、每月 1,000 點，年繳價格未查證）。介面英文。",
- ["自動化",F,P],"工作流程 自動化 AI 代理 agent MCP webhook 排程 Gmail Slack Discord 無程式碼 Zapier 替代 點數")
+ ["自動化",F,P],"工作流程 自動化 AI 代理 agent MCP webhook 排程 Gmail Slack Discord 無程式碼 Zapier 替代 點數"),
+("dekked","Dekked","https://dekked.app","簡報・把論文／文件變成可編輯投影片・免費可用",
+ "上傳 PDF 或 Word，就用你自己的圖表、表格與結果生成簡報；沒文件也能描述主題。免費版第 1 份簡報（有浮水印、最多 10 張、無 AI 圖與講者備註）；按次付費 1.99 美元／份（20 點），點數包 9.99 美元（140 點約 7 份）；Standard 每月 11.99 美元（200 點約 10 份、可上傳自訂範本）；Premium 每月 19.99 美元。匯出為原生 .pptx。介面英文。",
+ ["簡報",F,P],"簡報 投影片 論文 PDF Word PPTX 學術 圖表 引用 講者備註 Gamma 替代"),
+("preznt","Preznt","https://preznt.online","簡報・用既有 Claude／MCP 生成簡報・免費可用",
+ "透過 MCP 接上你已付費的 Claude（或相容 AI）生成投影片，不另收 AI 點數；有 15 套主題、33 種版面，可匯出原生 PPTX／PDF，並有簡報模式與講者備註。免費版可做 1 份簡報（最多 15 張、3 套主題）；付費方案每月 5 美元（官網標比 Gamma 等便宜約 44%，年繳未查證）。介面英文。",
+ ["簡報",F,P],"簡報 MCP Claude PPTX PDF 主題 版面 講者備註 pitch deck 自備 AI BYOK"),
+("talkpitch","Talkpitch","https://www.talkpitch.com","簡報・邊說邊即時生成投影片・免費可用",
+ "設定公司與數據背景後開始說話，AI 約在停頓後即時生出投影片（標語、條列、數據、時間線等版面），適合邊練講邊組 deck。免費版每月 50 AI 點、1 個專案（約 1–2 次完整場次）；Standard 每月 9 美元（1,000 點、5 個專案）；Pro 每月 29 美元超過預算。官網尚無 PPT／Google Slides 匯出（未查證更新）。介面英文。",
+ ["簡報",F,P],"簡報 語音 即時 投影片 pitch 邊說邊做 練習 投資人 簡報 聲音轉投影片"),
+("writesy","Writesy","https://www.writesy.ai","寫作・多通路內容與品牌聲調・免費可用",
+ "一個主題可同時產出部落格、X／Twitter、LinkedIn、電子報與廣告文案，強調品牌聲調與 SEO，也能排程發布。免費版每月 30 點、3 種內容類型；Solo 月繳標價 19 美元（劃掉 29，Founding member），每月 200 點、7 種內容；Professional 39 美元超過預算。另有一次買斷點數包。年繳約省 25%（頁面有切換，細項未逐一核對）。介面英文。",
+ ["寫作",F,P],"寫作 內容行銷 部落格 社群 電子報 SEO 品牌聲調 LinkedIn Twitter 排程"),
+("justneeda","JustNeeda","https://justneeda.com","寫作・創業者 32 款文案工具組・免費可用",
+ "給創辦人與小生意的自助 AI 工具箱：品牌名、網站文案、pitch deck、開發信與計畫等約 32 款，約 30 秒出稿。免帳號每天每工具 1 次預覽；留信箱每工具每月 3 次完整產出；單工具一次買斷 19–99 美元，或全部工具訂閱每月 19 美元不限量。工作室代做網站／App 另計（從 1,200 美元起，非本工具訂閱）。介面英文。",
+ ["寫作","簡報",F,P],"創業 文案 品牌名 開發信 pitch deck 網站文案 工具箱 創辦人 行銷"),
+("anytospeech","AnyToSpeech","https://anytospeech.com","配音・文字轉語音與聲音複製・免費可用",
+ "文字／PDF／圖片轉語音、多語者、角色聲線、轉錄與聲音分析同在一站；約 30 秒可複製聲音。免費版每月約 5,000 字元（約 15 秒音訊）、50 分鐘轉錄，可商用；Hobby 每月 7 美元（5 萬字元、1 個聲音複製、200 分鐘轉錄）；Standard 每月 14 美元（10 萬字元、3 個複製）；Pro 69 美元超過預算。未用完字元可累積到下月。介面英文。",
+ ["配音","字幕",F,P],"文字轉語音 TTS 聲音複製 voice clone 轉錄 PDF 旁白 角色聲音 多語者"),
+("snaply","Snaply","https://snaply.ai","會議・Mac 本機聽寫與會議筆記・免費可用",
+ "給 Mac 的本機 AI：在任何 App 即時聽寫、自動會議筆記（摘要與待辦），並可潤稿改語氣；語音在裝置上處理、預設不上雲，也可自備 API 金鑰。個人方案永久免費、功能不限量、免帳號即可下載使用；團隊方案價格官網切換後未在靜態頁面列出金額（未查證）。僅 macOS。介面英文。",
+ ["會議",F],"會議紀錄 聽寫 dictation 本機 隱私 Mac 潤稿 語音輸入 會議筆記 不上雲"),
+("lodol","Lodol","https://www.lodol.com","自動化・用 Slack／AI 建可重複工作流・免費可用",
+ "在 Slack 用 @Lodol 描述需求，或請 Claude／ChatGPT 代建，會變成可重複執行的工作流程（串接 Stripe、Gmail、試算表等），按「次執行」計費而非逐步。免費版每月 100 次執行、座位不限量、免信用卡；Builder 每月 18 美元起（2,500 次）；Pro 每月 120 美元超過預算。年繳未查證。介面英文。",
+ ["自動化",F,P],"自動化 工作流程 Slack Zapier 替代 代理 agent Stripe Gmail 無程式碼 排程"),
+("flowrunner","FlowRunner","https://flowrunner.ai","自動化・對話建 agent 工作流・免費可用",
+ "用白話描述自動化需求即可建流程，支援 AI 代理、人在迴路（暫停等人決定），並串 2,000+ 整合；可用自備模型金鑰。免費版每月 100 次執行、流程／使用者／整合不限，日誌保留 24 小時；新帳號另送 14 天 Professional。Starter 每月 5 美元（300 或 3,000 次執行兩檔）；Growth 45 美元起超過預算。介面英文。",
+ ["自動化",F,P],"自動化 工作流程 AI 代理 agent 人在迴路 Zapier 替代 整合 BYOK 無程式碼"),
+("gravity","Gravity","https://gravity.fast","自動化・現成 AI 代理代做事・免費可用",
+ "選好現成代理（招募、開發信、找工作、留學顧問等），接上工具後就執行，強調少寫提示詞；對外寄信多半需你核准。免費版前 3 次代理執行、4 個工具連線、免信用卡；Mini Pilot 每月 15 美元（約 5 倍用量、1 個自動代理）；Auto Pilot 每月 20 美元；更高方案超過預算。介面英文。",
+ ["自動化",F,P],"自動化 AI 代理 agent 招募 開發信 找工作 留學 無提示詞 排程 工具連線")
 ]
-assert len(T)==230
+assert len(T)==240
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -729,9 +759,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-05</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-06</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-05 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-06 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
