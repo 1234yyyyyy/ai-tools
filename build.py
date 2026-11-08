@@ -750,9 +750,39 @@ T=[
  ["自動化",F],"自動化 AI 代理 agent 本機 開源 排程 整合 Gmail Slack GitHub"),
 ("batiflow","BatiFlow","https://flow.bati.ai","自動化・macOS 本機語音指令與 RAG・免費可用",
  "用一句話操控 KakaoTalk／Slack／瀏覽器／行事曆，並在本機資料夾做語意搜尋（韓文／中日文檔名友善）；可接 Ollama 或雲端模型。永久免費、免帳號、Apache 2.0；僅 macOS（另有 Windows 相關產品 BatiSay，非本工具）。介面有英文／韓文。",
- ["自動化",F],"自動化 macOS 本機 KakaoTalk Slack RAG 瀏覽器 Ollama MCP 無程式碼")
+ ["自動化",F],"自動化 macOS 本機 KakaoTalk Slack RAG 瀏覽器 Ollama MCP 無程式碼"),
+("smallppt","Smallppt","https://smallppt.com","簡報・文字／檔案／網址／錄音轉投影片・免費可用",
+ "輸入主題，或匯入文件、網址、甚至錄音就生成投影片，可換模板、做圖表並匯出 PPT／PDF，另附摘要、心智圖、AI PDF 小工具；有網頁、Windows／Mac、iOS 與 Chrome 擴充。免費版可生成 4 次、16 款模板；Personal 月繳 19.99 美元（每月 30 次），年繳 Unlimited 等於每月 16.66 美元不限次。介面英文。",
+ ["簡報","寫作",F,P],"簡報 投影片 PPT PDF 錄音轉簡報 網址轉簡報 模板 心智圖"),
+("mymap","MyMap.ai","https://www.mymap.ai","簡報・聊天生成心智圖／流程圖／投影片・免費可用",
+ "在 AI 畫布上用一句話生成心智圖、流程圖、時間軸與投影片，可再用聊天修改並直接簡報。免費版每月 10 點、最多 3 張圖、PNG 匯出有浮水印；Pro 年繳每月 12 美元（年付 144 美元，每月 1,000 點、無浮水印、PDF 匯出），可 1 美元試用 14 天。介面英文。",
+ ["簡報","設計",F,P],"簡報 心智圖 流程圖 時間軸 視覺化 白板 canvas 投影片"),
+("composeai","Compose AI","https://www.compose.ai","寫作・Chrome 擴充隨處自動完成・免費可用",
+ "裝成 Chrome 擴充後，在 Gmail、文件等任何輸入框用自動完成補句，輸入 // 叫 AI 起草，也能一鍵回信、改寫／縮短／擴寫，並學你的用字。免費版每月 1,500 字生成、25 次改寫、10 封回信；Premium 年繳每月 9.99 美元（每月 2.5 萬字、改寫不限；月繳價未查證）。介面英文。",
+ ["寫作",F,P],"寫作 自動完成 autocomplete Chrome 擴充 Gmail 回信 改寫 個人化"),
+("wordvice","Wordvice AI","https://wordvice.ai","寫作・英文校對／改寫／學術潤稿・免費可用",
+ "出身英文論文編修公司，提供 AI 校對、改寫、摘要、翻譯、AI 偵測與抄襲檢查，適合寫英文報告與論文。免費 Basic 每月 5,000 字（每次 500 字）；Premium 年繳每月 9.95 美元（目前五折，原價 19.95 美元，每月 100 萬字、抄襲檢查 20 頁）。介面英文（另有韓文等）。",
+ ["寫作","翻譯","研究",F,P],"寫作 英文 校對 文法 改寫 論文 學術 抄襲檢查 AI 偵測 摘要"),
+("easypeasy","Easy-Peasy.AI","https://easy-peasy.ai","寫作・模板寫手＋配音＋轉錄一站式・免費可用",
+ "200 多種寫作模板（部落格、廣告、信件），加上文字轉語音、語音轉錄、AI 圖片與自訂聊天機器人，可設定品牌聲調。免費版每月 1,000 字、1,000 字元配音、1 次轉錄；Starter 年繳每月 8 美元（年付 96 美元，2.5 萬字、2.5 萬字元配音、20 次轉錄）。介面英文。",
+ ["寫作","配音",F,P],"寫作 模板 文案 部落格 TTS 配音 轉錄 品牌聲調 聊天機器人"),
+("speechgen","SpeechGen","https://speechgen.io","配音・點數包不訂閱的文字轉語音・免費可用",
+ "5,000 多種聲音、150 種語言（含中文），支援多角色對話、SSML 調停頓語調、PDF／DOCX 轉語音與字幕檔配音，含商用授權。免註冊可免費試 1,000 字元，註冊後 7 天內每天 3,000 字元；不訂閱，點數包 4.99 美元起（2.5 萬點約 60 分鐘，一年內有效）。介面英文。",
+ ["配音",F,P],"配音 TTS 文字轉語音 旁白 SSML 多角色 中文 商用 不訂閱 點數包"),
+("quillmeetings","Quill Meetings","https://www.quillmeetings.com","會議・本機優先、不進會的會議助理・免費可用",
+ "在自己電腦上錄音轉寫，不用讓機器人進會，逐字稿留在本機；付費版產生即時會議紀錄、待辦與週摘要，並有 iOS／Android 錄音 App。免費版本機轉寫與錄音不限次數；Lite 月繳 6.99 美元（每月 16 小時 Pro 會議），Unlimited 16.99 美元。Linux 版候補中。介面英文。",
+ ["會議",F,P],"會議紀錄 逐字稿 本機 隱私 無機器人 待辦 摘要 iOS Android"),
+("noota","Noota","https://www.noota.io","會議・法國歐盟託管的會議筆記・免費可用",
+ "法國團隊的 AI 會議筆記，網頁／桌面／手機皆可，資料存歐盟、不拿來訓練；付費版可無機器人錄音、同步 CRM、自訂報告模板。免費版會議筆記不限量（合理使用）但只保存 1 個月；Pro 年繳每月 19 歐元（約 22 美元，略超預算）。介面英文／法文。",
+ ["會議",F],"會議紀錄 逐字稿 摘要 歐盟 GDPR CRM 招募 法國 無機器人"),
+("nanobrowser","Nanobrowser","https://nanobrowser.ai","自動化・開源瀏覽器 AI 代理擴充・免費可用",
+ "裝在 Chrome／Edge 側邊欄，描述任務就會在你已登入的瀏覽器裡點擊、輸入、讀網頁並整理成表格；預設送出、刪除前會先問你。完全免費開源（Apache 2.0）、免註冊，自備 OpenAI／Claude／Gemini 等 API 金鑰或本機模型，金鑰只存在瀏覽器。介面英文。",
+ ["自動化",F],"自動化 瀏覽器 代理 agent Chrome 擴充 開源 本機模型 網頁操作 Operator 替代"),
+("pabbly","Pabbly Connect","https://www.pabbly.com/connect/","自動化・平價 Zapier 替代・免費可用",
+ "串接 2,000 多個 App 的多步驟工作流程，觸發與內建步驟（篩選、格式化、解析）不算任務數，另有 MCP 讓 AI 助理幫你建流程。免費方案每月 100 個任務；付費年繳每月 16 美元起（每月 1 萬任務，月繳價未查證）。印度團隊，介面英文。",
+ ["自動化",F,P],"自動化 工作流程 workflow Zapier 替代 串接 webhook MCP 平價")
 ]
-assert len(T)==250
+assert len(T)==260
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -789,9 +819,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-07</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-08</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-07 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-08 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
