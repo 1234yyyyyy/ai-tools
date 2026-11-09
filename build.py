@@ -780,9 +780,39 @@ T=[
  ["自動化",F],"自動化 瀏覽器 代理 agent Chrome 擴充 開源 本機模型 網頁操作 Operator 替代"),
 ("pabbly","Pabbly Connect","https://www.pabbly.com/connect/","自動化・平價 Zapier 替代・免費可用",
  "串接 2,000 多個 App 的多步驟工作流程，觸發與內建步驟（篩選、格式化、解析）不算任務數，另有 MCP 讓 AI 助理幫你建流程。免費方案每月 100 個任務；付費年繳每月 16 美元起（每月 1 萬任務，月繳價未查證）。印度團隊，介面英文。",
- ["自動化",F,P],"自動化 工作流程 workflow Zapier 替代 串接 webhook MCP 平價")
+ ["自動化",F,P],"自動化 工作流程 workflow Zapier 替代 串接 webhook MCP 平價"),
+("tenp","10P.ai","https://10p.ai","簡報・用自己的檔案生成可編輯 PPT・免費可用",
+ "把手上的文件、Markdown 或心智圖丟進去，生成可編輯的投影片，有 100 多款模板，也能匯出 PPT／PDF（匯出與匯入本機檔案限付費版）；介面有中文。免費版一次性 100 點、每次最多 10 頁；Pro 年繳每月 5 美元（年付 60 美元，每月 1,000 點、每次 25 頁），Pro Max 年繳每月 7 美元。月繳價未查證。",
+ ["簡報",F,P],"簡報 投影片 PPT PDF 文件轉簡報 心智圖 Markdown 模板 中文介面"),
+("creatos","Creatos AI（SlideUpLift）","https://slideuplift.com/ai-presentation-maker/","簡報・從 4 萬張設計好的投影片改起・免費可用",
+ "簡報模板站 SlideUpLift 推出的 AI 編輯器：不從空白開始，而是挑 4 萬多張專業設計投影片，用 AI 套品牌、改內容，最後匯出可編輯的 PowerPoint／Google Slides；手動改字不扣點。免費註冊送 2 點；月繳 18.99 美元起，年繳 Unlimited 等於每月 12.50 美元（年付 149.99 美元、含 120 點，官網標示目前秋季特價）。介面英文。",
+ ["簡報","設計",F,P],"簡報 投影片 模板 PowerPoint Google Slides 品牌 商務簡報 SlideUpLift"),
+("aiwritingpal","AIWritingPal","https://aiwritingpal.com","寫作・你寫、AI 只負責潤稿的安靜編輯器・免費可用",
+ "10 月改版成「你寫、AI 改」的極簡編輯器：選取段落就能改好、縮短、擴寫、換語氣或翻譯，支援中文、日文、英文，有可離線的 Mac App。寫作、專注模式與匯出 Word／PDF 永久免費，AI 潤稿送 1,000 字試用；Pro 每月 1 美元（年付 12 美元）不限量，14 天內可全額退款。",
+ ["寫作","翻譯",F,P],"寫作 潤稿 改寫 擴寫 縮寫 翻譯 中文 Mac App 離線 極簡編輯器 便宜"),
+("questquill","Questquill","https://quill.fictionate.me","寫作・LitRPG／升級流小說專用寫作軟體・免費可用",
+ "專為 LitRPG、升級流奇幻小說設計：章節樹、故事設定集、角色與世界地圖，加上數值面板、經驗曲線、技能樹與一致性檢查，可匯出 EPUB／DOCX 或發到 Royal Road。寫作功能全免費、專案不限，AI 每天 10 次；Pro 每月 12 美元（每天 500 次 AI、角色立繪與地圖生成，年繳省 25%）。介面英文。",
+ ["寫作",F,P],"寫作 小說 網文 LitRPG 升級流 奇幻 設定集 世界觀 數值 EPUB Royal Road 本機優先"),
+("colibri","Colibri","https://colibri.ai","會議・Zoom 原生會議記錄與即時逐字稿・免費可用",
+ "錄下電話與視訊會議、即時轉寫，並有會議議程、可搜尋的會議庫，也能上傳任何錄音；付費版加 AI 摘要、重點與下一步建議。免費版每月 5 小時轉寫、每場最長 40 分鐘（即時轉寫限英文）；Starter 年繳每月 16 美元、月繳 20 美元（每月 20 小時）。介面英文。",
+ ["會議",F,P],"會議紀錄 逐字稿 錄音 Zoom 議程 摘要 下一步 業務通話"),
+("humla","Humla","https://humla.team","會議・開源、不進會的 Mac 會議筆記・免費可用",
+ "挪威團隊做的開源（MIT）Mac 會議筆記本：不派機器人進會，直接錄雙方聲音、分辨誰說話，再用你的筆記加逐字稿寫重點，可全程在本機跑或用自己的 API 金鑰。App 永久免費、免帳號；團隊同步的 Humla Cloud 每人每月 5 美元。限 Apple Silicon、macOS 13 以上，介面英文。",
+ ["會議",F,P],"會議紀錄 逐字稿 開源 本機 隱私 無機器人 Mac Granola 替代 摘要"),
+("voicestudio","VoiceStudio","https://voicestudio.sh","配音・開源本機版 ElevenLabs 替代・免費可用",
+ "裝在自己電腦上的開源配音工作室：聲音複製、用文字描述設計新聲音、影片多語配音、聽寫轉錄和有聲書製作，號稱支援 646 種語言，音檔不上傳；Windows／Mac／Linux 都有，有顯卡跑起來更順。開源版免費（商用要看各模型授權）；Pro 版標示「即將推出」，年付 99 美元或買斷 199 美元。介面有中文。",
+ ["配音","字幕",F],"配音 TTS 聲音複製 聲音設計 影片配音 有聲書 開源 本機 Windows 顯卡 ElevenLabs 替代"),
+("speechma","Speechma","https://speechma.com","配音・免註冊的免費文字轉語音・免費可用",
+ "打開網頁就能用：1,700 多種聲音、75 種以上語言（含中文），可設定說話風格與停頓、雙人對話，另有聲音複製、配音、轉錄和音樂工具，官網寫明可商用。全部免費、免註冊、靠廣告與捐款營運，每次最多 2,000 字元；去廣告的 SpeechmaPRO 價格未查證，TTS API 每月 9 美元起。介面英文。",
+ ["配音",F,P],"配音 TTS 文字轉語音 免費 免註冊 中文 商用 雙人對話 旁白"),
+("nightflow","NightFlow","https://night-flow.com","自動化・看得到每個節點在跑的 AI 流程畫布・免費可用",
+ "在畫布上拖 50 多種節點串 LLM 工作流程（讀試算表、抓網頁、RAG 文件問答、發 Slack／Discord），執行時每個節點的狀態、耗時和輸出即時顯示；也能用一句話叫 AI 幫你接好流程。免費版每月 100 次執行、3 個流程；Pro 每人每月 49 美元，超出預算。介面英文。",
+ ["自動化",F],"自動化 工作流程 workflow LLM RAG 節點 畫布 Slack Discord 範本 無程式碼"),
+("automa","Automa","https://www.goautoma.com","自動化・桌面 RPA＋AI 代理無程式碼工具・免費可用",
+ "下載到電腦的無程式碼 RPA：拖拉建立流程，能操作桌面 App 和網頁（例如大量發 Teams／WhatsApp 訊息、批次上傳影片、擷取表格），內建 OCR 與 AI 判斷，有現成範本；Windows／Mac／Linux 皆可。免費方案不用信用卡（1 個自建 App、第三方 App 每天執行 30 分鐘）；付費價格官網未公開，未查證。介面英文。",
+ ["自動化",F],"自動化 RPA 桌面自動化 無程式碼 AI 代理 OCR 批次 範本 機器人流程")
 ]
-assert len(T)==260
+assert len(T)==270
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -819,9 +849,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-08</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-09</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-08 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-09 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
