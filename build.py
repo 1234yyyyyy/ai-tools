@@ -810,9 +810,39 @@ T=[
  ["自動化",F],"自動化 工作流程 workflow LLM RAG 節點 畫布 Slack Discord 範本 無程式碼"),
 ("automa","Automa","https://www.goautoma.com","自動化・桌面 RPA＋AI 代理無程式碼工具・免費可用",
  "下載到電腦的無程式碼 RPA：拖拉建立流程，能操作桌面 App 和網頁（例如大量發 Teams／WhatsApp 訊息、批次上傳影片、擷取表格），內建 OCR 與 AI 判斷，有現成範本；Windows／Mac／Linux 皆可。免費方案不用信用卡（1 個自建 App、第三方 App 每天執行 30 分鐘）；付費價格官網未公開，未查證。介面英文。",
- ["自動化",F],"自動化 RPA 桌面自動化 無程式碼 AI 代理 OCR 批次 範本 機器人流程")
+ ["自動化",F],"自動化 RPA 桌面自動化 無程式碼 AI 代理 OCR 批次 範本 機器人流程"),
+("lumo","LUMO（Lumo Studios）","https://studio.lumotechnology.com","簡報・一句話生成設計感投影片・免費可用",
+ "輸入主題就生成排版好的整份簡報，有設計師模板、AI 配圖和品牌套件，付費版可匯出 PPTX。免費版 3 份簡報、每月 3,000 AI 點數、只能匯出 PDF；Starter 月繳 19.99 美元（10 份簡報、每月 7,000 點、可匯出 PPTX），年繳最多省 23%。介面英文。",
+ ["簡報","設計",F,P],"簡報 投影片 PPT PPTX 模板 品牌套件 AI 配圖 提案"),
+("scriblio","Scriblio","https://scriblio.co","寫作・陪你寫完第一本小說、不代筆・免費可用",
+ "給小說作者的寫作工作室：AI 會提問、抓前後矛盾、整理世界觀、潤稿，還能生成角色和場景插圖，最後排版匯出 PDF／EPUB；強調不替你寫、保留你的文風。免費版每月 12 次 AI 文字、5 張 AI 圖，稿件數量不限；Writer 每月 5 美元（含 5 美元 AI 用量，每個按鈕先顯示價錢），14 天內可退款。介面英文。",
+ ["寫作",F,P],"寫作 小說 世界觀 角色 潤稿 一致性 EPUB 排版 插圖 不代筆"),
+("novvler","Novvler","https://www.novvler.com","寫作・會標出哪些字是你寫的小說軟體・免費可用",
+ "專為小說家設計的結構化寫作空間：章節、大綱、角色與世界觀卡片互相連結，有軟木板與試算表檢視，AI 幫忙打草稿、腦力激盪，並追蹤哪些字是 AI 寫的；網頁版加 iPhone／iPad。免費版寫作不限、可匯出 EPUB／DOCX，每月 2,000 個 AI 字；Pro 每月 9 美元（每月 15,000 個 AI 字、AI 文法風格檢查）。介面英文。",
+ ["寫作",F,P],"寫作 小說 大綱 章節 角色卡 世界觀 EPUB DOCX iPad AI 字數追蹤"),
+("creader","Creader","https://creader.io","寫作・自動抓小說前後矛盾的故事聖經・免費可用",
+ "你只管寫，它從文字裡自動整理角色、地點、關係和時間線，再逐章檢查矛盾（例如第 3 章綠眼睛、第 7 章變藍眼睛、死掉的角色又開口），也能校對、分析懸念與劇情結構。免費版每月 10 萬 tokens、每專案 50 個條目、終身 3 次匯入書稿；Pro 每月 9.99 美元（年繳 99.99 美元），7 天內首付可退款。介面英文。",
+ ["寫作",F,P],"寫作 小說 連貫性 一致性檢查 故事聖經 世界觀 時間線 校對 系列作"),
+("parrot","Parrot","https://openparrot.app","會議・通話中就從你的文件提示答案的開源 Mac 會議助理・免費可用",
+ "開源（GPL-3.0）的 Mac 會議錄音加即時助理：不派機器人進會，直接錄電腦聽到的聲音、本機轉寫；客戶問到價格或 FAQ 時，會從你丟進去的文件即時跳出答案並標出處，會後產生承諾事項與漏答問題報告，也能問過去所有會議。完全免費、免帳號，可用本機 Ollama 或自己的 Claude。限 macOS 14 以上 Apple Silicon，介面英文。",
+ ["會議",F],"會議紀錄 逐字稿 即時助理 開源 本機 隱私 無機器人 Mac 業務通話 知識庫"),
+("oats","Oats（Ariso）","https://ariso.ai/oats","會議・開源、可完全離線的會議筆記・免費可用",
+ "Ariso 推出的開源會議筆記 App：在電腦上直接錄音、不派機器人進會，會後給摘要和待辦清單；選本機後端時筆記存成 Markdown、待辦變成 Obsidian Tasks，完全不上傳。Oats 本身免費，也可接 Ariso 雲端拿到較佳轉寫和講者辨識。Mac 正式版、Windows 測試版，介面英文。",
+ ["會議",F],"會議紀錄 逐字稿 開源 本機 離線 Obsidian Markdown 待辦 無機器人 Windows Mac"),
+("hynote","HyNote","https://hynote.ai","會議・錄音、YouTube、PDF 都能變重點筆記・免費可用",
+ "錄 Zoom／Meet／Teams 會議（不用機器人）、上傳音檔，或貼 YouTube、PDF、網頁，自動轉寫並產生摘要、重點和待辦，有 30 多種模板、50 多種語言，網頁和手機都能用。免費版可錄音轉寫（每段最長 3 小時，每月分鐘數官網沒寫）；Pro 月繳 11.99 美元、年繳等於每月 6.66 美元（每月 1,200 分鐘）。",
+ ["會議",F,P],"會議紀錄 逐字稿 錄音 摘要 YouTube PDF 筆記 手機 翻譯 模板"),
+("vexa","Vexa","https://vexa.ai","會議・開源會議轉寫 API，直接接進你的 AI 代理・免費可用",
+ "開源（Apache 2.0）的會議機器人與即時轉寫平台：支援 Google Meet、Teams、Zoom，透過 MCP 把會議即時逐字稿送進 Claude Code、Codex 等代理，也有 REST API。可自架永久免費；雲端新帳號送 2 美元額度（約 4 小時），Individual 每人每月 12 美元，API 每小時 0.5 美元起。偏技術向，介面英文。",
+ ["會議","寫程式",F,P],"會議 轉寫 API MCP 開源 自架 會議機器人 代理 Google Meet Teams Zoom"),
+("vois","Vois","https://vois.so","配音・在自己電腦跑、生成不限次數的配音工作室・免費可用",
+ "裝在 Windows／Mac 的本機 AI 配音工作室：100 多種聲音、23 種語言（含中文），可聲音複製、用文字設計新聲音、多人腳本時間軸與母帶處理，適合有聲書、Podcast 和旁白；付費版生成不限次數。免費版不限時間、限非商用；按次購買每次匯出 5 美元；Pro 平時每月 49 美元，目前節日優惠每月 15 美元（續訂維持此價）。需較好顯卡跑進階模型，不退款。介面英文。",
+ ["配音",F,P],"配音 TTS 有聲書 Podcast 旁白 聲音複製 本機 不限次數 Windows Mac ElevenLabs 替代"),
+("ottokit","OttoKit（原 SureTriggers）","https://ottokit.com","自動化・WordPress 站長友善的 AI 自動化・免費可用",
+ "無程式碼自動化平台，用一句話描述就生成流程，有 AI 代理、人工審核關卡和 MCP，連接大量 App，跟 WordPress 外掛整合特別深。免費版每月 250 個任務、20 個流程、所有整合都能用，不需信用卡；Pro 月繳 12 美元、年繳每月 9 美元（每月 5,000 任務），也有一次買斷方案。介面英文。",
+ ["自動化",F,P],"自動化 工作流程 無程式碼 AI 代理 WordPress Zapier 替代 MCP 人工審核")
 ]
-assert len(T)==270
+assert len(T)==280
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -849,9 +879,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-09</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-10</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-09 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-10 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
