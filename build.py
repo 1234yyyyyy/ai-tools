@@ -840,9 +840,39 @@ T=[
  ["配音",F,P],"配音 TTS 有聲書 Podcast 旁白 聲音複製 本機 不限次數 Windows Mac ElevenLabs 替代"),
 ("ottokit","OttoKit（原 SureTriggers）","https://ottokit.com","自動化・WordPress 站長友善的 AI 自動化・免費可用",
  "無程式碼自動化平台，用一句話描述就生成流程，有 AI 代理、人工審核關卡和 MCP，連接大量 App，跟 WordPress 外掛整合特別深。免費版每月 250 個任務、20 個流程、所有整合都能用，不需信用卡；Pro 月繳 12 美元、年繳每月 9 美元（每月 5,000 任務），也有一次買斷方案。介面英文。",
- ["自動化",F,P],"自動化 工作流程 無程式碼 AI 代理 WordPress Zapier 替代 MCP 人工審核")
+ ["自動化",F,P],"自動化 工作流程 無程式碼 AI 代理 WordPress Zapier 替代 MCP 人工審核"),
+("lyllic","Lyllic","https://lyllic.com","簡報・按份計價、能放 3D 和動畫的 AI 簡報・免費可用",
+ "AI 代理把每張投影片寫成網頁程式碼，所以能放 Three.js 3D 場景、GSAP 動畫和用你的數字畫的即時圖表，可在畫布上直接改或用聊天修改，最後分享連結、匯出 PPTX 或生成有旁白的 MP4。新帳號前 3 份簡報免費、沒浮水印、功能不鎖；之後沒有月費，每份 1 至 2 美元（依複雜度，扣款前先顯示價格）。介面英文。",
+ ["簡報","設計",F,P],"簡報 投影片 3D 動畫 圖表 PPTX 影片 按份計價 無訂閱 募資簡報 品牌套件"),
+("pauta","Pauta","https://www.pauta-ai.com/en/","會議・買斷 5 美元、全程離線的會議逐字稿・免費可用",
+ "不派機器人進會，自動偵測會議開始，把麥克風和電腦聲音在本機即時轉寫，記得每個人的聲音、自動歸到專案，再用你選的 AI 產生決議與待辦，也能跨會議提問；免帳號、免伺服器，可完全離線。有免費試用；授權一次買斷，官網標示原價 15 美元、現價 5 美元。支援 macOS 13 以上與 Windows 10／11（Microsoft Store）。",
+ ["會議",F,P],"會議紀錄 逐字稿 離線 本機 隱私 買斷 無機器人 講者辨識 Mac Windows 訪談"),
+("rodeo","Rodeo","https://rodeo.so","會議・免費版就有 AI 會議紀錄的 Notion 替代品・免費可用",
+ "像 Notion 的頁面加資料庫工作區（7 種檢視、即時共編），每個方案都附 AI 會議紀錄：錄音或上傳通話就給分講者逐字稿、摘要、決議和可轉成任務的待辦，還有會引用來源的 Ask AI 和內建 MCP 伺服器，可匯入 Notion。免費版最多 3 人、頁面不限，創辦人表示含每月 120 分鐘 AI 會議紀錄；Starter 每人每月 3 美元。網頁與 Mac／Windows App，介面英文。",
+ ["會議","寫作",F,P],"會議紀錄 逐字稿 Notion 替代 知識庫 Wiki 資料庫 MCP 團隊 待辦 便宜"),
+("voxtakes","Voxtakes","https://www.voxtakes.com","配音・改一句只重配那一句的影片 AI 配音・免費可用",
+ "貼影片連結或上傳，就用你複製的聲音翻譯配音成 8 種語言（含中文），附字幕；可逐句審稿，改一句只重算那一句（1 點分鐘），還能去除燒在畫面上的舊字幕、用術語表鎖住品牌名詞。免費可完整配一支 3 分鐘影片（有浮水印、不用信用卡）；Starter 每月 7 美元（每月約 30 分鐘，年繳 60 美元），點數不過期。",
+ ["配音","影片","字幕",F,P],"配音 影片翻譯 AI 配音 聲音複製 多語 字幕 去字幕 YouTube 在地化 中文"),
+("lalals","Lalals","https://lalals.com","配音・歌聲變聲、文字轉語音和分軌的音訊工具箱・免費可用",
+ "主打 3,000 多種聲音的變聲器（含歌聲）和文字轉語音，可多人對話，另有 23 軌分離、去噪去回音、母帶、音效、作詞與 BPM 偵測，適合做翻唱、Demo 和配音。免費版每月 500 點、150 多種聲音、輸出限 10 秒；Plus 月繳 12.97 美元、年繳每月 9.99 美元（每月 5,000 點、可商用）。介面英文。",
+ ["配音",F,P],"配音 變聲 歌聲 AI 翻唱 TTS 分軌 去人聲 母帶 音效 音樂製作"),
+("notevibes","Notevibes（Noty）","https://notevibes.com","配音・跟 AI 製作人說一句就做出旁白和 Podcast・免費可用",
+ "不用調一堆設定：丟腳本、文件或只給主題，AI 製作人 Noty 會改寫、選角、導演，產出旁白、雙人 Podcast、有聲書，甚至附插圖的故事書和歌曲；2,600 多種聲音、130 多種語言，30 秒錄音就能複製自己的聲音。有免費方案（官網寫不用卡、無浮水印，額度未查證）；Starter 年繳 96 美元、等於每月 8 美元（含 1 個複製聲音、可商用），月繳價未查證。",
+ ["配音",F,P],"配音 TTS 旁白 Podcast 有聲書 聲音複製 故事書 多語 AI 製作人"),
+("nekton","Nekton.ai","https://nekton.ai","自動化・用白話列步驟，AI 寫好程式幫你跑・免費可用",
+ "一步一步用英文白話描述要做的事，能自動化的步驟 Nekton 會寫成程式並在雲端執行，自動和手動步驟可以混著用、慢慢自動化；支援表單、排程、分享連結給別人執行，能串大量服務的 API。適合小而明確的任務，不適合跑大量資料。免費版每月 300 次流程；Starter 每月 9 美元（1,000 次），非商用與開源專案免費。介面英文。",
+ ["自動化",F,P],"自動化 工作流程 無程式碼 AI 寫程式 排程 表單 API 雲端執行 小任務"),
+("irisgo","IrisGo","https://irisgo.ai","自動化・做給它看一次，就學會重複跑的電腦 AI 助理・免費可用",
+ "裝在電腦上的 AI 助理：你示範一次工作流程（例如報帳），它記下步驟變成技能，之後換新資料自動重跑；也有每日簡報（讀行事曆和未讀信列出優先事項）、信件分類與會議摘要，可用電腦本機 NPU／GPU 運算。公開測試期間免費；正式付費價格未公布，未查證。支援 Windows 11（64 位元）和 Apple Silicon Mac。",
+ ["自動化",F],"自動化 示範學習 桌面代理 RPA 每日簡報 信件分類 會議摘要 個人工作者 Windows Mac"),
+("axiomstory","AxiomStory","https://axiomstory.com","寫作・幫小說建世界觀百科、抓前後矛盾・免費可用",
+ "寫作或匯入書稿（EPUB、PDF、Markdown 等），它自動整理角色、地點和設定規則的百科，並跨章節標出矛盾；付費版還能固定角色外觀生成插圖、幫角色配聲音、把場景做成短影片。免費版不用卡，一次性 250 點（約 3 萬字的協助），沒有圖片和影片；Writer 每月 16 美元（年繳 192 美元，約每月 50 萬字）。介面英文。",
+ ["寫作",F,P],"寫作 小說 世界觀 百科 一致性檢查 角色 插圖 配音 書稿 奇幻"),
+("tk","TK（Medium）","https://medium.com/blog/tk-a-new-private-notebook-app-from-medium-13d3d6efdce1","寫作・寫到一半打 @TK 就能叫 AI 的私人筆記本・免費可用",
+ "Medium 11/9 推出的寫作筆記 App：寫到一半輸入「@TK」就能查資料或叫出之前寫的段落，內建編輯與標題回饋、寫作提示，能把一堆筆記整理成百科頁，也可匯入 Bear／Obsidian 和 Markdown；附 MCP 伺服器與 Claude 技能，讓你的 AI 代理讀你的筆記。官方說不會拿你的文字訓練 AI。TechCrunch 報導有 Medium 帳號即可免費使用（官方價格頁未查證）；目前網頁版與手機版，介面英文。",
+ ["寫作",F],"寫作 筆記 第二大腦 Medium 部落格 寫作提示 編輯回饋 MCP Obsidian 匯入 免費")
 ]
-assert len(T)==280
+assert len(T)==290
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -879,9 +909,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-10</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-11</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-10 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-11 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
