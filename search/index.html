@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>多站搜尋</title>
+<style>
+:root{
+  --bg:#f4f4f7;--card:#ffffff;--sub:#f7f7fa;--text:#17171c;--muted:#8b8b96;--faint:#c9c9d2;--line:#e8e8ee;
+  --accent:#5b5bd6;--accent-bg:#eeeefc;--accent-text:#4040b8;--danger:#d14b4b;
+  --shadow:0 1px 2px rgba(20,20,40,.04),0 8px 24px rgba(20,20,40,.06);
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#111114;--card:#1b1b20;--sub:#222228;--text:#ececf1;--muted:#8d8d99;--faint:#4a4a55;--line:#2c2c34;
+  --accent:#8b8bf5;--accent-bg:#26264a;--accent-text:#b4b4ff;--danger:#f08a8a;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.3);
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI","Microsoft JhengHei","PingFang TC",sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:720px;margin:0 auto;padding:64px 16px 48px}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:0;padding:0}
+
+.bar{display:flex;align-items:center;gap:8px;background:var(--card);border-radius:18px;padding:8px 8px 8px 20px;box-shadow:var(--shadow);border:1px solid transparent;transition:border-color .15s}
+.bar:focus-within{border-color:var(--accent)}
+.bar svg{flex:none;color:var(--muted)}
+#q{flex:1;min-width:0;height:44px;border:0;outline:0;background:none;color:var(--text);font-size:18px}
+#q::placeholder{color:var(--faint)}
+.go{flex:none;height:44px;padding:0 20px;border-radius:12px;background:var(--accent);color:#fff;font-weight:500;transition:transform .1s,opacity .15s}
+.go:active{transform:scale(.97)}
+
+.slots{display:flex;align-items:center;gap:8px;margin:14px 4px 0;flex-wrap:wrap}
+.slot{height:32px;min-width:64px;padding:0 12px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;font-size:13px}
+.slot.empty{border:1.5px dashed var(--faint);color:var(--faint)}
+.slot.full{background:var(--accent-bg);color:var(--accent-text);font-weight:500}
+.slot.pop{animation:pop .18s ease-out}
+.slot.full:hover{background:var(--accent);color:#fff}
+.slot.full .rm{opacity:.6;font-size:12px}
+@keyframes pop{from{transform:scale(.85);opacity:0}to{transform:none;opacity:1}}
+.libbtn{margin-left:auto;height:32px;padding:0 12px;border-radius:10px;font-size:13px;color:var(--muted);display:inline-flex;align-items:center;gap:6px}
+.libbtn:hover,.libbtn.open{background:var(--card);color:var(--text)}
+
+.lib{display:none;margin-top:12px;background:var(--card);border-radius:16px;box-shadow:var(--shadow);padding:6px 18px}
+.lib.open{display:block;animation:fade .18s ease-out}
+@keyframes fade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.grp{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
+.grp:last-child{border-bottom:0}
+.gname{flex:none;width:40px;padding-top:5px;font-size:12px;color:var(--muted)}
+.gk{display:flex;flex-wrap:wrap;gap:6px}
+.k{position:relative;height:30px;padding:0 12px;border-radius:9px;background:var(--sub);font-size:13px;transition:background .12s}
+.k:hover{background:var(--line)}
+.k.on{background:var(--accent-bg);color:var(--accent-text)}
+.k.on::before{content:"✓ "}
+.k.add{color:var(--muted);background:none;border:1.5px dashed var(--line)}
+.del{display:none;position:absolute;top:-6px;right:-6px;width:16px;height:16px;border-radius:50%;background:var(--muted);color:var(--card);font-size:11px;line-height:16px;text-align:center}
+.k:hover .del{display:block}
+
+.sites{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:36px}
+.site{position:relative;display:flex;align-items:center;gap:10px;padding:12px;border-radius:14px;background:var(--card);border:1.5px solid transparent;box-shadow:var(--shadow);text-align:left;transition:border-color .12s,opacity .12s}
+.site.off{opacity:.55;box-shadow:none;background:transparent;border-color:var(--line)}
+.site.on{border-color:var(--accent)}
+.av{flex:none;width:32px;height:32px;border-radius:9px;display:grid;place-items:center;font-size:14px;font-weight:600;color:#fff}
+.sn{min-width:0}
+.sn b{display:block;font-weight:500;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sn small{display:block;color:var(--muted);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tools{display:none;position:absolute;top:6px;right:6px;gap:2px}
+.site:hover .tools{display:flex}
+.tools span{width:22px;height:22px;border-radius:6px;display:grid;place-items:center;font-size:12px;color:var(--muted);background:var(--sub)}
+.tools span:hover{color:var(--text)}
+.site.add{justify-content:center;color:var(--muted);background:none;box-shadow:none;border:1.5px dashed var(--line);opacity:1}
+
+.packs{display:flex;gap:6px;flex-wrap:wrap;margin:0 4px 14px}
+.pk{position:relative;height:28px;padding:0 12px;border-radius:999px;font-size:13px;color:var(--muted)}
+.pk:hover{background:var(--card);color:var(--text)}
+.pk.on{background:var(--text);color:var(--bg)}
+.pk.add{border:1.5px dashed var(--line)}
+.pk:hover .del{display:block}
+.foot{display:flex;align-items:center;gap:12px;margin-top:16px;min-height:32px}
+.note{flex:1;font-size:13px;color:var(--danger)}
+.all{font-size:13px;color:var(--muted);padding:6px 10px;border-radius:8px}
+.all:hover{background:var(--card);color:var(--text)}
+@media (max-width:520px){main{padding-top:32px}.gname{width:32px}.sites{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+<main>
+  <div class="packs" id="packs"></div>
+  <div class="bar">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="q" placeholder="搜尋" autocomplete="off" autofocus>
+    <button class="go" id="go">開啟</button>
+  </div>
+
+  <div class="slots" id="slots"></div>
+  <div class="lib" id="lib"></div>
+
+  <div class="sites" id="sites"></div>
+  <div class="foot"><span class="note" id="note"></span><button class="all" id="openAll">全部開啟</button></div>
+</main>
+<script>
+const KEY='multiSearch.v2',SLOTS=4;let NEW=null;
+const COLORS=['#5b5bd6','#e5484d','#f76b15','#30a46c','#0090ff','#d6409f','#8e4ec6','#12a594','#ad7f58','#3e63dd'];
+const DEF={
+  sites:[
+    {n:'Google',u:'https://www.google.com/search?q=%s',on:true},
+    {n:'YouTube',u:'https://www.youtube.com/results?search_query=%s',on:true},
+    {n:'PTT',u:'https://www.google.com/search?q=%s%20site%3Aptt.cc',on:true},
+    {n:'Reddit',u:'https://www.reddit.com/search/?q=%s',on:true},
+    {n:'Dcard',u:'https://www.dcard.tw/search?query=%s',on:false},
+    {n:'X',u:'https://x.com/search?q=%s',on:false},
+    {n:'GitHub',u:'https://github.com/search?q=%s&type=repositories',on:false},
+    {n:'維基百科',u:'https://zh.wikipedia.org/w/index.php?search=%s',on:false},
+    {n:'豆瓣',u:'https://www.douban.com/search?q=%s',on:false},
+    {n:'IMDb',u:'https://www.imdb.com/find/?q=%s',on:false},
+    {n:'Perplexity',u:'https://www.perplexity.ai/search?q=%s',on:false}
+  ],
+  lib:[
+    {g:'內容',k:['心得','推薦','評測','比較','教學','懶人包','片單']},
+    {g:'時間',k:['2026','2025','最新']},
+    {g:'形式',k:['PDF','影片','圖解','開箱']},
+    {g:'來源',k:['官方','論文','實測']}
+  ],
+  eq:[],
+  packs:[
+    {n:'Prompt',q:'system prompt',eq:[],sites:[
+      {n:'GitHub 星星排序',u:'https://github.com/search?q=%s&type=repositories&s=stars&o=desc'},
+      {n:'Anthropic 官方',u:'https://www.google.com/search?q=%s%20site%3Aanthropic.com'},
+      {n:'OpenAI 官方',u:'https://www.google.com/search?q=%s%20site%3Aopenai.com'},
+      {n:'Google AI 官方',u:'https://www.google.com/search?q=%s%20site%3Aai.google.dev'}
+    ]},
+    {n:'電影',q:'',eq:['片單'],sites:[
+      {n:'PTT',u:'https://www.google.com/search?q=%s%20site%3Aptt.cc'},
+      {n:'豆瓣',u:'https://www.douban.com/search?q=%s'},
+      {n:'IMDb',u:'https://www.imdb.com/find/?q=%s'},
+      {n:'YouTube',u:'https://www.youtube.com/results?search_query=%s'}
+    ]}
+  ]
+};
+let S;
+try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){}
+if(!S||!S.sites||!S.lib){
+  S=structuredClone(DEF);
+  try{const old=JSON.parse(localStorage.getItem('multiSearch.v1'));if(old&&old.sites)S.sites=old.sites}catch(e){}
+}
+if(!S.packs)S.packs=structuredClone(DEF.packs);
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}};
+const $=s=>document.querySelector(s);
+const q=$('#q');
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const query=()=>[q.value.trim(),...S.eq].filter(Boolean).join(' ');
+const url=s=>s.u.replace('%s',encodeURIComponent(query()));
+function host(u){try{const m=u.match(/site%3A([^&%]+)/i);if(m)return decodeURIComponent(m[1]);return new URL(u.replace('%s','x')).hostname.replace(/^www\./,'')}catch(e){return''}}
+function color(n){let h=0;for(const c of n)h=(h*31+c.codePointAt(0))>>>0;return COLORS[h%COLORS.length]}
+const note=t=>{$('#note').textContent=t||''};
+
+function renderSlots(){
+  let h='';
+  for(let i=0;i<SLOTS;i++){
+    const k=S.eq[i];
+    h+=k?`<button class="slot full${k===NEW?' pop':''}" data-uneq="${i}" title="卸下">${esc(k)}<span class="rm">×</span></button>`:`<span class="slot empty">＋</span>`;
+  }
+  const open=$('#lib').classList.contains('open');
+  h+=`<button class="libbtn${open?' open':''}" id="libbtn"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>關鍵字庫</button>`;
+  $('#slots').innerHTML=h;NEW=null;
+}
+function renderLib(){
+  $('#lib').innerHTML=S.lib.map((g,gi)=>`<div class="grp"><div class="gname">${esc(g.g)}</div><div class="gk">${
+    g.k.map((k,ki)=>`<button class="k${S.eq.includes(k)?' on':''}" data-g="${gi}" data-k="${ki}">${esc(k)}<span class="del" data-dg="${gi}" data-dk="${ki}">×</span></button>`).join('')
+  }<button class="k add" data-addg="${gi}">＋</button></div></div>`).join('');
+}
+function renderSites(){
+  $('#sites').innerHTML=S.sites.map((s,i)=>`<button class="site ${s.on?'on':'off'}" data-s="${i}">
+    <span class="av" style="background:${color(s.n)}">${esc([...s.n][0].toUpperCase())}</span>
+    <span class="sn"><b>${esc(s.n)}</b><small>${esc(host(s.u))}</small></span>
+    <span class="tools"><span data-one="${i}" title="只開這個">↗</span><span data-ds="${i}" title="移除">×</span></span>
+  </button>`).join('')+`<button class="site add" id="addS">＋ 新增網站</button>`;
+  const n=S.sites.filter(s=>s.on).length;
+  $('#go').textContent=n?`開啟 ${n} 個`:'開啟';
+}
+function renderPacks(){
+  $('#packs').innerHTML=S.packs.map((p,i)=>`<button class="pk${S.pack===p.n?' on':''}" data-p="${i}">${esc(p.n)}<span class="del" data-dp="${i}">×</span></button>`).join('')+'<button class="pk add" id="addP">＋ 存成組合包</button>';
+}
+function applyPack(p){
+  p.sites.forEach(ps=>{if(!S.sites.some(s=>s.u===ps.u))S.sites.push({n:ps.n,u:ps.u,on:false})});
+  S.sites.forEach(s=>s.on=p.sites.some(ps=>ps.u===s.u));
+  S.sites.sort((a,b)=>b.on-a.on);
+  S.eq=p.eq.slice(0,SLOTS);
+  if(p.q)q.value=p.q;
+  S.pack=p.n;note();save();all();q.focus();
+}
+function dirty(){if(S.pack){S.pack=null;renderPacks()}}
+function all(){renderPacks();renderSlots();renderLib();renderSites()}
+
+function equip(k){
+  if(S.eq.includes(k)){S.eq=S.eq.filter(x=>x!==k)}
+  else if(S.eq.length>=SLOTS){note(`關鍵字欄位滿了，先卸下一個`);return}
+  else{S.eq.push(k);NEW=k}
+  dirty();note();save();renderSlots();renderLib();
+}
+function openList(list){
+  note();
+  if(!query()){q.focus();note('先輸入關鍵字');return}
+  if(!list.length){note('先選網站');return}
+  let blocked=0;
+  list.forEach(s=>{const w=window.open(url(s),'_blank');if(w){try{w.opener=null}catch(e){}}else blocked++});
+  if(blocked)note(`瀏覽器擋了 ${blocked} 個分頁：點網址列右側的封鎖圖示，選「一律允許」`);
+}
+
+$('#slots').addEventListener('click',e=>{
+  if(e.target.closest('#libbtn')){$('#lib').classList.toggle('open');renderSlots();return}
+  const u=e.target.closest('[data-uneq]');if(u){S.eq.splice(+u.dataset.uneq,1);dirty();note();save();renderSlots();renderLib();return}
+  if(e.target.closest('.slot.empty')){$('#lib').classList.add('open');renderSlots()}
+});
+$('#lib').addEventListener('click',e=>{
+  const d=e.target.closest('[data-dg]');
+  if(d){const g=S.lib[d.dataset.dg],k=g.k[d.dataset.dk];g.k.splice(d.dataset.dk,1);S.eq=S.eq.filter(x=>x!==k);save();renderSlots();renderLib();return}
+  const a=e.target.closest('[data-addg]');
+  if(a){const k=(prompt('新增關鍵字')||'').trim();if(!k)return;const g=S.lib[a.dataset.addg];if(!g.k.includes(k))g.k.push(k);save();renderLib();return}
+  const b=e.target.closest('[data-k]');if(b)equip(S.lib[b.dataset.g].k[b.dataset.k]);
+});
+$('#sites').addEventListener('click',e=>{
+  const one=e.target.closest('[data-one]');
+  if(one){openList([S.sites[one.dataset.one]]);return}
+  const ds=e.target.closest('[data-ds]');
+  if(ds){const s=S.sites[ds.dataset.ds];if(confirm(`移除「${s.n}」？`)){S.sites.splice(ds.dataset.ds,1);save();renderSites()}return}
+  if(e.target.closest('#addS')){
+    const n=(prompt('網站名稱')||'').trim();if(!n)return;
+    const u=(prompt(`到「${n}」搜尋 QQQ，把結果頁的網址貼上來`)||'').trim();if(!u)return;
+    if(!/^https?:\/\//.test(u)||!/QQQ/i.test(u)){alert('網址裡找不到 QQQ，請在該網站搜尋 QQQ 後再貼一次');return}
+    S.sites.push({n,u:u.replace(/QQQ/i,'%s'),on:true});save();renderSites();return;
+  }
+  const s=e.target.closest('[data-s]');if(s){const x=S.sites[s.dataset.s];x.on=!x.on;dirty();save();renderSites()}
+});
+$('#packs').addEventListener('click',e=>{
+  const d=e.target.closest('[data-dp]');
+  if(d){const p=S.packs[d.dataset.dp];if(confirm(`刪除組合包「${p.n}」？`)){S.packs.splice(d.dataset.dp,1);if(S.pack===p.n)S.pack=null;save();renderPacks()}return}
+  if(e.target.closest('#addP')){
+    const on=S.sites.filter(s=>s.on);
+    if(!on.length){note('先選網站再存');return}
+    const n=(prompt('組合包名稱')||'').trim();if(!n)return;
+    const p={n,q:q.value.trim(),eq:[...S.eq],sites:on.map(({n,u})=>({n,u}))};
+    const i=S.packs.findIndex(x=>x.n===n);
+    if(i>=0){if(!confirm(`「${n}」已存在，要覆蓋嗎？`))return;S.packs[i]=p}else S.packs.push(p);
+    S.pack=n;save();renderPacks();return;
+  }
+  const b=e.target.closest('[data-p]');if(b)applyPack(S.packs[b.dataset.p]);
+});
+q.addEventListener('input',()=>note());
+q.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.isComposing)openList(S.sites.filter(s=>s.on))});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){$('#lib').classList.remove('open');renderSlots()}});
+$('#go').onclick=()=>openList(S.sites.filter(s=>s.on));
+$('#openAll').onclick=()=>openList(S.sites);
+all();q.focus();
+</script>
+</body>
+</html>
