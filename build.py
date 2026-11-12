@@ -870,9 +870,39 @@ T=[
  ["寫作",F,P],"寫作 小說 世界觀 百科 一致性檢查 角色 插圖 配音 書稿 奇幻"),
 ("tk","TK（Medium）","https://medium.com/blog/tk-a-new-private-notebook-app-from-medium-13d3d6efdce1","寫作・寫到一半打 @TK 就能叫 AI 的私人筆記本・免費可用",
  "Medium 11/9 推出的寫作筆記 App：寫到一半輸入「@TK」就能查資料或叫出之前寫的段落，內建編輯與標題回饋、寫作提示，能把一堆筆記整理成百科頁，也可匯入 Bear／Obsidian 和 Markdown；附 MCP 伺服器與 Claude 技能，讓你的 AI 代理讀你的筆記。官方說不會拿你的文字訓練 AI。TechCrunch 報導有 Medium 帳號即可免費使用（官方價格頁未查證）；目前網頁版與手機版，介面英文。",
- ["寫作",F],"寫作 筆記 第二大腦 Medium 部落格 寫作提示 編輯回饋 MCP Obsidian 匯入 免費")
+ ["寫作",F],"寫作 筆記 第二大腦 Medium 部落格 寫作提示 編輯回饋 MCP Obsidian 匯入 免費"),
+("uncanny","Uncanny Automator","https://automatorplugin.com","自動化・讓 AI 直接管 WordPress、還會建自動流程・免費可用",
+ "免費 WordPress 外掛，11/2 起變成 MCP 伺服器：把 Claude、ChatGPT 等 AI 接上你的網站，用白話管文章、頁面、WooCommerce 和會員；還有內建自動化引擎，AI 說一句就幫你建成「觸發→條件→動作」的食譜，聊天結束後照樣定時執行，沒有 AI 訂閱也能用內建的 Uncanny Agent。免費 Lite 版第一週每天 300 次、之後每天 150 次 AI 工具使用，含 440 多個動作和一次性 250 個外部 App 額度；Basic 月繳 20 美元、年繳 199 美元（1 個網站、使用不限）。介面英文。",
+ ["自動化","寫作",F,P],"自動化 WordPress MCP 外掛 WooCommerce 會員 食譜 recipe 排程 網站管理 站長"),
+("nod","Nod（n8n Labs）","https://nod.n8n.io","自動化・有自己電腦和瀏覽器、幫你跑腿的開源個人代理・免費可用",
+ "n8n 團隊 11/10 推出的研究預覽版，獨立於 n8n：裝在 Mac／Windows 上，它在本機沙盒裡開自己的瀏覽器，幫你取消訂閱、盯價格、每月登入供應商後台下載發票、把沒有匯出功能的報表數字抄進週報；能排程、可用 Telegram／WhatsApp 下指令，送出、付款、刪除前都會再確認。開源（Apache 2.0）免費，只付你自己的 AI 模型費用（API 金鑰或 ChatGPT 方案，也可接本機模型），可設每月花費上限。適合不怕自己設 API 的人，介面英文。",
+ ["自動化",F],"自動化 個人代理 瀏覽器代理 開源 本機 沙盒 排程 Telegram WhatsApp n8n 跑腿 發票"),
+("hops","Hops","https://www.hops.ai","自動化・團隊共用 AI 隊友的文件、簡報與排程工作區・免費可用",
+ "Wrike 創辦人做的協作 AI 工作區，11/10 正式開放：聊天、文件、簡報、表格和自訂小 App 都在同一處，團隊在任何地方 @Hops 就能叫 AI 起草文件、做簡報、整理會議重點，還能設排程自動化；一個人教過它的事，全隊都能用，可串 2,000 多個 App。不按人頭收費：免費版送 20,000 點、成員不限、5 GB 空間；之後每 20,000 點 20 美元加值（官方估一份 600 字文件約 75～250 點）。介面英文。",
+ ["自動化","寫作","簡報",F,P],"自動化 團隊工作區 協作 文件 簡報 排程 AI 隊友 點數 無人頭費 Notion 替代"),
+("voicehue","VoiceHue","https://voicehue.com","配音・免註冊、打開網頁就能用的免費文字轉語音・免費可用",
+ "貼上文字、選聲音就直接在瀏覽器聽，可下載 MP3，有短影音開場、Podcast 開頭、課程講解、有聲書等範本；雲端聲音含中文、英文、日文、韓文、西班牙文、法文，另有可在你裝置上生成的聲音，也提供相容 OpenAI 格式的 API。免註冊每天 1 萬字元（每次 3,000 字），登入後每天 3 萬字元（每次 1 萬字）；API 免費方案每月 1 萬字元，付費價格未查證。11/6 上 Product Hunt。",
+ ["配音",F],"配音 TTS 文字轉語音 免費 免註冊 MP3 中文 旁白 有聲書 API"),
+("vocloner","Vocloner","https://www.vocloner.org","配音・直接在稿子裡打 [興奮]、[耳語] 來導演語氣的聲音複製・免費可用",
+ "用一段乾淨錄音複製聲音，再把稿子轉成語音；語氣不用調面板，直接在文字裡寫 [excited]、[whispering] 這類情緒標籤，下一句就照著演；同一個聲音可以念多種語言，對話模式最多 10 個聲音放同一軌。每個方案都要確認聲音授權。免費版 3 個聲音、每天 2,000 字元、限個人使用；Basic 每月 5 美元（每月 10 萬字元、可商用、多人對話）。11/9 上架，個人開發者作品，介面英文與西班牙文。",
+ ["配音",F,P],"配音 聲音複製 情緒標籤 TTS 多語 對話 旁白 便宜 Podcast"),
+("cedric","Cedric AI","https://meet-cedric.com","會議・代替你進會議、幫你講簡報再追進度的 AI 隊友・免費可用",
+ "事先交代要講什麼、哪些不能答應，它就進 Zoom／Meet／Teams 幫你放投影片簡報，並用你接好的工具即時回答問題；你晚到它幫你補進度，會後給筆記、決議和待辦，經你核准才去執行；平常也能在 Slack、Telegram、Discord 被 @ 處理工作。11/2 Product Hunt 當日第 4 名。新工作區送 10 萬點（價值 50 美元、一次性、不過期，功能全開）；Starter 每月 19 美元（每月 4 萬點），不按人頭計價。介面英文。",
+ ["會議","簡報","自動化",F,P],"會議 代理出席 簡報 會議紀錄 待辦 Zoom Meet Teams Slack AI 隊友 業務簡報"),
+("tesseract","Tesseract","https://tesseract.dev","簡報・一句話做好簡報、網站和影片的免費桌面 AI 代理・免費可用",
+ "裝在 Mac／Windows／Linux 的 AI 代理：說「幫我做給投資人看的簡報」，它先給計畫、再一步步做出可編輯的 PowerPoint 和 PDF，也能做網站、Logo、字型、影片、深度研究表格，共 33 種引導式製作器。本身完全免費，可登入你現有的 Claude 或 ChatGPT 訂閱來用，不計量；沒有訂閱就用會自動補充的免費額度，加值最低 10 美元。沒付費時會顯示贊助訊息（會把最近對話片段給廣告夥伴，可關閉個人化廣告）。11/14 上 Product Hunt，介面英文。",
+ ["簡報","設計","影片",F,P],"簡報 投影片 PowerPoint PDF 桌面代理 網站 Logo 影片 免費 Claude ChatGPT 訂閱 Mac Windows Linux"),
+("premast","Premast","https://premast.com","簡報・裝進 PowerPoint 和 Google 簡報的模板加 AI 外掛・免費可用",
+ "5 萬多套簡報模板、圖示和插圖，直接以外掛形式在 PowerPoint 和 Google 簡報裡使用，AI 可以從提示、筆記、文件或網址生成可編輯的簡報初稿，還有品牌套件統一配色字型。免費版每月 5 次下載、100 次 AI 文字生成、5 張 AI 圖、限個人授權；Pro 每月 14 美元（每月 10 次下載、2,000 次文字生成、可商用）。介面英文。",
+ ["簡報","設計",F,P],"簡報 模板 PowerPoint Google 簡報 外掛 插件 品牌套件 投影片 AI 生成"),
+("bookh","Bookh","https://bookh.io","寫作・從一句點子到大綱、章節和 EPUB 的小說副駕・免費可用",
+ "給一句點子，它生出幾個故事前提、封底文案和含場景節拍的章節大綱，再在安靜的編輯器裡陪你寫：Lore Vault 自動記住角色、地點和物品，Voice & Style 分析你的文字讓 AI 草稿像你寫的，卡住時「Finish Chapter」用你的語氣、時態和視角接著寫；可匯出 PDF、EPUB、Word 和投稿格式，也能匯入寫到一半的稿子。免費開始、不用信用卡；付費方案價格官網沒寫，未查證。介面有英、義、葡、德、西、韓文，沒有中文。",
+ ["寫作",F],"寫作 小說 大綱 故事聖經 角色 世界觀 EPUB DOCX 投稿格式 文風 續寫"),
+("snugly","Snugly CoWriter","https://snugly.cloud/services/cowriter/","寫作・每月 3 美元起、帶故事聖經的小說共寫工具・免費可用",
+ "個人開發者做的長篇寫作工具：先建故事計畫（角色、事件、結構），在編輯器裡用 AI 按鈕續寫、潤飾，旁邊的聊天知道你正在寫哪一章；11/1 更新加入每 30 秒自動存檔、每本書各自的文風設定（類型、語氣、視角、時態、16 種語言）、會建議要記的設定的故事聖經和章節字數目標，版本紀錄可隨時還原。每個帳號每月送 200 點免費額度；Starter 每月 3 美元（360 點），也可一次買 5 美元點數包。介面英文。",
+ ["寫作",F,P],"寫作 小說 共寫 故事聖經 大綱 章節 續寫 版本紀錄 便宜 多語")
 ]
-assert len(T)==290
+assert len(T)==300
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -909,9 +939,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-11</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-12</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-11 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-12 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
