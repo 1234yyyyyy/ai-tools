@@ -250,6 +250,8 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){$('#lib').classList
 $('#go').onclick=()=>openList(S.sites.filter(s=>s.on));
 $('#openAll').onclick=()=>openList(S.sites);
 all();q.focus();
+{const p=new URLSearchParams(location.search).get('q');
+ if(p){q.value=p;history.replaceState(null,'',location.pathname);openList(S.sites.filter(s=>s.on))}}
 </script>
 </body>
 </html>
