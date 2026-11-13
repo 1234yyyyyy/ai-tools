@@ -900,9 +900,39 @@ T=[
  ["寫作",F],"寫作 小說 大綱 故事聖經 角色 世界觀 EPUB DOCX 投稿格式 文風 續寫"),
 ("snugly","Snugly CoWriter","https://snugly.cloud/services/cowriter/","寫作・每月 3 美元起、帶故事聖經的小說共寫工具・免費可用",
  "個人開發者做的長篇寫作工具：先建故事計畫（角色、事件、結構），在編輯器裡用 AI 按鈕續寫、潤飾，旁邊的聊天知道你正在寫哪一章；11/1 更新加入每 30 秒自動存檔、每本書各自的文風設定（類型、語氣、視角、時態、16 種語言）、會建議要記的設定的故事聖經和章節字數目標，版本紀錄可隨時還原。每個帳號每月送 200 點免費額度；Starter 每月 3 美元（360 點），也可一次買 5 美元點數包。介面英文。",
- ["寫作",F,P],"寫作 小說 共寫 故事聖經 大綱 章節 續寫 版本紀錄 便宜 多語")
+ ["寫作",F,P],"寫作 小說 共寫 故事聖經 大綱 章節 續寫 版本紀錄 便宜 多語"),
+("noxi","NOXI","https://noxi.ai","簡報・一句話生出簡報、報告、海報等 14 種成品・免費可用",
+ "用一句話描述需求，NOXI 2.0 會自己規劃、查資料、設計、寫內容再檢查版面，交出簡報、報告、型錄、海報、履歷、菜單等 14 種格式，可用聊天或手動修改，匯出 PDF、PowerPoint 和 Word。用美元餘額計費，每份成品扣 5 美元、之後在聊天裡改都不另收；免費版每月 25 美元餘額（約 5 份），新帳號頭 14 天另送 15 美元；Pro 每月 19 美元（200 美元餘額、約 40 份）。介面英文與阿拉伯文。",
+ ["簡報","寫作","設計",F,P],"簡報 投影片 報告 海報 型錄 履歷 PDF PowerPoint Word 一句話生成 聊天修改"),
+("pitchboost","PitchBoost","https://pitchboost.ai","簡報・會查證資料、看得到誰看過的提案簡報・免費可用",
+ "輸入提案主題或上傳舊簡報，AI 生成套上你品牌的簡報，內建研究與事實查核，用分享連結送出後可看每位觀眾的瀏覽數據，團隊加人不加價。免費版每月 150 點（約 1 份 10 頁以內的 AI 簡報），只能分享連結且帶標章，下載要付費；Starter 月繳 7 美元（年繳每月 5.83 美元），每月 300 點、最多 25 頁，可下載 PowerPoint、PDF、Google 簡報。只做一份也可單次付 9 美元。介面英文。",
+ ["簡報",F,P],"簡報 提案 募資簡報 業務 品牌 分享連結 觀看分析 事實查核 PowerPoint Google 簡報"),
+("cue","Cue","https://www.cuebar.app","會議・住在 Mac 瀏海裡、會前提醒會後寫追蹤的會議助理・免費可用",
+ "不派機器人進會，直接聽 Mac 的聲音，所以 Zoom、Meet、Teams、Slack 和實體會議都能用：開會前幾分鐘在瀏海顯示上次聊了什麼、彼此欠什麼；會中自動記筆記、可問「剛剛漏了什麼」；會後整理承諾事項並用你的語氣草擬追蹤信，沒按同意不會寄出。另附任何 App 都能用的語音輸入。免費版每月 5 小時會議、50 份草稿，本機語音輸入不限；Pro 年繳每月 10 美元（前 100 名每年 96 美元），每月 15 小時。限 macOS，介面英文。",
+ ["會議",F,P],"會議紀錄 筆記 會前準備 追蹤信 無機器人 Mac 瀏海 語音輸入 聽寫 Zoom Meet Teams"),
+("yogurt","Yogurt","https://www.yogurt.so","會議・完全免費開源、AI 在自己電腦跑的會議筆記・免費可用",
+ "Y Combinator 投資的開源會議筆記，被稱為 Granola 的開源替代品：錄下你的麥克風和電腦播放的聲音，不派機器人進會、其他人不用裝任何東西；會後把逐字稿和你隨手記的重點合成一份筆記，還能問它剛剛漏了什麼。AI 在本機執行，錄音、逐字稿和筆記都不上傳，可離線，多語模式支援 99 種語言。完全免費（MIT 授權），沒有付費版。支援 macOS 14.4 以上（Apple 晶片）、Windows 10 和 Ubuntu 22。",
+ ["會議",F,P],"會議紀錄 逐字稿 本機 離線 隱私 開源 免費 無機器人 Granola 替代 Mac Windows Linux"),
+("yupvox","YupVox","https://yupvox.com","配音・每月 2 美元起、100 多種語言的配音與影片翻譯・免費可用",
+ "文字轉語音、音訊配音和影片翻譯配音共用同一份點數，有 4,000 多種聲音、100 多種語言和口音，可選旁白、輕鬆、戲劇化等語氣，另有 22 個免費瀏覽器音訊小工具。免費版每月 5 萬點（約 5 萬字元 TTS 或 8 分鐘影片配音），單次最多 3,000 字元、限 300 種標準聲音；Lite 每月 2 美元（9.9 萬點，可做聲音複製和用 API），Starter 每月 9 美元（99.9 萬點）。介面英文。",
+ ["配音","影片","字幕",F,P],"文字轉語音 TTS 配音 影片翻譯 多語 聲音複製 便宜 API 旁白"),
+("speaksay","SpeakSay","https://www.speaksay.com","配音・可買斷、30 多種語言的 AI 配音和 Podcast・免費可用",
+ "把文字變成擬真語音，60 多種常用聲音、也能用參考音檔做聲音複製，網站標示支援 30 多種語言並可做 Podcast。免費註冊送一次性 1 萬點、單次 2,000 字元、只能下載 MP3；Lite 每月 10 美元（50 萬字元，約 9 小時語音），Pro 每月 17 美元（100 萬字元）。也有一次買斷方案，原價 150 美元，11/13 當天特價 100 美元（每月 200 萬字元）。介面英文。",
+ ["配音",F,P],"文字轉語音 TTS 配音 聲音複製 Podcast 多語 買斷 有聲書 旁白"),
+("novilot","Novilot","https://www.novilot.com","寫作・幫長篇小說抓前後矛盾的修稿工具・免費可用",
+ "不是幫你寫，而是幫你修：匯入整份手稿後，Guardian 會把互相矛盾的段落並排給你看，由你決定怎麼改；故事聖經自動記住人物和設定，加上章節、大綱和分析工具，主打「AI 輔助、不是 AI 代寫」。免費版一次性送 30 點、1 個專案、免信用卡；用自己的 OpenRouter、Anthropic 或 OpenAI 金鑰每月 5 美元、專案不限；Writer 每月 19 美元（每月 100 點）。網站有繁體中文。",
+ ["寫作",F,P],"寫作 小說 修稿 前後矛盾 連貫性 故事聖經 大綱 手稿 自備金鑰 BYOK 繁中"),
+("feelywrite","FeelyWrite","https://www.feelywrite.com","寫作・記得整本書的小說寫作室、按 AI 次數計價・免費可用",
+ "每個方案功能都一樣，只差每月能叫 AI 幾次：Story DNA 讓角色和設定前後一致，有草擬、改寫、擴寫、描寫、腦力激盪、卡住時一次給 3 種開頭，也能跟整本書對話；書、章節不限，匯出 docx、pdf、epub、markdown 不扣點，生成失敗會退點。免費送 15 次 AI、免信用卡；Starter 月繳 9 美元（年繳每月 7 美元），每月 100 次；寫完整本小說建議 Author 每月 19 美元（400 次）。介面英文。",
+ ["寫作",F,P],"寫作 小說 寫書 故事一致 改寫 擴寫 腦力激盪 EPUB DOCX 按次計價"),
+("entangled","Entangled Text","https://www.entangledtext.com","寫作・自備 AI 金鑰就能免費寫整本書並匯出 Kindle 檔・免費可用",
+ "從書的企劃、故事板、大綱一路寫到章節，可一章一章寫、潤飾、修正，最多 100 章，匯出 EPUB、Word、PDF 和 Kindle KDP 壓縮檔，每天還能生 1 張 AI 封面。前 7 天第一本書的企劃和第 1 章免費、不用金鑰；之後接自己的 DeepSeek、OpenAI、Anthropic、Gemini、xAI 或 OpenRouter 金鑰就永久免費（匯出檔帶一段 Entangled Text 說明）；Pro 月繳 15 美元（年繳 150 美元），由它的模型代寫每月約 3.1 至 8.3 萬字並可整本一起修。介面英文。",
+ ["寫作",F,P],"寫作 小說 寫書 自備金鑰 BYOK Kindle KDP EPUB 出版 大綱 故事板 封面"),
+("orcha","Orcha","https://orcha.nl","自動化・打一句話就建好流程、免費開源的桌面自動化・免費可用",
+ "用白話描述要自動化的事，Orcha 會挑工具、組好流程開始跑，常駐在電腦背景，可連 Gmail、Slack、Notion、X 等 35 種以上工具；有回信、社群排程、Slack 每日摘要寫進 Notion、會前人物研究等現成範本，也能自訂專責代理，AI 可選 Claude、Codex、Gemini 或本機模型，資料留在自己電腦。完全免費開源、免帳號、不按次數收費（AI 用量由你自己的 AI 帳號付費）。支援哪些作業系統官網沒寫清楚，未查證；介面英文。",
+ ["自動化",F,P],"自動化 工作流程 代理 Agent Gmail Slack Notion 開源 免費 本機 Zapier 替代 範本")
 ]
-assert len(T)==300
+assert len(T)==310
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -939,9 +969,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-12</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-13</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-12 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-13 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
