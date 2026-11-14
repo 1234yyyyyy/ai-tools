@@ -930,9 +930,39 @@ T=[
  ["寫作",F,P],"寫作 小說 寫書 自備金鑰 BYOK Kindle KDP EPUB 出版 大綱 故事板 封面"),
 ("orcha","Orcha","https://orcha.nl","自動化・打一句話就建好流程、免費開源的桌面自動化・免費可用",
  "用白話描述要自動化的事，Orcha 會挑工具、組好流程開始跑，常駐在電腦背景，可連 Gmail、Slack、Notion、X 等 35 種以上工具；有回信、社群排程、Slack 每日摘要寫進 Notion、會前人物研究等現成範本，也能自訂專責代理，AI 可選 Claude、Codex、Gemini 或本機模型，資料留在自己電腦。完全免費開源、免帳號、不按次數收費（AI 用量由你自己的 AI 帳號付費）。支援哪些作業系統官網沒寫清楚，未查證；介面英文。",
- ["自動化",F,P],"自動化 工作流程 代理 Agent Gmail Slack Notion 開源 免費 本機 Zapier 替代 範本")
+ ["自動化",F,P],"自動化 工作流程 代理 Agent Gmail Slack Notion 開源 免費 本機 Zapier 替代 範本"),
+("vocallab","VocalLab","https://www.vocallab.ai","配音・用一句話指揮語氣、能做多角色有聲書的 AI 配音・免費可用",
+ "260 多種聲音、200 多種語言，在台詞前用括號寫「興奮地說」「壓低聲音耳語」就能指揮語氣，也能加 [laugh]、[sigh] 等音效標籤；可用約 30 秒音檔複製自己的聲音，或用文字描述設計新聲音。上傳 EPUB、PDF、DOCX、TXT 會自動找出旁白和角色、各配一個聲音做成有聲書，另有影片配音、逐字對時的 SRT 字幕、API 和 MCP。免費註冊送 60 點、免信用卡（約 1 秒語音 1 點），商用授權要付費；Lite 月繳每月 9 美元（年繳約每月 7.5 美元），每月 3,000 點約 50 分鐘；Pro 每月 24 美元。介面英文。",
+ ["配音",F,P],"文字轉語音 TTS 配音 有聲書 多角色 聲音複製 聲音設計 語氣指示 字幕 SRT API MCP"),
+("quillo","Quillo","https://quillo.tr/en","配音・把 PDF、Word、網頁唸給你聽的閱讀 App・免費可用",
+ "打開 PDF、Word、EPUB、拍照掃描的紙本或網頁文章，用自然的聲音逐句朗讀並標出正在唸的句子，關掉螢幕也能繼續聽、換裝置接著聽；Quillo Ai 能回答文件裡的問題、做摘要並標出頁碼，還能把筆記變成測驗卷。不用帳號就能免費用：裝置語音和本機自然語音（Piper）、32 種 PDF 工具（合併、壓縮、簽名、轉 Word）全免費；雲端自然語音和 AI 用點數，註冊送一次 200 點（雲端語音 1 分鐘 10 點），點數用完會改用裝置語音繼續唸。Starter 每月 4.99 美元（年繳 34.99 美元，每月 600 點約 60 分鐘雲端語音），Pro 每月 9.99 美元。支援 Android、iPhone 和網頁，介面英文。",
+ ["配音",F,P],"文字轉語音 朗讀 聽 PDF 聽書 閱讀 掃描 PDF 工具 摘要 測驗 視障 手機 App"),
+("speakswap","SpeakSwap","https://speakswap.io","配音・保留原聲還能對嘴的影片翻譯配音・免費可用",
+ "把真人說話的影片配成 100 多種語言，用聲音複製保留原本的聲線，並可做經人工審核的對嘴；同一份點數也能用在語音轉文字（逐字時間戳）、10 秒樣本聲音複製、人聲與伴奏分離、文字轉語音、SRT 字幕翻譯共 6 種工具。新用戶用 email 註冊送 20 點試用，免費輸出影片為 720p；Starter 每月 10 美元（1,100 點），也能不訂閱、單買點數包（首頁標示 6 美元起），付費才能 1080p、單支 40 分鐘。可刷卡。介面英文。",
+ ["配音","影片","翻譯",F,P],"影片配音 翻譯配音 對嘴 lip sync 聲音複製 人聲分離 TTS 字幕翻譯 逐字稿 多語 YouTube"),
+("browseanything","Browse Anything","https://www.browseanything.io/extension","自動化・在你自己的 Chrome 裡點按、打字、跨分頁做事的 AI 代理・免費可用",
+ "裝成 Chrome 側邊欄（Edge、Brave 也能用），用白話下指令，它就用你已登入的帳號在真實分頁裡操作，例如整理 Gmail 封存舊信並草擬回覆、從 Salesforce 拉本週數據寫進 Notion 再貼到 Slack；送出、付款、寄信、刪除前會停下來等你同意。同一帳號也能用雲端瀏覽器跑排程、從 Telegram 下指令。免費版有部分模型和 1 個瀏覽器工作階段（價格頁寫註冊送 100 點、擴充功能頁寫每月 200 點，兩處不一）；Pro 每月 9.99 美元（每月 700 點、全部模型、排程任務、驗證碼處理）。介面英文。",
+ ["自動化",F,P],"自動化 瀏覽器代理 Chrome 擴充 網頁操作 Gmail 整理 跨分頁 排程 Telegram 免寫程式 Agent"),
+("krafty","Krafty","https://kraftybot.app","自動化・會先問過你才寄出的 AI 工作助理 Bot・免費可用",
+ "用白話告訴 Bot 要做什麼，例如回覆未讀信、每週五整理週報、追逾期發票、幫你和客戶約時間，它會在你連接的 App 和自己的雲端電腦上一步步做完，你登出後也繼續做，任何要寄出或修改的動作都先等你按同意；每個 Bot 可設定工作和要記住的事，手機瀏覽器也能查看進度。免費版官網有兩種寫法（價格卡寫 1 個 Bot、1 個 App、一次性 1 美元 AI 額度；下方說明寫 3 個 Bot、3 個 App、3 個例行任務並每月續 20 分鐘電腦時間），以註冊後為準；Pro 每月 20 美元（只能月繳，含每月 10 美元 AI 用量和 50 小時雲端電腦，前 50 名用 FOUNDING50 每月 8 美元）。介面英文。",
+ ["自動化",F,P],"自動化 AI 助理 Agent 代理 email 回覆 例行任務 週報 雲端電腦 審核後才寄出 Gmail Google Sheets"),
+("alleo","Alleo","https://alleo.ai","自動化・交代一次就每天幫你寫跟進信、會前簡報的 AI 助理・免費可用",
+ "在 Gmail、Outlook、Google 日曆、Google Drive、Slack、HubSpot 裡做事：像交代新同事一樣說一次，例如「每次我在 HubSpot 記錄通話後，用我的語氣草擬跟進信」，之後就會自動照做並把草稿放進 Gmail 等你檢查；也能在每場外部會議前寫好簡報、讀長文件幫你填表並標出要你確認的地方，或用簡訊叫它改會議時間。免費版可試做真實工作（每月少量任務，官網沒寫確切次數），免信用卡；Pro 每月 20 美元，Max 每月 100 美元。介面英文。",
+ ["自動化",F,P],"自動化 AI 助理 跟進信 email 草稿 會前準備 HubSpot CRM Gmail Outlook 日曆 文件填表 簡訊"),
+("slaide","Slaide","https://getslaide.com","簡報・AI 一次寫對的純文字簡報、可匯出能編輯的 PowerPoint・免費可用",
+ "簡報存成 Markdown 加一個小 YAML 主題的純文字檔，AI 寫起來不會跑版，同一個檔能輸出網頁簡報、PDF 和可編輯的 PowerPoint，也能匯入舊 .pptx；做好後可用 Coach 對著手機練講，它會告訴你漏講了什麼。網頁、iPhone、iPad、Android 和桌面版都能用，核心以 Apache-2.0 開源。免費版永久有完整視覺編輯器、PowerPoint 匯入匯出，用自己的 Claude Code、Codex、Cursor 做簡報不限份數，官方雲端 AI 第一份免費（最多 10 頁）；Day Pass 一次 3.99 美元起（24 小時內 4 份），Hosted 限時每月 6.90 美元（原價 9.90 美元，每月 10 份 AI 簡報）。介面英文。",
+ ["簡報",F,P],"簡報 投影片 Markdown 純文字 PowerPoint PPTX 匯出 PDF 開源 練講 Coach 手機 AI 代理"),
+("funblocks","FunBlocks AI Slides","https://www.funblocks.net/slides","簡報・用 Markdown 寫、AI 補內容的極簡簡報・免費可用",
+ "輸入主題、問題、大綱或筆記，AI 生成可直接修改的 Markdown 投影片，打「/」叫出編輯選單（像 Notion），可自動寫講者備註、依文字產生 Mermaid 圖表，支援 KaTeX 數學式和程式碼高亮，有附計時器與下一張預覽的簡報者模式，也能把 FunBlocks AIFlow 心智圖一鍵變簡報，適合老師備課和學生報告。免費版每天有 AI 額度；最便宜付費是 FunBlocks Basic 每年 20 美元（每天 30 次標準 AI，可接自己的 API 金鑰），AI Pro 每年 60 美元。介面英文。",
+ ["簡報",F,P],"簡報 投影片 Markdown 講者備註 Mermaid 圖表 KaTeX 數學 心智圖 教師 學生 便宜 年繳"),
+("ocelli","Ocelli","https://ocelli.app","會議・錄音轉錄都在 Mac 本機、筆記存成 Markdown 的會議記錄・免費可用",
+ "不派機器人進會，直接錄下 Mac 上的會議並在本機轉成逐字稿，音檔不會上傳；會後把決議和待辦放最上面、完整逐字稿點一下就有，每份筆記以 Markdown 存到你指定的資料夾；錄音開關住在瀏海，也可開放讓 Claude Code、Codex、Cursor 等 MCP 工具即時讀逐字稿。另附按住 fn 說話的聽寫，任何 App 都能用、可離線，永久免費。會議前 10 場免費、免信用卡；之後 Ocelli AI 每月 8 美元（含 AI 用量），或一次買斷 79 美元改用 Ollama 本機模型或自己的 API 金鑰。需 macOS 26 以上，介面英文。",
+ ["會議",F,P],"會議紀錄 逐字稿 本機 隱私 無機器人 Mac Markdown 聽寫 語音輸入 買斷 Ollama MCP"),
+("limato","Limato","https://limato.app","寫作・選取文字按一鍵改成母語人士口吻的瀏覽器外掛・免費可用",
+ "專為非母語寫作者設計：在 Gmail、Slack、LinkedIn、Notion 等任何網站選取文字，按一個鍵就在原地改寫成道地英文或其他 34 種語言，有道地、去 AI 味、正式、輕鬆、簡化、學術、只改文法 7 種語氣，也能邊改寫邊翻譯、查單字在這句話裡的意思；官方實測道地模式平均短 37%。免費版登入後每天 20 次改寫、免信用卡；Pro 每月 5.99 美元（年繳 47.99 美元，約每月 4 美元），不限次數，可先免費試 14 天。支援 Chrome 和 Edge，介面英文。",
+ ["寫作","翻譯",F,P],"寫作 改寫 潤稿 英文 道地 非母語 文法 語氣 翻譯 Chrome 擴充 Gmail LinkedIn Slack")
 ]
-assert len(T)==310
+assert len(T)==320
 def img(k):
     return "data:image/jpeg;base64,"+base64.b64encode(open(f"/workspace/ai-tools/img/{k}.jpg","rb").read()).decode()
 e=html.escape
@@ -969,9 +999,9 @@ btn.addEventListener('click',function(){var d=new Date(Date.now()+8*36e5).toISOS
  window.open(window.__niURL,'_blank');
  if(confirm('送出後要清除這些勾選嗎？（已列入的才會清除）')){for(var j=0;j<lines.length;j++)delete st[ks[j]];document.querySelectorAll('.c').forEach(function(c){if(!st[c.getAttribute('href')]){c.classList.remove('ni-on');c.querySelector('.nic').checked=false}});save();}});
 save();})();'''
-H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-13</title><style>
+H=f'''<!DOCTYPE html><html lang="zh-Hant-TW"><head><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 工具精選 {len(T)} 個 2026-11-14</title><style>
 {CSS}</style></head>
-<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-13 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
+<body><h1>AI 工具精選 {len(T)} 個 <a href="tier/" style="font-size:15px;color:#111;background:#f5a623;border-radius:999px;padding:4px 12px;text-decoration:none;vertical-align:middle">🔥 從夯到拉排行榜</a></h1><div class="s">2026-11-14 更新・價格為當天官方定價頁所見・點卡片前往官網・以專門工具為主</div><div class="f" id="f"><div class="sb"><input id="q" type="search" placeholder="搜尋工具名稱、用途、關鍵字（例：字幕、SVG、台語）" autocomplete="off"><button id="qc" type="button">清除</button></div>{cb}<div class="pr">{pb}<span class="cnt" id="cnt">{len(T)} 個</span></div></div><div id="em">找不到符合的工具，換個關鍵字試試</div><div class="g">{"".join(cards)}</div><button id="nib" type="button"></button><script>
 {JS}
 </script></body></html>'''
 open("/workspace/ai-tools/index.html","w",encoding="utf-8").write(H)
